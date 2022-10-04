@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="0" is_purchasable="false" purchase_cost="0" sea_floor_height="-6">
+	<meshes>
+		<mesh id="island_mesh" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/island_33_tile_07.mesh">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-5000" 31="0" 32="-2000" 33="1"/>
+		</mesh>
+		<mesh id="lighthouse_mesh" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/island_33_lighthouse.mesh">
+			<transform 00="-0.939693" 01="0" 02="0.34202" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.34202" 21="0" 22="-0.939693" 23="0" 30="218.636307" 31="18.434042" 32="26.512835" 33="1"/>
+		</mesh>
+		<mesh id="bulb_mesh" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/lighthouse_light.mesh">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="218.641068" 31="30.050924" 32="26.512835" 33="1"/>
+		</mesh>
+		<mesh id="door_01" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/door_exterior.mesh">
+			<transform 00="-0.938788" 01="0" 02="0.344496" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.344496" 21="0" 22="-0.938788" 23="0" 30="220.014313" 31="18.434896" 32="28.92592" 33="1"/>
+		</mesh>
+		<mesh id="door_02" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/door_exterior.mesh">
+			<transform 00="-0.940886" 01="0" 02="0.338723" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.338723" 21="0" 22="-0.940886" 23="0" 30="219.692795" 31="29.584219" 32="28.041842" 33="1"/>
+		</mesh>
+		<mesh id="cottage_mesh" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/island_33_lighthouse_cottage.mesh">
+			<transform 00="-0.939693" 01="0" 02="-0.34202" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.34202" 21="0" 22="-0.939693" 23="0" 30="229.67366" 31="13.227865" 32="80.689468" 33="1"/>
+		</mesh>
+		<mesh id="cottage_door" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/door_cottages.mesh">
+			<transform 00="0.345806" 01="0" 02="-0.938306" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.938306" 21="0" 22="0.345806" 23="0" 30="217.648224" 31="13.227865" 32="79.045944" 33="1"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="island_phys" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/island_33_tile_07_phys.phys">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-5000" 31="0" 32="-2000" 33="1"/>
+		</physics_mesh>
+		<physics_mesh id="lighthouse_phys" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/island_33_lighthouse_phys.phys">
+			<transform 00="-0.939693" 01="0" 02="0.34202" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.34202" 21="0" 22="-0.939693" 23="0" 30="218.636307" 31="18.434042" 32="26.512835" 33="1"/>
+		</physics_mesh>
+		<physics_mesh id="door_01_phys" parent_id="door_01" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/door_hospital_phys.phys">
+			<transform 00="-0.939775" 01="0" 02="0.341793" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.341793" 21="0" 22="-0.939775" 23="0" 30="220.014313" 31="18.434896" 32="28.92592" 33="1"/>
+		</physics_mesh>
+		<physics_mesh id="door_02_phys" parent_id="door_02" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/door_hospital_phys.phys">
+			<transform 00="-0.938285" 01="0" 02="0.345863" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.345863" 21="0" 22="-0.938285" 23="0" 30="219.692795" 31="29.584219" 32="28.041842" 33="1"/>
+		</physics_mesh>
+		<physics_mesh id="cottage_phys" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/island_33_lighthouse_cottage_phys.phys">
+			<transform 00="-0.939693" 01="0" 02="-0.34202" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.34202" 21="0" 22="-0.939693" 23="0" 30="229.67366" 31="13.227865" 32="80.689468" 33="1"/>
+		</physics_mesh>
+		<physics_mesh id="cottage_door_phys" parent_id="cottage_door" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/door_hospital_phys.phys">
+			<transform 00="0.337095" 01="0" 02="-0.941471" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.941471" 21="0" 22="0.337095" 23="0" 30="217.648224" 31="13.227865" 32="79.045944" 33="1"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni>
+		<light id="bulb_omni" parent_id="bulb_mesh" purchase_interactable_id="" seasonal_flags="0" radius="0.5" is_render_halo="true">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="217.868759" 31="31.716879" 32="26.512835" 33="1"/>
+			<color x="8" y="8" z="4"/>
+		</light>
+		<light id="light_01" parent_id="" purchase_interactable_id="" seasonal_flags="0" radius="3" is_render_halo="true">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="217.385971" 31="20.234762" 32="27.976244" 33="1"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="light_02" parent_id="" purchase_interactable_id="" seasonal_flags="0" radius="3" is_render_halo="true">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="220.526749" 31="20.225363" 32="26.854326" 33="1"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="light_03" parent_id="" purchase_interactable_id="" seasonal_flags="0" radius="3" is_render_halo="true">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="219.67598" 31="26.349081" 32="25.274279" 33="1"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="light_04" parent_id="" purchase_interactable_id="" seasonal_flags="0" radius="3" is_render_halo="true">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="217.045425" 31="26.349081" 32="26.232073" 33="1"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="omni_door" parent_id="" purchase_interactable_id="" seasonal_flags="0" radius="1" is_render_halo="true">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="217.342133" 31="14.885672" 32="79.246231" 33="1"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni_lamp" parent_id="" purchase_interactable_id="" seasonal_flags="0" radius="3" is_render_halo="true">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="219.009918" 31="14.199911" 32="80.186264" 33="1"/>
+			<color x="3" y="3" z="2"/>
+		</light>
+		<light id="omni_door_lighthouse" parent_id="" purchase_interactable_id="" seasonal_flags="0" radius="1" is_render_halo="true">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="220.183563" 31="20.203543" 32="28.732407" 33="1"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+	</lights_omni>
+	<lights_spot>
+		<light id="bulb_spot" parent_id="bulb_mesh" purchase_interactable_id="" seasonal_flags="0" range="1024" fov="0.1" texture="graphics/ies/ies_default.txtr">
+			<transform 00="0.016447" 01="0" 02="0.999865" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.999865" 21="0" 22="0.016447" 23="0" 30="217.868759" 31="31.716879" 32="26.512835" 33="1"/>
+			<color x="20" y="20" z="15"/>
+		</light>
+	</lights_spot>
+	<lights_tube/>
+	<screens/>
+	<edit_areas>
+		<edit_area id="bed" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="5" is_static="true" default_vehicle="bed" spawned_static_vehicle_id="0" is_invisible_vehicle="true">
+			<transform 00="-0.340557" 01="0" 02="0.940224" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.940224" 21="0" 22="-0.340557" 23="0" 30="221.146408" 31="13.565695" 32="78.019547" 33="1"/>
+			<size x="0.75" y="0.25" z="1.75"/>
+		</edit_area>
+	</edit_areas>
+	<interactables>
+		<interactable id="door_01_interact" parent_id="door_01" purchase_interactable_id="" seasonal_flags="0" target_object_id="door_01_logic" label="Door" use_case="0" interact_type="0" is_purchased="false" is_ignore_purchased="false">
+			<transform 00="0.9391" 01="0" 02="-0.343645" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.343645" 21="0" 22="0.9391" 23="0" 30="219.525757" 31="19.531393" 32="29.018099" 33="1"/>
+			<size x="0.846619" y="1.99649" z="0.547943"/>
+		</interactable>
+		<interactable id="door_02_interact" parent_id="door_02" purchase_interactable_id="" seasonal_flags="0" target_object_id="door_02_logic" label="Door" use_case="0" interact_type="0" is_purchased="false" is_ignore_purchased="false">
+			<transform 00="0.942894" 01="0" 02="-0.333092" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.333092" 21="0" 22="0.942894" 23="0" 30="219.251297" 31="30.784658" 32="28.173754" 33="1"/>
+			<size x="0.895752" y="1.763702" z="0.577301"/>
+		</interactable>
+		<interactable id="cottage_door_interact" parent_id="cottage_door" purchase_interactable_id="" seasonal_flags="0" target_object_id="cottage_door_logic" label="Door" use_case="0" interact_type="0" is_purchased="false" is_ignore_purchased="false">
+			<transform 00="0.933662" 01="0" 02="0.358155" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.358155" 21="0" 22="0.933662" 23="0" 30="217.870941" 31="14.301046" 32="78.61232" 33="1"/>
+			<size x="0.384399" y="2.045593" z="0.876404"/>
+		</interactable>
+	</interactables>
+	<door_logic_nodes>
+		<logic id="door_01_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_a="door_01_closed" target_b="door_01_open" target_movable="door_01" target_triggered="" pos_index="0" pos_factor="0" anim_duration="50" anim_delay="0" anim_delay_back="0" is_on="false" behavior="0">
+			<transform 00="0.945134" 01="0" 02="-0.326683" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.326683" 21="0" 22="0.945134" 23="0" 30="220.289627" 31="19.690298" 32="28.507341" 33="1"/>
+		</logic>
+		<logic id="door_02_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_a="door_02_closed" target_b="door_02_open" target_movable="door_02" target_triggered="" pos_index="0" pos_factor="0" anim_duration="50" anim_delay="0" anim_delay_back="0" is_on="false" behavior="0">
+			<transform 00="0.962946" 01="0" 02="-0.269696" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.269696" 21="0" 22="0.962946" 23="0" 30="220.05455" 31="30.945059" 32="28.031023" 33="1"/>
+		</logic>
+		<logic id="cottage_door_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_a="cottage_door_closed" target_b="cottage_door_open" target_movable="cottage_door" target_triggered="" pos_index="0" pos_factor="0" anim_duration="50" anim_delay="0" anim_delay_back="0" is_on="false" behavior="0">
+			<transform 00="-0.358893" 01="0" 02="0.933379" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.933379" 21="0" 22="-0.358893" 23="0" 30="218.034531" 31="14.158651" 32="77.731888" 33="1"/>
+		</logic>
+	</door_logic_nodes>
+	<light_logic_nodes>
+		<logic id="bulb_spot_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target="bulb_spot" is_on="true" is_flashing="false" flicker_duration="0" flash_on_duration="30" flash_off_duration="30">
+			<transform 00="-0.150531" 01="0" 02="0.988605" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.988605" 21="0" 22="-0.150531" 23="0" 30="220.265228" 31="31.164572" 32="26.405138" 33="1"/>
+		</logic>
+		<logic id="bulb_omni_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target="bulb_omni" is_on="true" is_flashing="false" flicker_duration="0" flash_on_duration="30" flash_off_duration="30">
+			<transform 00="-0.150531" 01="0" 02="0.988605" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.988605" 21="0" 22="-0.150531" 23="0" 30="220.182373" 31="31.164572" 32="26.949205" 33="1"/>
+		</logic>
+	</light_logic_nodes>
+	<rotation_logic_nodes>
+		<logic id="bulb_rotation" parent_id="" purchase_interactable_id="" seasonal_flags="0" target="bulb_mesh" is_on="true" is_use_wind_speed="false">
+			<transform 00="-0.147719" 01="0" 02="0.989029" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.989029" 21="0" 22="-0.147719" 23="0" 30="220.223938" 31="31.569967" 32="26.672136" 33="1"/>
+			<delta_rotation x="0" y="0.01" z="0"/>
+		</logic>
+	</rotation_logic_nodes>
+	<hangar_door_logic_nodes>
+		<logic id="bulb_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_id_0="bulb_omni_logic" target_id_1="bulb_spot_logic" target_id_2="bulb_mesh" target_id_3="" target_id_4="" target_id_5="" target_id_6="" target_id_7="" trigger_on_delay="0" cooldown_time="0">
+			<transform 00="-0.160962" 01="0" 02="0.986961" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.986961" 21="0" 22="-0.160962" 23="0" 30="220.224869" 31="30.78417" 32="26.688738" 33="1"/>
+		</logic>
+	</hangar_door_logic_nodes>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="door_01_closed" parent_id="" purchase_interactable_id="" seasonal_flags="0" marker_type="8" is_in_ocean="false" string_data="" icon="0">
+			<transform 00="-0.942317" 01="0" 02="0.334721" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.334721" 21="0" 22="-0.942317" 23="0" 30="220.014313" 31="18.434896" 32="28.92592" 33="1"/>
+		</markers>
+		<markers id="door_01_open" parent_id="" purchase_interactable_id="" seasonal_flags="0" marker_type="8" is_in_ocean="false" string_data="" icon="0">
+			<transform 00="0.052851" 01="0" 02="0.998602" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.998602" 21="0" 22="0.052851" 23="0" 30="220.014313" 31="18.434896" 32="28.92592" 33="1"/>
+		</markers>
+		<markers id="door_02_closed" parent_id="" purchase_interactable_id="" seasonal_flags="0" marker_type="8" is_in_ocean="false" string_data="" icon="0">
+			<transform 00="-0.940585" 01="0" 02="0.339558" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.339558" 21="0" 22="-0.940585" 23="0" 30="219.692795" 31="29.584219" 32="28.041842" 33="1"/>
+		</markers>
+		<markers id="door_02_open" parent_id="" purchase_interactable_id="" seasonal_flags="0" marker_type="8" is_in_ocean="false" string_data="" icon="0">
+			<transform 00="0.730844" 01="0" 02="0.682545" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.682545" 21="0" 22="0.730844" 23="0" 30="219.692795" 31="29.584219" 32="28.041842" 33="1"/>
+		</markers>
+		<markers id="cottage_door_closed" parent_id="" purchase_interactable_id="" seasonal_flags="0" marker_type="8" is_in_ocean="false" string_data="" icon="0">
+			<transform 00="0.356048" 01="0" 02="-0.934467" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.934467" 21="0" 22="0.356048" 23="0" 30="217.648224" 31="13.227865" 32="79.045944" 33="1"/>
+		</markers>
+		<markers id="cottage_door_open" parent_id="" purchase_interactable_id="" seasonal_flags="0" marker_type="8" is_in_ocean="false" string_data="" icon="0">
+			<transform 00="-0.952858" 01="0" 02="0.303417" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.303417" 21="0" 22="-0.952858" 23="0" 30="217.648224" 31="13.227865" 32="79.045944" 33="1"/>
+		</markers>
+		<markers id="tile_marker6" parent_id="" purchase_interactable_id="" seasonal_flags="0" marker_type="9" is_in_ocean="false" string_data="" icon="0" loot_type="0">
+			<transform 00="0.807378" 01="0" 02="-0.590035" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.590035" 21="0" 22="0.807378" 23="0" 30="217.195679" 31="19.298056" 32="27.016586" 33="1"/>
+		</markers>
+		<markers id="tile_marker7" parent_id="" purchase_interactable_id="" seasonal_flags="0" marker_type="11" is_in_ocean="false" string_data="" icon="0">
+			<transform 00="0.807378" 01="0" 02="-0.590035" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.590035" 21="0" 22="0.807378" 23="0" 30="217.992828" 31="19.555899" 32="31.225845" 33="1"/>
+		</markers>
+		<markers id="tile_marker8" parent_id="" purchase_interactable_id="" seasonal_flags="0" marker_type="9" is_in_ocean="false" string_data="" icon="0" loot_type="0">
+			<transform 00="-0.998154" 01="0" 02="-0.060737" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.060737" 21="0" 22="-0.998154" 23="0" 30="225.161652" 31="14.217733" 32="80.532913" 33="1"/>
+		</markers>
+		<markers id="tile_marker9" parent_id="" purchase_interactable_id="" seasonal_flags="0" marker_type="13" is_in_ocean="false" string_data="Lighthouse OB" icon="12">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="218.583237" 31="35.198418" 32="26.530169" 33="1"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches>
+		<perch id="perch0" parent_id="" purchase_interactable_id="" seasonal_flags="0" type="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="226.494888" 31="21.316763" 32="158.396317" 33="1"/>
+		</perch>
+		<perch id="perch1" parent_id="" purchase_interactable_id="" seasonal_flags="0" type="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="218.621506" 31="21.091757" 32="163.226181" 33="1"/>
+		</perch>
+		<perch id="perch2" parent_id="" purchase_interactable_id="" seasonal_flags="0" type="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="209.168564" 31="18.820364" 32="162.227737" 33="1"/>
+		</perch>
+		<perch id="perch3" parent_id="" purchase_interactable_id="" seasonal_flags="0" type="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="146.896927" 31="13.390799" 32="136.808334" 33="1"/>
+		</perch>
+		<perch id="perch4" parent_id="" purchase_interactable_id="" seasonal_flags="0" type="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="142.290482" 31="13.390799" 32="140.091202" 33="1"/>
+		</perch>
+		<perch id="perch5" parent_id="" purchase_interactable_id="" seasonal_flags="0" type="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="225.562119" 31="12.41387" 32="195.906845" 33="1"/>
+		</perch>
+		<perch id="perch6" parent_id="" purchase_interactable_id="" seasonal_flags="0" type="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="216.659134" 31="13.987844" 32="5.34169" 33="1"/>
+		</perch>
+		<perch id="perch7" parent_id="" purchase_interactable_id="" seasonal_flags="0" type="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="222.12999" 31="11.948233" 32="3.330521" 33="1"/>
+		</perch>
+	</perches>
+	<fires/>
+	<train_tracks>
+		<track id="train_track_0" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-499.986725" 31="16.004089" 32="248.568756" 33="1"/>
+			<links>
+				<link id="train_track_1"/>
+			</links>
+		</track>
+		<track id="train_track_1" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-442.11969" 31="16.004089" 32="243.326965" 33="1"/>
+			<links>
+				<link id="train_track_0"/>
+				<link id="train_track_33"/>
+			</links>
+		</track>
+		<track id="train_track_2" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-384.693146" 31="16.004089" 32="237.594177" 33="1"/>
+			<links>
+				<link id="train_track_33"/>
+				<link id="train_track_35"/>
+			</links>
+		</track>
+		<track id="train_track_3" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-313.69751" 31="16.004089" 32="229.83551" 33="1"/>
+			<links>
+				<link id="train_track_35"/>
+				<link id="train_track_37"/>
+			</links>
+		</track>
+		<track id="train_track_4" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-258.329071" 31="16.004089" 32="223.212158" 33="1"/>
+			<links>
+				<link id="train_track_37"/>
+				<link id="train_track_38"/>
+			</links>
+		</track>
+		<track id="train_track_5" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-188.30191" 31="16.004089" 32="214.062988" 33="1"/>
+			<links>
+				<link id="train_track_38"/>
+				<link id="train_track_43"/>
+			</links>
+		</track>
+		<track id="train_track_6" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-104.211975" 31="16.004089" 32="201.890137" 33="1"/>
+			<links>
+				<link id="train_track_44"/>
+				<link id="train_track_45"/>
+			</links>
+		</track>
+		<track id="train_track_7" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-20.896118" 31="16.004089" 32="188.410004" 33="1"/>
+			<links>
+				<link id="train_track_45"/>
+				<link id="train_track_67"/>
+			</links>
+		</track>
+		<track id="train_track_8" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="59.694092" 31="16.004089" 32="173.910065" 33="1"/>
+			<links>
+				<link id="train_track_48"/>
+				<link id="train_track_67"/>
+			</links>
+		</track>
+		<track id="train_track_9" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="135.327148" 31="16.004089" 32="158.890839" 33="1"/>
+			<links>
+				<link id="train_track_49"/>
+				<link id="train_track_50"/>
+			</links>
+		</track>
+		<track id="train_track_10" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="200.183411" 31="16.004089" 32="144.828491" 33="1"/>
+			<links>
+				<link id="train_track_50"/>
+				<link id="train_track_53"/>
+			</links>
+		</track>
+		<track id="train_track_11" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="265.715271" 31="16.004089" 32="129.381165" 33="1"/>
+			<links>
+				<link id="train_track_53"/>
+				<link id="train_track_56"/>
+			</links>
+		</track>
+		<track id="train_track_12" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="348.154999" 31="16.004089" 32="108.082825" 33="1"/>
+			<links>
+				<link id="train_track_57"/>
+				<link id="train_track_58"/>
+			</links>
+		</track>
+		<track id="train_track_13" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="416.333435" 31="16.004089" 32="88.721313" 33="1"/>
+			<links>
+				<link id="train_track_59"/>
+				<link id="train_track_63"/>
+			</links>
+		</track>
+		<track id="train_track_14" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="463.894226" 31="16.004089" 32="74.189728" 33="1"/>
+			<links>
+				<link id="train_track_63"/>
+				<link id="train_track_65"/>
+			</links>
+		</track>
+		<track id="train_track_15" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="500.02829" 31="16.004089" 32="62.605743" 33="1"/>
+			<links>
+				<link id="train_track_65"/>
+			</links>
+		</track>
+		<track id="train_track_16" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-499.986725" 31="16.004089" 32="252.975555" 33="1"/>
+			<links>
+				<link id="train_track_17"/>
+			</links>
+		</track>
+		<track id="train_track_17" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-441.58374" 31="16.004089" 32="247.625183" 33="1"/>
+			<links>
+				<link id="train_track_16"/>
+				<link id="train_track_32"/>
+			</links>
+		</track>
+		<track id="train_track_18" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-384.413025" 31="16.004089" 32="241.944977" 33="1"/>
+			<links>
+				<link id="train_track_32"/>
+				<link id="train_track_34"/>
+			</links>
+		</track>
+		<track id="train_track_19" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-313.263245" 31="16.004089" 32="234.177002" 33="1"/>
+			<links>
+				<link id="train_track_34"/>
+				<link id="train_track_36"/>
+			</links>
+		</track>
+		<track id="train_track_20" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-258.017944" 31="16.004089" 32="227.547455" 33="1"/>
+			<links>
+				<link id="train_track_36"/>
+				<link id="train_track_39"/>
+			</links>
+		</track>
+		<track id="train_track_21" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-187.804291" 31="16.004089" 32="218.356567" 33="1"/>
+			<links>
+				<link id="train_track_39"/>
+				<link id="train_track_40"/>
+			</links>
+		</track>
+		<track id="train_track_22" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-103.468842" 31="16.004089" 32="206.153717" 33="1"/>
+			<links>
+				<link id="train_track_41"/>
+				<link id="train_track_42"/>
+			</links>
+		</track>
+		<track id="train_track_23" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-20.325134" 31="16.004089" 32="192.720093" 33="1"/>
+			<links>
+				<link id="train_track_42"/>
+				<link id="train_track_66"/>
+			</links>
+		</track>
+		<track id="train_track_24" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="60.09491" 31="16.004089" 32="178.282227" 33="1"/>
+			<links>
+				<link id="train_track_47"/>
+				<link id="train_track_66"/>
+			</links>
+		</track>
+		<track id="train_track_25" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="136.215271" 31="16.004089" 32="163.155273" 33="1"/>
+			<links>
+				<link id="train_track_46"/>
+				<link id="train_track_51"/>
+			</links>
+		</track>
+		<track id="train_track_26" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="200.951721" 31="16.004089" 32="149.107635" 33="1"/>
+			<links>
+				<link id="train_track_51"/>
+				<link id="train_track_52"/>
+			</links>
+		</track>
+		<track id="train_track_27" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="266.601776" 31="16.004089" 32="133.681274" 33="1"/>
+			<links>
+				<link id="train_track_52"/>
+				<link id="train_track_54"/>
+			</links>
+		</track>
+		<track id="train_track_28" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="349.054138" 31="16.004089" 32="112.37207" 33="1"/>
+			<links>
+				<link id="train_track_55"/>
+				<link id="train_track_60"/>
+			</links>
+		</track>
+		<track id="train_track_29" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="417.467529" 31="16.004089" 32="92.950531" 33="1"/>
+			<links>
+				<link id="train_track_61"/>
+				<link id="train_track_62"/>
+			</links>
+		</track>
+		<track id="train_track_30" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="464.863556" 31="16.004089" 32="78.49942" 33="1"/>
+			<links>
+				<link id="train_track_62"/>
+				<link id="train_track_64"/>
+			</links>
+		</track>
+		<track id="train_track_31" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="499.972656" 31="16.004089" 32="67.214844" 33="1"/>
+			<links>
+				<link id="train_track_64"/>
+			</links>
+		</track>
+		<track id="train_track_32" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-419.189545" 31="16.004089" 32="245.450012" 33="1"/>
+			<links>
+				<link id="train_track_17"/>
+				<link id="train_track_18"/>
+			</links>
+		</track>
+		<track id="train_track_33" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-419.282471" 31="16.004089" 32="241.101532" 33="1"/>
+			<links>
+				<link id="train_track_1"/>
+				<link id="train_track_2"/>
+			</links>
+		</track>
+		<track id="train_track_34" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-358.930786" 31="16.004089" 32="239.249603" 33="1"/>
+			<links>
+				<link id="train_track_18"/>
+				<link id="train_track_19"/>
+			</links>
+		</track>
+		<track id="train_track_35" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-357.634033" 31="16.004089" 32="234.726196" 33="1"/>
+			<links>
+				<link id="train_track_2"/>
+				<link id="train_track_3"/>
+			</links>
+		</track>
+		<track id="train_track_36" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-295.804932" 31="16.004089" 32="232.154541" 33="1"/>
+			<links>
+				<link id="train_track_19"/>
+				<link id="train_track_20"/>
+			</links>
+		</track>
+		<track id="train_track_37" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-296.121796" 31="16.004089" 32="227.795746" 33="1"/>
+			<links>
+				<link id="train_track_3"/>
+				<link id="train_track_4"/>
+			</links>
+		</track>
+		<track id="train_track_38" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-227.363495" 31="16.004089" 32="219.280945" 33="1"/>
+			<links>
+				<link id="train_track_4"/>
+				<link id="train_track_5"/>
+			</links>
+		</track>
+		<track id="train_track_39" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-227.219086" 31="16.004089" 32="223.620605" 33="1"/>
+			<links>
+				<link id="train_track_20"/>
+				<link id="train_track_21"/>
+			</links>
+		</track>
+		<track id="train_track_40" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-166.054199" 31="16.004089" 32="215.382507" 33="1"/>
+			<links>
+				<link id="train_track_21"/>
+				<link id="train_track_41"/>
+			</links>
+		</track>
+		<track id="train_track_41" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-132.335052" 31="16.004089" 32="210.524231" 33="1"/>
+			<links>
+				<link id="train_track_40"/>
+				<link id="train_track_22"/>
+			</links>
+		</track>
+		<track id="train_track_42" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-69.513397" 31="16.004089" 32="200.874176" 33="1"/>
+			<links>
+				<link id="train_track_22"/>
+				<link id="train_track_23"/>
+			</links>
+		</track>
+		<track id="train_track_43" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-166.638428" 31="16.004089" 32="211.062103" 33="1"/>
+			<links>
+				<link id="train_track_5"/>
+				<link id="train_track_44"/>
+			</links>
+		</track>
+		<track id="train_track_44" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-133.000854" 31="16.004089" 32="206.202179" 33="1"/>
+			<links>
+				<link id="train_track_43"/>
+				<link id="train_track_6"/>
+			</links>
+		</track>
+		<track id="train_track_45" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-70.348999" 31="16.004089" 32="196.587189" 33="1"/>
+			<links>
+				<link id="train_track_6"/>
+				<link id="train_track_7"/>
+			</links>
+		</track>
+		<track id="train_track_46" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="108.555969" 31="16.004089" 32="168.834076" 33="1"/>
+			<links>
+				<link id="train_track_25"/>
+				<link id="train_track_47"/>
+			</links>
+		</track>
+		<track id="train_track_47" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="85.492462" 31="16.004089" 32="173.389954" 33="1"/>
+			<links>
+				<link id="train_track_46"/>
+				<link id="train_track_24"/>
+			</links>
+		</track>
+		<track id="train_track_48" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="84.931946" 31="16.004089" 32="169.04599" 33="1"/>
+			<links>
+				<link id="train_track_8"/>
+				<link id="train_track_49"/>
+			</links>
+		</track>
+		<track id="train_track_49" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="107.666229" 31="16.004089" 32="164.551758" 33="1"/>
+			<links>
+				<link id="train_track_48"/>
+				<link id="train_track_9"/>
+			</links>
+		</track>
+		<track id="train_track_50" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="162.612335" 31="16.004089" 32="153.102356" 33="1"/>
+			<links>
+				<link id="train_track_9"/>
+				<link id="train_track_10"/>
+			</links>
+		</track>
+		<track id="train_track_51" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="163.226654" 31="16.004089" 32="157.42691" 33="1"/>
+			<links>
+				<link id="train_track_25"/>
+				<link id="train_track_26"/>
+			</links>
+		</track>
+		<track id="train_track_52" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="233.383972" 31="16.004089" 32="141.654358" 33="1"/>
+			<links>
+				<link id="train_track_26"/>
+				<link id="train_track_27"/>
+			</links>
+		</track>
+		<track id="train_track_53" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="232.494873" 31="16.004089" 32="137.37619" 33="1"/>
+			<links>
+				<link id="train_track_10"/>
+				<link id="train_track_11"/>
+			</links>
+		</track>
+		<track id="train_track_54" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="294.892334" 31="16.004089" 32="126.611694" 33="1"/>
+			<links>
+				<link id="train_track_27"/>
+				<link id="train_track_55"/>
+			</links>
+		</track>
+		<track id="train_track_55" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="322.724579" 31="16.004089" 32="119.4086" 33="1"/>
+			<links>
+				<link id="train_track_54"/>
+				<link id="train_track_28"/>
+			</links>
+		</track>
+		<track id="train_track_56" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="293.844818" 31="16.004089" 32="122.364624" 33="1"/>
+			<links>
+				<link id="train_track_11"/>
+				<link id="train_track_57"/>
+			</links>
+		</track>
+		<track id="train_track_57" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="321.613464" 31="16.004089" 32="115.192993" 33="1"/>
+			<links>
+				<link id="train_track_56"/>
+				<link id="train_track_12"/>
+			</links>
+		</track>
+		<track id="train_track_58" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="372.37973" 31="16.004089" 32="101.391388" 33="1"/>
+			<links>
+				<link id="train_track_12"/>
+				<link id="train_track_59"/>
+			</links>
+		</track>
+		<track id="train_track_59" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="392.933868" 31="16.004089" 32="95.562927" 33="1"/>
+			<links>
+				<link id="train_track_58"/>
+				<link id="train_track_13"/>
+			</links>
+		</track>
+		<track id="train_track_60" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="373.139801" 31="16.004089" 32="105.711365" 33="1"/>
+			<links>
+				<link id="train_track_28"/>
+				<link id="train_track_61"/>
+			</links>
+		</track>
+		<track id="train_track_61" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="394.005127" 31="16.004089" 32="99.79248" 33="1"/>
+			<links>
+				<link id="train_track_60"/>
+				<link id="train_track_29"/>
+			</links>
+		</track>
+		<track id="train_track_62" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="442.180603" 31="16.004089" 32="85.530182" 33="1"/>
+			<links>
+				<link id="train_track_29"/>
+				<link id="train_track_30"/>
+			</links>
+		</track>
+		<track id="train_track_63" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="440.977448" 31="16.004089" 32="81.328033" 33="1"/>
+			<links>
+				<link id="train_track_13"/>
+				<link id="train_track_14"/>
+			</links>
+		</track>
+		<track id="train_track_64" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="480.830719" 31="16.004089" 32="73.414276" 33="1"/>
+			<links>
+				<link id="train_track_30"/>
+				<link id="train_track_31"/>
+			</links>
+		</track>
+		<track id="train_track_65" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="481.261414" 31="16.004089" 32="68.681152" 33="1"/>
+			<links>
+				<link id="train_track_14"/>
+				<link id="train_track_15"/>
+			</links>
+		</track>
+		<track id="train_track_66" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="25.205261" 31="16.004089" 32="184.717865" 33="1"/>
+			<links>
+				<link id="train_track_23"/>
+				<link id="train_track_24"/>
+			</links>
+		</track>
+		<track id="train_track_67" parent_id="" purchase_interactable_id="" seasonal_flags="0">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="24.21582" 31="16.004089" 32="180.484222" 33="1"/>
+			<links>
+				<link id="train_track_7"/>
+				<link id="train_track_8"/>
+			</links>
+		</track>
+	</train_tracks>
+	<iceberg_markers/>
+</definition>
+
