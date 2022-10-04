@@ -1,4 +1,5 @@
-# --OUTDATED--
+# Made for version 1.5.16 and probably newers.
+(notify me if something is broken)
 
 This is a list of files to modify Stormworks workbench. 
 This mod is 100% MP Friendly
