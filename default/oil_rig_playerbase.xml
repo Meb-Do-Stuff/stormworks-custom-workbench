@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="false" tile_type="0" is_purchasable="true" purchase_cost="100000" sea_floor_height="-6">
+	<meshes>
+		<mesh id="oil_rig_playerbase" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/oil_rig_playerbase.mesh">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="0" 31="-10.480804" 32="0" 33="1"/>
+		</mesh>
+		<mesh id="workbench" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/workbench_static.mesh">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="15.693743" 31="12.258759" 32="29.994089" 33="1"/>
+		</mesh>
+		<mesh id="sign_mesh" parent_id="sign_interact" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/for_sale_sign.mesh">
+			<transform 00="-0.728058" 01="0" 02="-0.685515" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.685515" 21="0" 22="-0.728058" 23="0" 30="17.509935" 31="13.271881" 32="28.23765" 33="1"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="oil_rig_playerbase_phys" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/oil_rig_playerbase_phys.phys">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="0" 31="-10.480804" 32="0" 33="1"/>
+		</physics_mesh>
+		<physics_mesh id="workbench_phys" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/workbench_phys.phys">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="16.07155" 31="13.195831" 32="30.855326" 33="1"/>
+		</physics_mesh>
+		<physics_mesh id="sign_phys" parent_id="sign_interact" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/for_sale_sign_phys.phys">
+			<transform 00="-0.722084" 01="0" 02="-0.691805" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.691805" 21="0" 22="-0.722084" 23="0" 30="17.583771" 31="13.276628" 32="28.234715" 33="1"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas>
+		<edit_area id="edit0" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="true" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="0.838726" 31="15.381592" 32="0.965981" 33="1"/>
+			<size x="50" y="40" z="70"/>
+		</edit_area>
+	</edit_areas>
+	<interactables>
+		<interactable id="workbench_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="edit0" label="Workbench" use_case="0" interact_type="2" is_purchased="false" is_ignore_purchased="false">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="16.045738" 31="13.211972" 32="30.896982" 33="1"/>
+			<size x="0.654855" y="1.885223" z="1.869781"/>
+		</interactable>
+		<interactable id="sign_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="" label="Buy Island" use_case="0" interact_type="3" is_purchased="false" is_ignore_purchased="false">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="17.425629" 31="14.309617" 32="27.484287" 33="1"/>
+			<size x="2" y="2" z="2"/>
+		</interactable>
+	</interactables>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="tile_marker0" parent_id="" purchase_interactable_id="" seasonal_flags="0" marker_type="5" is_in_ocean="false" string_data="" icon="0">
+			<transform 00="0.28228" 01="0" 02="0.959332" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.959332" 21="0" 22="0.28228" 23="0" 30="17.264971" 31="13.17569" 32="30.514078" 33="1"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders>
+		<ladder id="ladder_0" parent_id="" purchase_interactable_id="" seasonal_flags="0" height="13">
+			<transform 00="1" 01="-0" 02="-0.000976" 03="0" 10="-0" 11="1" 12="-0" 13="0" 20="0.000976" 21="0" 22="1" 23="0" 30="18.093082" 31="-0.757446" 32="30.820122" 33="1"/>
+		</ladder>
+	</ladders>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<iceberg_markers/>
+</definition>
+

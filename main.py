@@ -21,7 +21,7 @@ for file in os.listdir("tiles"):
                         before_area = before_area[1:]
                         before_size = area.split("<size ")[1].split("/>")[0]
                         before_grid_size = before_area.split('grid_size="')[1].split('"')[0]
-                        new_area = area.replace(before_size, 'x="255" y="255" z="100"') + "</edit_area>"
+                        new_area = area.replace(before_size, 'x="255" y="255" z="255"') + "</edit_area>"
                         new_area = new_area.replace(f'grid_size="{before_grid_size}"', 'grid_size="0"')
                         new_area = new_area[1:]
 

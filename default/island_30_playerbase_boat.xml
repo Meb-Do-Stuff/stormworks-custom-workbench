@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="0" is_purchasable="true" purchase_cost="100000" sea_floor_height="-6">
+	<meshes>
+		<mesh id="island_30_mesh" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/island_30_playerbase_boat.mesh">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="0" 31="0" 32="0" 33="1"/>
+		</mesh>
+		<mesh id="workbench_01" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/workbench_static.mesh">
+			<transform 00="-0.993759" 01="0" 02="-0.111546" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.111546" 21="0" 22="-0.993759" 23="0" 30="20.864943" 31="2.918407" 32="-0.467594" 33="1"/>
+		</mesh>
+		<mesh id="workbench_02" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/workbench.mesh">
+			<transform 00="0.112216" 01="0" 02="0.993684" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.993684" 21="0" 22="0.112216" 23="0" 30="-19.538996" 31="4.545025" 32="-31.650478" 33="1"/>
+		</mesh>
+		<mesh id="sign_mesh" parent_id="sign_interact" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/for_sale_sign.mesh">
+			<transform 00="0.656044" 01="0" 02="0.754722" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.754722" 21="0" 22="0.656044" 23="0" 30="9.594374" 31="2.929455" 32="-1.572624" 33="1"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="island_30_phys" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/island_30_phys.phys">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="0" 31="0" 32="0" 33="1"/>
+		</physics_mesh>
+		<physics_mesh id="workbench_02_phys" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/workbench_phys.phys">
+			<transform 00="0.111466" 01="0" 02="0.993768" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.993768" 21="0" 22="0.111466" 23="0" 30="-19.538996" 31="4.545025" 32="-31.650478" 33="1"/>
+		</physics_mesh>
+		<physics_mesh id="workbench_01_phys" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/workbench_phys.phys">
+			<transform 00="-0.993283" 01="0" 02="-0.115713" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.115713" 21="0" 22="-0.993283" 23="0" 30="20.593641" 31="3.86787" 32="-1.373142" 33="1"/>
+		</physics_mesh>
+		<physics_mesh id="sign_phys" parent_id="sign_interact" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/for_sale_sign_phys.phys">
+			<transform 00="0.657806" 01="0" 02="0.753187" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.753187" 21="0" 22="0.657806" 23="0" 30="9.594374" 31="2.929455" 32="-1.572624" 33="1"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas>
+		<edit_area id="edit0" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="2" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
+			<transform 00="-0" 01="0" 02="-1" 03="0" 10="0" 11="1" 12="0" 13="0" 20="1" 21="0" 22="-0" 23="0" 30="25.010742" 31="2.276947" 32="-40.939636" 33="1"/>
+			<size x="22.5" y="20.5" z="57.25"/>
+		</edit_area>
+		<edit_area id="edit1" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="6" is_static="true" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
+			<transform 00="-0" 01="0" 02="-1" 03="0" 10="0" 11="1" 12="0" 13="0" 20="1" 21="0" 22="-0" 23="0" 30="4.801025" 31="8.31308" 32="-14.007568" 33="1"/>
+			<size x="36.5" y="20.5" z="36.5"/>
+		</edit_area>
+	</edit_areas>
+	<interactables>
+		<interactable id="workbench_02_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="edit0" label="Workbench" use_case="0" interact_type="2" is_purchased="false" is_ignore_purchased="false">
+			<transform 00="0.993231" 01="0" 02="-0.116154" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.116154" 21="0" 22="0.993231" 23="0" 30="-19.521196" 31="4.551769" 32="-31.498257" 33="1"/>
+			<size x="2.332031" y="1.886719" z="1.549255"/>
+		</interactable>
+		<interactable id="workbench_01_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="edit1" label="Workbench" use_case="0" interact_type="2" is_purchased="false" is_ignore_purchased="false">
+			<transform 00="-0.996051" 01="0" 02="-0.08878" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.08878" 21="0" 22="-0.996051" 23="0" 30="20.51239" 31="3.985424" 32="-1.390078" 33="1"/>
+			<size x="1.122273" y="2.041321" z="2.347382"/>
+		</interactable>
+		<interactable id="sign_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="" label="Buy Island" use_case="0" interact_type="3" is_purchased="false" is_ignore_purchased="false">
+			<transform 00="0.999606" 01="0" 02="0.028057" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.028057" 21="0" 22="0.999606" 23="0" 30="9.575347" 31="3.951794" 32="-0.894768" 33="1"/>
+			<size x="3.006775" y="2.035339" z="2.210541"/>
+		</interactable>
+	</interactables>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="tile_marker0" parent_id="" purchase_interactable_id="" seasonal_flags="0" marker_type="5" is_in_ocean="false" string_data="" icon="0">
+			<transform 00="-0.986797" 01="0" 02="-0.161963" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.161963" 21="0" 22="-0.986797" 23="0" 30="13.349914" 31="3.951794" 32="-1.03579" 33="1"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<iceberg_markers/>
+</definition>
+
