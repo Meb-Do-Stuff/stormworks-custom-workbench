@@ -12,5 +12,3 @@ You have to go to `{stormworks-installation-folder}\rom\data\tiles`
 Replace the files in the folder with those I have made available (keep what I have not yet made available)
 
 <h3>You can use World View for have a good view of the world</h3>
-
-<h2>Others updates incoming for other islands</h2>
