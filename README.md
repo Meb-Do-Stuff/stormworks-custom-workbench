@@ -1,8 +1,9 @@
 # Made for version 1.10.4 and probably newers.
 (notify me if something is broken)
 
-This is a list of files to modify Stormworks workbench. 
-This mod is 100% MP Friendly
+This is a list of files to modify Stormworks workbench. <br>
+**It works even if you don't have any DLC**<br>
+**This mod is 100% MP Friendly**
 
 # How to install
 Before everything: It's better to clone your current tiles forlder (or you can get the default workbench by using picking in the default_tiles folder)
