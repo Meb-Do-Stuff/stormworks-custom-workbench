@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" is_volcanic="true" tile_type="2">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/arid_mainland/arid_island_28_6.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="mesh1" file_name="meshes/arid_mainland_assets/arid_lava_rock_lava.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="mesh2" file_name="meshes/arid_mainland_assets/arid_lava_rocks.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="mesh3" file_name="meshes/arid_mainland_assets/arid_lava_level.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="lava_mesh_flow" file_name="meshes/arid_mainland_assets/arid_lava_flow.mesh" is_volcanic_additive="true">
+			<transform/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/arid_mainland/arid_island_28_6.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh1" file_name="meshes/arid_mainland_assets/arid_lava_level_phys.phys" physics_material_type="1">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh5" file_name="meshes/arid_mainland_assets/arid_lava_level_phys.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh2" file_name="meshes/arid_mainland_assets/arid_lava_phys.phys" physics_material_type="1" is_volcanic="true">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh6" file_name="meshes/arid_mainland_assets/arid_lava_phys.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh3" file_name="meshes/arid_mainland_assets/arid_lava_rock_phys.phys">
+			<transform/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="tile_marker0" marker_type="13" string_data="Biba Volcano" icon="5">
+			<transform 30="0.707304" 31="560.709717" 32="58.431503"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers>
+		<volcano id="volcano0" radius="200" height="50" heightmap_filename="graphics/effects/arid_volcano_heightmap_1024.txtr" eruption_radius="5000">
+			<transform 30="-25.382778" 31="439.848755" 32="53.703197"/>
+			<heightmap_size x="7000" y="600" z="7000"/>
+			<particle_offset/>
+		</volcano>
+	</volcano_markers>
+	<mineral_rocks/>
+</definition>
+

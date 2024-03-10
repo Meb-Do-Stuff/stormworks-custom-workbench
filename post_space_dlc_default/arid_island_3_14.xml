@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/arid_mainland/arid_island_3_14.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="lighthouse" file_name="meshes/mainland_assets/mainland_lighthouse.mesh">
+			<transform 30="479.952148" 31="68.727501" 32="477.873962"/>
+		</mesh>
+		<mesh id="light_housebuilding" file_name="meshes/mainland_assets/mainland_lighthouse_building.mesh">
+			<transform 30="479.952148" 31="68.727501" 32="477.873962"/>
+		</mesh>
+		<mesh id="lighthouse_light_mesh" file_name="meshes/lighthouse_light.mesh">
+			<transform 30="479.900269" 31="90.563148" 32="485.966797"/>
+		</mesh>
+		<mesh id="door_lighthouse" file_name="meshes/door_exterior.mesh">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="483.348846" 31="69.224159" 32="485.489197"/>
+		</mesh>
+		<mesh id="door_02" file_name="meshes/door_cottage_boathouse.mesh">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="491.542236" 31="68.727104" 32="481.948303"/>
+		</mesh>
+		<mesh id="door_01" file_name="meshes/door_cottage_boathouse.mesh">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="491.542236" 31="68.727104" 32="489.158539"/>
+		</mesh>
+		<mesh id="door_03" file_name="meshes/door_cottage_boathouse.mesh">
+			<transform 30="495.639069" 31="68.727104" 32="490.654968"/>
+		</mesh>
+		<mesh id="door_04" file_name="meshes/door_cottage_boathouse.mesh">
+			<transform 30="494.33432" 31="68.727104" 32="488.051697"/>
+		</mesh>
+		<mesh id="door_05" file_name="meshes/door_cottage_boathouse.mesh">
+			<transform 30="495.27359" 31="68.727104" 32="481.861969"/>
+		</mesh>
+		<mesh id="door_06" file_name="meshes/door_cottage_boathouse.mesh">
+			<transform 30="495.27359" 31="68.727104" 32="478.955048"/>
+		</mesh>
+		<mesh id="door_07" file_name="meshes/door_cottage_boathouse.mesh">
+			<transform 30="492.554077" 31="68.727104" 32="478.955048"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/arid_mainland/arid_island_3_14.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh1" file_name="meshes/mainland_assets/mainland_lighthouse_phys.phys">
+			<transform 30="479.952148" 31="68.727501" 32="477.873962"/>
+		</physics_mesh>
+		<physics_mesh id="door_lighthouse_phys" parent_id="door_lighthouse" file_name="meshes/lighthouse_door_phys.phys">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="483.348846" 31="69.224159" 32="485.489197"/>
+		</physics_mesh>
+		<physics_mesh id="door_02_phys" parent_id="door_02" file_name="meshes/door_cottage_boathouse_phys.phys">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="491.542236" 31="68.727104" 32="481.948303"/>
+		</physics_mesh>
+		<physics_mesh id="door_01_phys" parent_id="door_01" file_name="meshes/door_cottage_boathouse_phys.phys">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="491.542236" 31="68.727104" 32="489.158539"/>
+		</physics_mesh>
+		<physics_mesh id="door_03_phys" parent_id="door_03" file_name="meshes/door_cottage_boathouse_phys.phys">
+			<transform 30="495.639069" 31="68.727104" 32="490.654968"/>
+		</physics_mesh>
+		<physics_mesh id="door_04_phys" parent_id="door_04" file_name="meshes/door_cottage_boathouse_phys.phys">
+			<transform 30="494.33432" 31="68.727104" 32="488.051697"/>
+		</physics_mesh>
+		<physics_mesh id="door_05_phys" parent_id="door_05" file_name="meshes/door_cottage_boathouse_phys.phys">
+			<transform 30="495.27359" 31="68.727104" 32="481.861969"/>
+		</physics_mesh>
+		<physics_mesh id="door_06_phys" parent_id="door_06" file_name="meshes/door_cottage_boathouse_phys.phys">
+			<transform 30="495.27359" 31="68.727104" 32="478.955048"/>
+		</physics_mesh>
+		<physics_mesh id="door_07_phys" parent_id="door_07" file_name="meshes/door_cottage_boathouse_phys.phys">
+			<transform 30="492.554077" 31="68.727104" 32="478.955048"/>
+		</physics_mesh>
+		<physics_mesh id="lh_door_phys" parent_id="door_lighthouse" file_name="meshes/door_hospital_phys.phys">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="483.348846" 31="69.224159" 32="485.489197"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni>
+		<light id="omni0" radius="3" is_render_halo="true">
+			<transform 30="482.467377" 31="71.622177" 32="483.401794"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni1" radius="3" is_render_halo="true">
+			<transform 30="481.899231" 31="75.389702" 32="483.974701"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni2" radius="3" is_render_halo="true">
+			<transform 30="481.383911" 31="81.196831" 32="484.459747"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni3" radius="3" is_render_halo="true">
+			<transform 30="481.268555" 31="85.344833" 32="484.583618"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni4" radius="3" is_render_halo="true">
+			<transform 30="479.901825" 31="71.625633" 32="489.589539"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni5" radius="3" is_render_halo="true">
+			<transform 30="479.897461" 31="75.386658" 32="488.784424"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni6" radius="3" is_render_halo="true">
+			<transform 30="479.890778" 31="81.21611" 32="488.071777"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni7" radius="3" is_render_halo="true">
+			<transform 30="479.896973" 31="85.352585" 32="487.908234"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="bulb_omni" parent_id="lighthouse_light_mesh" radius="0.5" is_render_halo="true">
+			<transform 30="479.12442" 31="92.202522" 32="485.966797"/>
+			<color x="8" y="8" z="4"/>
+		</light>
+		<light id="omni9" radius="1" is_render_halo="true">
+			<transform 30="491.406158" 31="71.043999" 32="481.524689"/>
+			<color x="0.8" y="0.8" z="0.6"/>
+		</light>
+		<light id="omni10" radius="1" is_render_halo="true">
+			<transform 30="491.406158" 31="71.043999" 32="488.711517"/>
+			<color x="0.8" y="0.8" z="0.6"/>
+		</light>
+		<light id="light_hall_a" radius="3" is_render_halo="true">
+			<transform 30="493.615021" 31="71.353981" 32="490.91568"/>
+			<color x="1.5" y="1.5" z="1"/>
+		</light>
+		<light id="bedroom_light_b" radius="3" is_render_halo="true">
+			<transform 30="497.192383" 31="71.345612" 32="492.462708"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="light_hall_b" radius="3" is_render_halo="true">
+			<transform 30="492.871094" 31="71.353981" 32="486.766724"/>
+			<color x="1.5" y="1.5" z="1"/>
+		</light>
+		<light id="light_hall_c" radius="3" is_render_halo="true">
+			<transform 30="492.871094" 31="71.353981" 32="483.32547"/>
+			<color x="1.5" y="1.5" z="1"/>
+		</light>
+		<light id="light_hall_d" radius="3" is_render_halo="true">
+			<transform 30="494.297058" 31="71.353981" 32="480.572754"/>
+			<color x="1.5" y="1.5" z="1"/>
+		</light>
+		<light id="room_lights_b" radius="3" is_render_halo="true">
+			<transform 30="497.483734" 31="71.353981" 32="483.105896"/>
+			<color x="1.5" y="1.5" z="1"/>
+		</light>
+		<light id="room_lights_a" radius="3" is_render_halo="true">
+			<transform 30="497.483734" 31="71.353981" 32="486.551086"/>
+			<color x="1.5" y="1.5" z="1"/>
+		</light>
+		<light id="bedroom_light" radius="3.8" is_render_halo="true">
+			<transform 30="496.495667" 31="71.353981" 32="477.235901"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="toilet_light" radius="4" is_render_halo="true">
+			<transform 30="493.070618" 31="71.579315" 32="477.436462"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="lamp_light" radius="3" is_render_halo="true">
+			<transform 30="497.26181" 31="70.311493" 32="490.224152"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+	</lights_omni>
+	<lights_spot>
+		<light id="bulb_spot" parent_id="lighthouse_light_mesh" range="1024" fov="0.1" texture="graphics/ies/ies_default.txtr">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="479.12442" 31="92.202522" 32="485.966797"/>
+			<color x="20" y="20" z="15"/>
+		</light>
+	</lights_spot>
+	<lights_tube/>
+	<screens/>
+	<edit_areas>
+		<edit_area id="edit0" grid_size="5" is_static="true" default_vehicle="bed" is_invisible_vehicle="true">
+			<transform 30="496.726288" 31="69.21608" 32="476.33429"/>
+			<size x="0.75" y="0.25" z="1.75"/>
+		</edit_area>
+		<edit_area id="edit1" grid_size="5" is_static="true" default_vehicle="bed" is_invisible_vehicle="true">
+			<transform 30="497.471283" 31="69.21608" 32="476.33429"/>
+			<size x="0.75" y="0.25" z="1.75"/>
+		</edit_area>
+		<edit_area id="edit2" grid_size="5" is_static="true" default_vehicle="bed" is_invisible_vehicle="true">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="496.061157" 31="69.21608" 32="486.093536"/>
+			<size x="0.75" y="0.25" z="1.75"/>
+		</edit_area>
+		<edit_area id="edit3" grid_size="5" is_static="true" default_vehicle="bed" is_invisible_vehicle="true">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="497.936005" 31="69.197128" 32="493.481232"/>
+			<size x="0.75" y="0.25" z="1.75"/>
+		</edit_area>
+	</edit_areas>
+	<interactables>
+		<interactable id="door_lighthouse_int" parent_id="door_lighthouse" target_object_id="door_lighthouse_logic" label="Door">
+			<transform 30="483.330841" 31="70.336647" 32="485.954895"/>
+			<size x="0.2" y="2" z="1"/>
+		</interactable>
+		<interactable id="door_02_int" parent_id="door_02" target_object_id="door_02_logic" label="Door">
+			<transform 30="491.542236" 31="69.75576" 32="481.550415"/>
+			<size x="0.2" y="2" z="1"/>
+		</interactable>
+		<interactable id="door_01_int" parent_id="door_01" target_object_id="door_01_logic" label="Door">
+			<transform 30="491.542236" 31="69.707954" 32="488.744263"/>
+			<size x="0.2" y="2" z="1"/>
+		</interactable>
+		<interactable id="door_03_int" parent_id="door_03" target_object_id="door_03_logic" label="Door">
+			<transform 30="496.040131" 31="69.740021" 32="490.68573"/>
+			<size x="1" y="2" z="0.2"/>
+		</interactable>
+		<interactable id="door_04_int" parent_id="door_04" target_object_id="door_04_logic" label="Door">
+			<transform 30="494.760712" 31="69.785538" 32="488.082916"/>
+			<size x="1" y="2" z="0.2"/>
+		</interactable>
+		<interactable id="door_07_int" parent_id="door_07" target_object_id="door_07_logic" label="Door">
+			<transform 30="492.942322" 31="69.833244" 32="478.955048"/>
+			<size x="1" y="2" z="0.2"/>
+		</interactable>
+		<interactable id="door_06_int" parent_id="door_06" target_object_id="door_06_logic" label="Door">
+			<transform 30="495.688416" 31="69.793015" 32="478.955048"/>
+			<size x="1" y="2" z="0.2"/>
+		</interactable>
+		<interactable id="door_05_int" parent_id="door_05" target_object_id="door_05_logic" label="Door">
+			<transform 30="495.639526" 31="69.685127" 32="481.861969"/>
+			<size x="1" y="2" z="0.2"/>
+		</interactable>
+		<interactable id="interact8" label="Wardrobe" interact_type="3">
+			<transform 30="494.608673" 31="69.290108" 32="476.13205"/>
+			<size x="0.5" y="1" z="1"/>
+		</interactable>
+		<interactable id="interact9" label="Wardrobe" interact_type="4">
+			<transform 30="497.826874" 31="69.197128" 32="491.116669"/>
+			<size x="1" y="1" z="0.4"/>
+		</interactable>
+		<interactable id="hallway_lights_int" target_object_id="hallway_lights_logic" label="Lights">
+			<transform 30="491.711273" 31="69.855003" 32="488.088257"/>
+			<size x="0.2" y="0.3" z="0.2"/>
+		</interactable>
+		<interactable id="toilet_light_int" target_object_id="toilet_light_logic" label="Lights">
+			<transform 30="492.30191" 31="69.855003" 32="479.185211"/>
+			<size x="0.2" y="0.3" z="0.2"/>
+		</interactable>
+		<interactable id="bedroom_lights_int" target_object_id="bedroom_light_logic" label="Lights">
+			<transform 30="496.369537" 31="69.855003" 32="478.876648"/>
+			<size x="0.2" y="0.3" z="0.2"/>
+		</interactable>
+		<interactable id="room_light_switch" target_object_id="room_lights_logic" label="Lights">
+			<transform 30="495.075867" 31="69.855003" 32="482.117645"/>
+			<size x="0.2" y="0.3" z="0.2"/>
+		</interactable>
+		<interactable id="lamp_light_int" target_object_id="lamp_light_logic" label="Light">
+			<transform 30="497.26181" 31="70.311493" 32="490.224152"/>
+			<size x="0.5" y="0.5" z="0.5"/>
+		</interactable>
+		<interactable id="room_lightswitch_b" target_object_id="room_lights_logic" label="Lights">
+			<transform 30="495.398193" 31="69.855003" 32="488.004608"/>
+			<size x="0.2" y="0.3" z="0.2"/>
+		</interactable>
+		<interactable id="bedroom_b_lightswitch" target_object_id="bedroom_light_b_logic" label="Lights">
+			<transform 30="496.732147" 31="69.855003" 32="490.909271"/>
+			<size x="0.2" y="0.3" z="0.2"/>
+		</interactable>
+		<interactable id="light_int" parent_id="lighthouse_light_mesh" target_object_id="bulb_logic" label="Lights">
+			<transform 30="480.497559" 31="92.202522" 32="485.966797"/>
+			<size x="0.5" y="0.5" z="0.5"/>
+		</interactable>
+	</interactables>
+	<door_logic_nodes>
+		<logic id="door_lighthouse_logic" target_a="door_lighthouse_open" target_b="door_lighthouse_closed" target_movable="door_lighthouse" anim_duration="100">
+			<transform 30="483.348846" 31="70.156525" 32="485.489197"/>
+		</logic>
+		<logic id="door_02_logic" target_a="door_02_open" target_b="door_02_closed" target_movable="door_02" anim_duration="100">
+			<transform 30="491.542236" 31="69.577126" 32="481.948303"/>
+		</logic>
+		<logic id="door_01_logic" target_a="door_01_closed" target_b="door_01_open" target_movable="door_01" anim_duration="100">
+			<transform 30="491.542236" 31="69.652046" 32="489.158539"/>
+		</logic>
+		<logic id="door_03_logic" target_a="door_03_closed" target_b="door_03_open" target_movable="door_03" anim_duration="100">
+			<transform 30="495.639069" 31="68.727104" 32="490.654968"/>
+		</logic>
+		<logic id="door_04_logic" target_a="door_04_closed" target_b="door_04_open" target_movable="door_04" anim_duration="100">
+			<transform 30="494.33432" 31="68.727104" 32="488.051697"/>
+		</logic>
+		<logic id="door_07_logic" target_a="door_07_closed" target_b="door_07_open" target_movable="door_07" anim_duration="100">
+			<transform 30="492.554077" 31="68.727104" 32="478.955048"/>
+		</logic>
+		<logic id="door_06_logic" target_a="door_06_closed" target_b="door_06_open" target_movable="door_06" anim_duration="100">
+			<transform 30="495.27359" 31="68.727104" 32="478.955048"/>
+		</logic>
+		<logic id="door_05_logic" target_a="door_05_closed" target_b="door_05_open" target_movable="door_05" anim_duration="100">
+			<transform 30="495.27359" 31="68.727104" 32="481.861969"/>
+		</logic>
+	</door_logic_nodes>
+	<light_logic_nodes>
+		<logic id="bulb_omni_logic" target="bulb_omni" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="479.289001" 31="92.202522" 32="487.650208"/>
+		</logic>
+		<logic id="bulb_spot_logic" target="bulb_spot" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="479.784943" 31="92.202522" 32="487.650208"/>
+		</logic>
+		<logic id="light_hall_a_logic" target="light_hall_a" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="491.711273" 31="70.138069" 32="488.088257"/>
+		</logic>
+		<logic id="light_hall_b_logic" target="light_hall_b" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="491.711273" 31="70.419823" 32="488.088257"/>
+		</logic>
+		<logic id="light_hall_c_logic" target="light_hall_c" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="491.711273" 31="70.682381" 32="488.088257"/>
+		</logic>
+		<logic id="light_hall_d_logic" target="light_hall_d" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="491.711273" 31="70.943512" 32="488.088257"/>
+		</logic>
+		<logic id="toilet_light_logic" target="toilet_light" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="492.30191" 31="70.079651" 32="479.185211"/>
+		</logic>
+		<logic id="bedroom_light_logic" target="bedroom_light" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="496.369537" 31="70.140213" 32="479.002228"/>
+		</logic>
+		<logic id="lamp_light_logic" target="lamp_light" is_on="true" flicker_duration="20" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="497.26181" 31="70.456451" 32="490.224152"/>
+		</logic>
+		<logic id="room_light_a_logic" target="room_lights_a" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="495.075867" 31="70.04866" 32="482.117645"/>
+		</logic>
+		<logic id="room_light_b_logic" target="room_lights_b" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="495.075867" 31="70.310204" 32="482.117645"/>
+		</logic>
+		<logic id="bedroom_light_b_logic" target="bedroom_light_b" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="496.732147" 31="70.12394" 32="490.909271"/>
+		</logic>
+	</light_logic_nodes>
+	<rotation_logic_nodes>
+		<logic id="bulb_rotate" target="lighthouse_light_mesh" is_on="true">
+			<transform 30="479.286224" 31="92.592575" 32="487.650208"/>
+			<delta_rotation y="0.01"/>
+		</logic>
+	</rotation_logic_nodes>
+	<hangar_door_logic_nodes>
+		<logic id="bulb_logic" target_id_0="bulb_spot_logic" target_id_1="bulb_omni_logic" target_id_2="bulb_rotate">
+			<transform 30="479.784943" 31="92.592575" 32="487.650208"/>
+		</logic>
+		<logic id="hallway_lights_logic" target_id_0="light_hall_a_logic" target_id_1="light_hall_b_logic" target_id_2="light_hall_c_logic" target_id_3="light_hall_d_logic">
+			<transform 30="491.711273" 31="70.419823" 32="487.598267"/>
+		</logic>
+		<logic id="room_lights_logic" target_id_0="room_light_a_logic" target_id_1="room_light_b_logic">
+			<transform 30="495.075867" 31="70.719063" 32="482.117645"/>
+		</logic>
+	</hangar_door_logic_nodes>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="door_lighthouse_closed" marker_type="8" icon="1">
+			<transform 30="483.348846" 31="69.224159" 32="485.489197"/>
+		</markers>
+		<markers id="door_lighthouse_open" marker_type="8" icon="1">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="483.348846" 31="69.224159" 32="485.489197"/>
+		</markers>
+		<markers id="door_02_closed" marker_type="8" icon="1">
+			<transform 00="-1" 22="-1" 30="491.542236" 31="68.727104" 32="481.948303"/>
+		</markers>
+		<markers id="door_02_open" marker_type="8" icon="1">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="491.542236" 31="68.727104" 32="481.948303"/>
+		</markers>
+		<markers id="door_01_open" marker_type="8" icon="1">
+			<transform 00="-1" 22="-1" 30="491.542236" 31="68.727104" 32="489.158539"/>
+		</markers>
+		<markers id="door_01_closed" marker_type="8" icon="1">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="491.542236" 31="68.727104" 32="489.158539"/>
+		</markers>
+		<markers id="door_03_closed" marker_type="8" icon="1">
+			<transform 30="495.639069" 31="68.727104" 32="490.654968"/>
+		</markers>
+		<markers id="door_03_open" marker_type="8" icon="1">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="495.639069" 31="68.727104" 32="490.654968"/>
+		</markers>
+		<markers id="door_04_closed" marker_type="8" icon="1">
+			<transform 30="494.33432" 31="68.727104" 32="488.051697"/>
+		</markers>
+		<markers id="door_04_open" marker_type="8" icon="1">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="494.33432" 31="68.727104" 32="488.051697"/>
+		</markers>
+		<markers id="door_07_open" marker_type="8" icon="1">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="492.554077" 31="68.727104" 32="478.955048"/>
+		</markers>
+		<markers id="door_07_closed" marker_type="8" icon="1">
+			<transform 30="492.554077" 31="68.727104" 32="478.955048"/>
+		</markers>
+		<markers id="door_06_closed" marker_type="8" icon="1">
+			<transform 30="495.27359" 31="68.727104" 32="478.955048"/>
+		</markers>
+		<markers id="door_06_open" marker_type="8" icon="1">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="495.27359" 31="68.727104" 32="478.955048"/>
+		</markers>
+		<markers id="door_05_open" marker_type="8" icon="1">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="495.27359" 31="68.727104" 32="481.861969"/>
+		</markers>
+		<markers id="door_05_closed" marker_type="8" icon="1">
+			<transform 30="495.27359" 31="68.727104" 32="481.861969"/>
+		</markers>
+		<markers id="tile_marker16" marker_type="13" string_data="McSteve Island" icon="1">
+			<transform 30="-151.05336" 31="133.943924" 32="72.873566"/>
+		</markers>
+		<markers id="tile_marker17" marker_type="13" string_data="Raptor Lighthouse" icon="12">
+			<transform 30="488.589325" 31="98.150322" 32="486.993408"/>
+		</markers>
+		<markers id="tile_marker18" marker_type="9">
+			<transform 30="482.371521" 31="69.913452" 32="483.853729"/>
+		</markers>
+		<markers id="tile_marker19" marker_type="9" loot_type="1">
+			<transform 30="497.981995" 31="69.494904" 32="484.507568"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders>
+		<ladder id="ladder_0" height="2.2">
+			<transform 00="0.997564" 02="-0.069756" 20="0.069756" 22="0.997564" 30="481.074371" 31="88.338402" 32="485.737183"/>
+		</ladder>
+	</ladders>
+	<perches>
+		<perch id="perch0">
+			<transform 00="-0.5" 02="-0.866025" 20="0.866025" 22="-0.5" 30="471.278656" 31="78.154816" 32="491.263977"/>
+		</perch>
+		<perch id="perch1">
+			<transform 30="471.838715" 31="71.847092" 32="422.258514"/>
+		</perch>
+		<perch id="perch2">
+			<transform 00="-0.766045" 02="-0.642787" 20="0.642787" 22="-0.766045" 30="463.087799" 31="72.751717" 32="421.545135"/>
+		</perch>
+		<perch id="perch3">
+			<transform 30="332.169739" 31="39.610226" 32="47.133137"/>
+		</perch>
+		<perch id="perch4">
+			<transform 30="272.138977" 31="11.26464" 32="48.396217"/>
+		</perch>
+		<perch id="perch5">
+			<transform 00="-0.96009" 02="-0.279692" 20="0.279692" 22="-0.96009" 30="396.182312" 31="28.559286" 32="-216.537842"/>
+		</perch>
+	</perches>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

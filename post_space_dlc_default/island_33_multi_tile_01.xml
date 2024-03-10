@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true">
+	<meshes>
+		<mesh id="island_33_mesh" file_name="meshes/island_33_multi_tile_01.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="air_field_mesh" file_name="meshes/island_33_airfield.mesh">
+			<transform 00="-0.768337" 02="0.640045" 20="-0.640045" 22="-0.768337" 30="710.776733" 31="7.465149" 32="-768.43042"/>
+		</mesh>
+		<mesh id="industrial_area_mesh" file_name="meshes/island_33_industrial_area.mesh">
+			<transform 00="0.842871" 02="-0.538115" 20="0.538115" 22="0.842871" 30="-101.96994" 31="5.713806" 32="-858.200684"/>
+		</mesh>
+		<mesh id="cottages_mesh_01" file_name="meshes/island_26_cottages.mesh">
+			<transform 00="-0.346134" 02="-0.938185" 20="0.938185" 22="-0.346134" 30="-256.097809" 31="8.478119" 32="841.678406"/>
+		</mesh>
+		<mesh id="cottage_mesh_02" file_name="meshes/island_26_cottages_02.mesh">
+			<transform 30="-265.377045" 31="8.38147" 32="841.678406"/>
+		</mesh>
+		<mesh id="mesh5" file_name="meshes/island_26_church.mesh">
+			<transform 30="-107.230011" 31="8.547913" 32="923.686584"/>
+		</mesh>
+		<mesh id="jetty_mesh" file_name="meshes/island_26_jetty.mesh">
+			<transform 00="0.112095" 02="-0.993697" 20="0.993697" 22="0.112095" 30="-307.885864" 31="6.936432" 32="905.752563"/>
+		</mesh>
+		<mesh id="door_barn_l" file_name="meshes/door_barn_airfield.mesh">
+			<transform 00="0.768318" 02="-0.640068" 20="0.640068" 22="0.768318" 30="590.296143" 31="7.514343" 32="-792.00824"/>
+		</mesh>
+		<mesh id="door_barn_r" file_name="meshes/door_barn_airfield.mesh">
+			<transform 00="-0.767876" 02="0.640599" 20="-0.640599" 22="-0.767876" 30="608.06897" 31="7.514343" 32="-770.931274"/>
+		</mesh>
+		<mesh id="cottages_area_mesh" file_name="meshes/island_33_cottages.mesh">
+			<transform 00="0.866593" 02="-0.499016" 20="0.499016" 22="0.866593" 30="389.719025" 31="10.400574" 32="-660.461121"/>
+		</mesh>
+		<mesh id="quarry_meshes" file_name="meshes/island_33_quarry.mesh">
+			<transform 00="-0.935576" 02="0.353126" 20="-0.353126" 22="-0.935576" 30="-153.443237" 31="67.020782" 32="-290.818085"/>
+		</mesh>
+		<mesh id="railings_01_mesh" file_name="meshes/island_33_railings_01.mesh">
+			<transform 00="0.842144" 02="-0.539252" 20="0.539252" 22="0.842144" 30="-101.96994" 31="5.713806" 32="-858.200684"/>
+		</mesh>
+		<mesh id="industrial_cottages_mesh" file_name="meshes/island_26_cottages.mesh">
+			<transform 00="0.359811" 02="0.933025" 20="-0.933025" 22="0.359811" 30="-352.564819" 31="12.007202" 32="-744.681396"/>
+		</mesh>
+		<mesh id="office_industrial_mesh" file_name="meshes/island_33_office_building.mesh">
+			<transform 00="0.815718" 02="-0.578449" 20="0.578449" 22="0.815718" 30="-101.96994" 31="5.713806" 32="-855.689331"/>
+		</mesh>
+		<mesh id="mesh18" file_name="meshes/door_exterior.mesh">
+			<transform 30="-109.864288" 31="9.54364" 32="-803.286438"/>
+		</mesh>
+		<mesh id="mesh19" file_name="meshes/door_plain_handle.mesh">
+			<transform 30="-111.294342" 31="5.713806" 32="-808.557922"/>
+		</mesh>
+		<mesh id="office_door_02" file_name="meshes/door_plain_handle.mesh">
+			<transform 00="-0.808816" 02="0.588062" 20="-0.588062" 22="-0.808816" 30="-112.313385" 31="5.826813" 32="-811.676636"/>
+		</mesh>
+		<mesh id="office_door_01" file_name="meshes/door_exterior.mesh">
+			<transform 00="0.581968" 02="0.813212" 20="-0.813212" 22="0.581968" 30="-110.819275" 31="5.824982" 32="-811.447266"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/island_33_multi_tile_01_phys.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="island_33_phys" file_name="meshes/island_33_multi_tile_01_phys.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="airfield_phys" file_name="meshes/island_33_airfield_phys.phys">
+			<transform 00="-0.768337" 02="0.640045" 20="-0.640045" 22="-0.768337" 30="710.776733" 31="7.465149" 32="-768.43042"/>
+		</physics_mesh>
+		<physics_mesh id="cottages_01_phys" file_name="meshes/island_26_cottages_phys.phys">
+			<transform 00="-0.346134" 02="-0.938185" 20="0.938185" 22="-0.346134" 30="-256.097809" 31="8.478119" 32="841.678406"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh4" file_name="meshes/island_26_church_phys.phys">
+			<transform 30="-107.230011" 31="38.113983" 32="923.686584"/>
+		</physics_mesh>
+		<physics_mesh id="jetty_phys" file_name="meshes/island_26_jetty_phys.phys">
+			<transform 00="0.112099" 02="-0.993697" 20="0.993697" 22="0.112099" 30="-307.885864" 31="6.936432" 32="905.752563"/>
+		</physics_mesh>
+		<physics_mesh id="cottage_02_phys" file_name="meshes/island_26_cottages_02_phys.phys">
+			<transform 30="-265.377045" 31="8.38147" 32="841.678406"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh7" file_name="meshes/island_26_church_phys.phys">
+			<transform 30="-107.230011" 31="8.547913" 32="923.686584"/>
+		</physics_mesh>
+		<physics_mesh id="industrial_area_phys" file_name="meshes/island_33_industrial_area_phys.phys">
+			<transform 00="0.842872" 02="-0.538115" 20="0.538115" 22="0.842872" 30="-101.96994" 31="5.713806" 32="-858.200684"/>
+		</physics_mesh>
+		<physics_mesh id="door_barn_l_phys" parent_id="door_barn_l" file_name="meshes/door_barn_airfield_phys.phys">
+			<transform 00="0.768318" 02="-0.640068" 20="0.640068" 22="0.768318" 30="590.296143" 31="7.514343" 32="-792.00824"/>
+		</physics_mesh>
+		<physics_mesh id="door_barn_r_phys" parent_id="door_barn_r" file_name="meshes/door_barn_airfield_phys.phys">
+			<transform 00="-0.767876" 02="0.640599" 20="-0.640599" 22="-0.767876" 30="608.06897" 31="7.514343" 32="-770.931274"/>
+		</physics_mesh>
+		<physics_mesh id="industrial_cottages_phys" file_name="meshes/island_26_cottages_phys.phys">
+			<transform 00="0.359811" 02="0.933025" 20="-0.933025" 22="0.359811" 30="-352.564819" 31="12.007202" 32="-744.681396"/>
+		</physics_mesh>
+		<physics_mesh id="office_industrial_phys" file_name="meshes/island_33_office_building_phys.phys">
+			<transform 00="0.815718" 02="-0.578449" 20="0.578449" 22="0.815718" 30="-101.96994" 31="5.713806" 32="-855.689331"/>
+		</physics_mesh>
+		<physics_mesh id="office_door_01_phys" parent_id="office_door_01" file_name="meshes/door_hospital_phys.phys">
+			<transform 00="0.581968" 02="0.813212" 20="-0.813212" 22="0.581968" 30="-110.819275" 31="5.824982" 32="-811.447266"/>
+		</physics_mesh>
+		<physics_mesh id="office_door_02_phys" parent_id="office_door_02" file_name="meshes/door_hospital_phys.phys">
+			<transform 00="-0.808816" 02="0.588062" 20="-0.588062" 22="-0.808816" 30="-112.313385" 31="5.826813" 32="-811.676636"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni>
+		<light id="dock_omni_01" radius="10" is_render_halo="true">
+			<transform 30="-88.088608" 31="9.682556" 32="-879.117004"/>
+			<color x="5" y="5" z="4.5"/>
+		</light>
+		<light id="dock_0mni_02" radius="10" is_render_halo="true">
+			<transform 30="-73.998428" 31="9.703461" 32="-888.11969"/>
+			<color x="5" y="5" z="4.5"/>
+		</light>
+		<light id="dock_omni_03" radius="10" is_render_halo="true">
+			<transform 30="-60.208572" 31="9.703461" 32="-896.911133"/>
+			<color x="5" y="5" z="4.5"/>
+		</light>
+		<light id="dock_omni_04" radius="10" is_render_halo="true">
+			<transform 30="-46.20488" 31="9.703461" 32="-905.384277"/>
+			<color x="5" y="5" z="4.5"/>
+		</light>
+		<light id="office_omni_01" radius="2" is_render_halo="true">
+			<transform 30="-110.870331" 31="7.544251" 32="-811.80127"/>
+			<color x="3" y="3" z="2.5"/>
+		</light>
+		<light id="office_omni_02" radius="2" is_render_halo="true">
+			<transform 30="-110.002258" 31="11.143585" 32="-804.197144"/>
+			<color x="3" y="3" z="2.5"/>
+		</light>
+	</lights_omni>
+	<lights_spot>
+		<light id="hangar_spot_01" range="20" fov="1" texture="graphics/ies/ies_default.txtr">
+			<transform 00="-0.669334" 01="-0.011345" 02="-0.742876" 10="0.611437" 11="0.559605" 12="-0.559453" 20="0.422064" 21="-0.828682" 22="-0.367626" 30="597.310242" 31="16.275299" 32="-785.093567"/>
+			<color x="2" y="2" z="1.8"/>
+		</light>
+		<light id="hangar_spot_02" range="20" fov="1" texture="graphics/ies/ies_default.txtr">
+			<transform 00="-0.669334" 01="-0.011345" 02="-0.742876" 10="0.611437" 11="0.559605" 12="-0.559453" 20="0.422064" 21="-0.828682" 22="-0.367626" 30="602.726563" 31="16.367104" 32="-779.082153"/>
+			<color x="2" y="2" z="1.8"/>
+		</light>
+	</lights_spot>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables>
+		<interactable id="door_barn_l_interact" target_object_id="door_barn_l_logic" label="Door">
+			<transform 00="0.644469" 02="0.76463" 20="-0.76463" 22="0.644469" 30="594.731201" 31="10.716248" 32="-786.791626"/>
+			<size x="13.409851" y="6.384827" z="0.983276"/>
+		</interactable>
+		<interactable id="door_barn_r_interact" target_object_id="door_barn_r_logic" label="Door">
+			<transform 00="0.644469" 02="0.76463" 20="-0.76463" 22="0.644469" 30="603.551514" 31="10.716248" 32="-776.326782"/>
+			<size x="13.409851" y="6.384827" z="0.983276"/>
+		</interactable>
+		<interactable id="office_door_01_interact" target_object_id="office_door_01_logic" label="Door">
+			<transform 00="0.811723" 02="-0.584042" 20="0.584042" 22="0.811723" 30="-110.630829" 31="6.89563" 32="-811.006409"/>
+			<size x="0.280396" y="1.877808" z="0.873718"/>
+		</interactable>
+		<interactable id="office_door_02_interact" label="Door">
+			<transform 00="0.82813" 02="-0.560536" 20="0.560536" 22="0.82813" 30="-112.711731" 31="6.90213" 32="-811.439209"/>
+			<size x="0.884552" y="2.040161" z="0.303589"/>
+		</interactable>
+	</interactables>
+	<door_logic_nodes>
+		<logic id="door_barn_l_logic" target_a="door_barn_l_closed" target_b="door_barn_l_open" target_movable="door_barn_l" anim_duration="180">
+			<transform 00="-0.636527" 02="-0.771254" 20="0.771254" 22="-0.636527" 30="590.027893" 31="10.034882" 32="-792.654175"/>
+		</logic>
+		<logic id="door_barn_r_logic" target_a="door_barn_r_closed" target_b="door_barn_r_open" target_movable="door_barn_r" anim_duration="180">
+			<transform 00="-0.636527" 02="-0.771254" 20="0.771254" 22="-0.636527" 30="608.730591" 31="10.034882" 32="-769.992859"/>
+		</logic>
+		<logic id="office_door_01_logic" target_a="office_door_01_closed" target_b="office_door_01_open" target_movable="office_door_01" anim_duration="50">
+			<transform 00="-0.59583" 02="-0.803111" 20="0.803111" 22="-0.59583" 30="-111.024475" 31="6.818299" 32="-812.021301"/>
+		</logic>
+		<logic id="office_door_02_logic" target_a="office_door_02_closed" target_b="office_door_02_open" target_movable="office_door_02" anim_duration="50">
+			<transform 00="0.872198" 02="-0.489154" 20="0.489154" 22="0.872198" 30="-111.895538" 31="6.90213" 32="-811.89032"/>
+		</logic>
+	</door_logic_nodes>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="door_barn_l_closed" marker_type="8">
+			<transform 00="0.768318" 02="-0.640068" 20="0.640068" 22="0.768318" 30="590.296143" 31="7.514343" 32="-792.00824"/>
+		</markers>
+		<markers id="door_barn_l_open" marker_type="8">
+			<transform 00="0.768318" 02="-0.640068" 20="0.640068" 22="0.768318" 30="581.990479" 31="7.514343" 32="-801.978088"/>
+		</markers>
+		<markers id="door_barn_r_closed" marker_type="8">
+			<transform 00="-0.767876" 02="0.640599" 20="-0.640599" 22="-0.767876" 30="608.06897" 31="7.514343" 32="-770.931274"/>
+		</markers>
+		<markers id="door_barn_r_open" marker_type="8">
+			<transform 00="-0.767876" 02="0.640599" 20="-0.640599" 22="-0.767876" 30="616.396057" 31="7.514343" 32="-760.949768"/>
+		</markers>
+		<markers id="office_door_01_closed" marker_type="8">
+			<transform 00="0.581968" 02="0.813212" 20="-0.813212" 22="0.581968" 30="-110.819275" 31="5.824982" 32="-811.447266"/>
+		</markers>
+		<markers id="office_door_01_open" marker_type="8">
+			<transform 00="0.738733" 02="-0.673998" 20="0.673998" 22="0.738733" 30="-110.819275" 31="5.824982" 32="-811.447266"/>
+		</markers>
+		<markers id="office_door_02_closed" marker_type="8">
+			<transform 00="-0.808816" 02="0.588062" 20="-0.588062" 22="-0.808816" 30="-112.313385" 31="5.826813" 32="-811.676636"/>
+		</markers>
+		<markers id="office_door_02_open" marker_type="8">
+			<transform 00="-0.679944" 02="-0.733264" 20="0.733264" 22="-0.679944" 30="-112.313385" 31="5.826813" 32="-811.676636"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

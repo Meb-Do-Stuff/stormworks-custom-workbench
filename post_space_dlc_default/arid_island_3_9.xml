@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/arid_mainland/arid_island_3_9.mesh">
+			<transform/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/arid_mainland/arid_island_3_9.phys">
+			<transform/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers/>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks>
+		<track id="train_3">
+			<transform 30="108.410004" 31="29.799999" 32="500"/>
+			<links>
+				<link id="train_8"/>
+			</links>
+		</track>
+		<track id="train_4">
+			<transform 30="97.32" 31="29.799999" 32="500"/>
+			<links>
+				<link id="train_7"/>
+			</links>
+		</track>
+		<track id="train_5">
+			<transform 30="86.779999" 31="29.799999" 32="500"/>
+			<links>
+				<link id="train_10"/>
+			</links>
+		</track>
+		<track id="train_6">
+			<transform 30="82.610001" 31="29.799999" 32="500"/>
+			<links>
+				<link id="train_9"/>
+			</links>
+		</track>
+		<track id="train_7">
+			<transform 30="103.565468" 31="29.799999" 32="396.28949"/>
+			<links>
+				<link id="train_4"/>
+				<link id="train_29"/>
+			</links>
+		</track>
+		<track id="train_8">
+			<transform 30="111.847847" 31="29.799999" 32="440.602264"/>
+			<links>
+				<link id="train_3"/>
+				<link id="train_13"/>
+			</links>
+		</track>
+		<track id="train_9">
+			<transform 30="91.217529" 31="29.799999" 32="358.915436"/>
+			<links>
+				<link id="train_6"/>
+				<link id="train_40"/>
+			</links>
+		</track>
+		<track id="train_10">
+			<transform 30="95.165024" 31="29.799999" 32="360.498779"/>
+			<links>
+				<link id="train_5"/>
+				<link id="train_41"/>
+			</links>
+		</track>
+		<track id="train_11">
+			<transform 30="58.25" 31="29.799999" 32="-500"/>
+			<links>
+				<link id="train_88"/>
+			</links>
+		</track>
+		<track id="train_12">
+			<transform 30="62.720001" 31="29.799999" 32="-500"/>
+			<links>
+				<link id="train_87"/>
+			</links>
+		</track>
+		<track id="train_13">
+			<transform 30="111.850113" 31="29.799999" 32="433.257507"/>
+			<links>
+				<link id="train_14"/>
+				<link id="train_8"/>
+			</links>
+		</track>
+		<track id="train_14">
+			<transform 30="111.632675" 31="29.799999" 32="425.900726"/>
+			<links>
+				<link id="train_16"/>
+				<link id="train_13"/>
+			</links>
+		</track>
+		<track id="train_16">
+			<transform 30="111.264618" 31="29.799999" 32="418.498199"/>
+			<links>
+				<link id="train_17"/>
+				<link id="train_14"/>
+			</links>
+		</track>
+		<track id="train_17">
+			<transform 30="110.718285" 31="29.799999" 32="411.156525"/>
+			<links>
+				<link id="train_18"/>
+				<link id="train_16"/>
+			</links>
+		</track>
+		<track id="train_18">
+			<transform 30="109.97049" 31="29.799999" 32="403.835632"/>
+			<links>
+				<link id="train_19"/>
+				<link id="train_17"/>
+			</links>
+		</track>
+		<track id="train_19">
+			<transform 30="109.058182" 31="29.799999" 32="396.504211"/>
+			<links>
+				<link id="train_20"/>
+				<link id="train_18"/>
+			</links>
+		</track>
+		<track id="train_20">
+			<transform 30="107.978859" 31="29.799999" 32="389.205719"/>
+			<links>
+				<link id="train_19"/>
+				<link id="train_21"/>
+			</links>
+		</track>
+		<track id="train_21">
+			<transform 30="106.927368" 31="29.799999" 32="381.886261"/>
+			<links>
+				<link id="train_20"/>
+				<link id="train_22"/>
+			</links>
+		</track>
+		<track id="train_22">
+			<transform 30="105.861099" 31="29.799999" 32="374.509186"/>
+			<links>
+				<link id="train_21"/>
+				<link id="train_30"/>
+			</links>
+		</track>
+		<track id="train_87">
+			<transform 30="72.888298" 31="29.799999" 32="-454.529999"/>
+			<links>
+				<link id="train_12"/>
+				<link id="train_86"/>
+			</links>
+		</track>
+		<track id="train_88">
+			<transform 30="68.591698" 31="29.799999" 32="-453.656952"/>
+			<links>
+				<link id="train_11"/>
+				<link id="train_85"/>
+			</links>
+		</track>
+		<track id="train_25">
+			<transform 30="103.226517" 31="29.799999" 32="359.966064"/>
+			<links>
+				<link id="train_26"/>
+				<link id="train_30"/>
+			</links>
+		</track>
+		<track id="train_26">
+			<transform 30="103.763908" 31="29.799999" 32="367.411072"/>
+			<links>
+				<link id="train_25"/>
+				<link id="train_27"/>
+			</links>
+		</track>
+		<track id="train_27">
+			<transform 30="104.02626" 31="29.799999" 32="374.915466"/>
+			<links>
+				<link id="train_26"/>
+				<link id="train_28"/>
+			</links>
+		</track>
+		<track id="train_28">
+			<transform 30="104.100822" 31="29.799999" 32="382.01593"/>
+			<links>
+				<link id="train_29"/>
+				<link id="train_27"/>
+			</links>
+		</track>
+		<track id="train_29">
+			<transform 30="103.912529" 31="29.799999" 32="389.84845"/>
+			<links>
+				<link id="train_7"/>
+				<link id="train_28"/>
+			</links>
+		</track>
+		<track id="train_30">
+			<transform 30="102.609612" 31="29.799999" 32="352.633881"/>
+			<links>
+				<link id="train_25"/>
+				<link id="train_31"/>
+				<link id="train_22"/>
+			</links>
+		</track>
+		<track id="train_31">
+			<transform 30="101.57988" 31="29.799999" 32="345.312103"/>
+			<links>
+				<link id="train_30"/>
+				<link id="train_32"/>
+			</links>
+		</track>
+		<track id="train_32">
+			<transform 30="100.57" 31="29.799999" 32="338.019867"/>
+			<links>
+				<link id="train_31"/>
+				<link id="train_33"/>
+			</links>
+		</track>
+		<track id="train_33">
+			<transform 30="99.772247" 31="29.799999" 32="330.701202"/>
+			<links>
+				<link id="train_32"/>
+				<link id="train_34"/>
+			</links>
+		</track>
+		<track id="train_34">
+			<transform 30="99.231812" 31="29.799999" 32="323.362885"/>
+			<links>
+				<link id="train_33"/>
+				<link id="train_35"/>
+			</links>
+		</track>
+		<track id="train_35">
+			<transform 30="98.847305" 31="29.799999" 32="316.01593"/>
+			<links>
+				<link id="train_34"/>
+				<link id="train_36"/>
+			</links>
+		</track>
+		<track id="train_36">
+			<transform 30="98.708847" 31="29.799999" 32="308.635498"/>
+			<links>
+				<link id="train_35"/>
+				<link id="train_37"/>
+			</links>
+		</track>
+		<track id="train_37">
+			<transform 30="98.745445" 31="29.799999" 32="301.358673"/>
+			<links>
+				<link id="train_36"/>
+				<link id="train_38"/>
+			</links>
+		</track>
+		<track id="train_38">
+			<transform 30="99.17141" 31="29.799999" 32="293.878937"/>
+			<links>
+				<link id="train_41"/>
+				<link id="train_42"/>
+				<link id="train_37"/>
+			</links>
+		</track>
+		<track id="train_39">
+			<transform 30="94.787308" 31="29.799999" 32="293.657745"/>
+			<links>
+				<link id="train_40"/>
+				<link id="train_43"/>
+			</links>
+		</track>
+		<track id="train_40">
+			<transform 30="93.104691" 31="29.799999" 32="328.069458"/>
+			<links>
+				<link id="train_39"/>
+				<link id="train_9"/>
+			</links>
+		</track>
+		<track id="train_41">
+			<transform 30="96.954193" 31="29.799999" 32="330.785492"/>
+			<links>
+				<link id="train_38"/>
+				<link id="train_10"/>
+			</links>
+		</track>
+		<track id="train_42">
+			<transform 30="100.743187" 31="29.799999" 32="259.931519"/>
+			<links>
+				<link id="train_45"/>
+				<link id="train_38"/>
+			</links>
+		</track>
+		<track id="train_43">
+			<transform 30="96.361763" 31="29.799999" 32="259.725403"/>
+			<links>
+				<link id="train_44"/>
+				<link id="train_39"/>
+			</links>
+		</track>
+		<track id="train_44">
+			<transform 30="98.357269" 31="29.799999" 32="212.688339"/>
+			<links>
+				<link id="train_43"/>
+				<link id="train_47"/>
+			</links>
+		</track>
+		<track id="train_45">
+			<transform 30="102.725693" 31="29.799999" 32="212.857315"/>
+			<links>
+				<link id="train_42"/>
+				<link id="train_46"/>
+			</links>
+		</track>
+		<track id="train_46">
+			<transform 30="102.935623" 31="29.799999" 32="206.688156"/>
+			<links>
+				<link id="train_45"/>
+				<link id="train_51"/>
+				<link id="train_49"/>
+			</links>
+		</track>
+		<track id="train_47">
+			<transform 30="98.535667" 31="29.799999" 32="206.606201"/>
+			<links>
+				<link id="train_44"/>
+				<link id="train_48"/>
+			</links>
+		</track>
+		<track id="train_48">
+			<transform 30="99.597816" 31="29.799999" 32="174.312668"/>
+			<links>
+				<link id="train_47"/>
+				<link id="train_53"/>
+			</links>
+		</track>
+		<track id="train_49">
+			<transform 30="103.035934" 31="29.799999" 32="202.795807"/>
+			<links>
+				<link id="train_50"/>
+				<link id="train_46"/>
+			</links>
+		</track>
+		<track id="train_50">
+			<transform 30="101.986717" 31="29.799999" 32="174.373184"/>
+			<links>
+				<link id="train_49"/>
+				<link id="train_52"/>
+			</links>
+		</track>
+		<track id="train_51">
+			<transform 30="103.999863" 31="29.799999" 32="174.442566"/>
+			<links>
+				<link id="train_54"/>
+				<link id="train_46"/>
+			</links>
+		</track>
+		<track id="train_52">
+			<transform 30="101.101166" 31="29.799999" 32="136.996674"/>
+			<links>
+				<link id="train_50"/>
+				<link id="train_53"/>
+			</links>
+		</track>
+		<track id="train_53">
+			<transform 30="101.3358" 31="29.799999" 32="128.869934"/>
+			<links>
+				<link id="train_52"/>
+				<link id="train_48"/>
+				<link id="train_56"/>
+			</links>
+		</track>
+		<track id="train_54">
+			<transform 30="105.710274" 31="29.799999" 32="129.095352"/>
+			<links>
+				<link id="train_51"/>
+				<link id="train_55"/>
+			</links>
+		</track>
+		<track id="train_55">
+			<transform 30="106.585007" 31="29.799999" 32="97.714104"/>
+			<links>
+				<link id="train_58"/>
+				<link id="train_54"/>
+			</links>
+		</track>
+		<track id="train_56">
+			<transform 30="102.213722" 31="29.799999" 32="97.594421"/>
+			<links>
+				<link id="train_57"/>
+				<link id="train_53"/>
+			</links>
+		</track>
+		<track id="train_57">
+			<transform 30="102.917473" 31="29.799999" 32="66.851837"/>
+			<links>
+				<link id="train_60"/>
+				<link id="train_56"/>
+			</links>
+		</track>
+		<track id="train_58">
+			<transform 30="107.29847" 31="29.799999" 32="66.934326"/>
+			<links>
+				<link id="train_59"/>
+				<link id="train_55"/>
+			</links>
+		</track>
+		<track id="train_59">
+			<transform 30="107.858337" 31="29.799999" 32="36.761948"/>
+			<links>
+				<link id="train_62"/>
+				<link id="train_58"/>
+			</links>
+		</track>
+		<track id="train_60">
+			<transform 30="103.474716" 31="29.799999" 32="36.697334"/>
+			<links>
+				<link id="train_61"/>
+				<link id="train_57"/>
+			</links>
+		</track>
+		<track id="train_61">
+			<transform 30="103.856125" 31="29.799999" 32="7.20147"/>
+			<links>
+				<link id="train_64"/>
+				<link id="train_60"/>
+			</links>
+		</track>
+		<track id="train_62">
+			<transform 30="108.246635" 31="29.799999" 32="7.20147"/>
+			<links>
+				<link id="train_63"/>
+				<link id="train_59"/>
+			</links>
+		</track>
+		<track id="train_63">
+			<transform 30="108.433136" 31="29.799999" 32="-21.664434"/>
+			<links>
+				<link id="train_66"/>
+				<link id="train_62"/>
+			</links>
+		</track>
+		<track id="train_64">
+			<transform 30="104.056549" 31="29.799999" 32="-21.686846"/>
+			<links>
+				<link id="train_65"/>
+				<link id="train_61"/>
+			</links>
+		</track>
+		<track id="train_65">
+			<transform 30="104.062569" 31="29.799999" 32="-49.89537"/>
+			<links>
+				<link id="train_68"/>
+				<link id="train_64"/>
+			</links>
+		</track>
+		<track id="train_66">
+			<transform 30="108.444435" 31="29.799999" 32="-49.89537"/>
+			<links>
+				<link id="train_67"/>
+				<link id="train_63"/>
+			</links>
+		</track>
+		<track id="train_67">
+			<transform 30="108.267708" 31="29.799999" 32="-77.385063"/>
+			<links>
+				<link id="train_70"/>
+				<link id="train_66"/>
+			</links>
+		</track>
+		<track id="train_68">
+			<transform 30="103.888199" 31="29.799999" 32="-77.416412"/>
+			<links>
+				<link id="train_69"/>
+				<link id="train_65"/>
+			</links>
+		</track>
+		<track id="train_69">
+			<transform 30="103.516861" 31="29.799999" 32="-104.200058"/>
+			<links>
+				<link id="train_72"/>
+				<link id="train_68"/>
+			</links>
+		</track>
+		<track id="train_70">
+			<transform 30="107.895302" 31="29.799999" 32="-104.277664"/>
+			<links>
+				<link id="train_71"/>
+				<link id="train_67"/>
+			</links>
+		</track>
+		<track id="train_71">
+			<transform 30="107.299194" 31="29.799999" 32="-130.279083"/>
+			<links>
+				<link id="train_74"/>
+				<link id="train_70"/>
+			</links>
+		</track>
+		<track id="train_72">
+			<transform 30="102.917717" 31="29.799999" 32="-130.279083"/>
+			<links>
+				<link id="train_73"/>
+				<link id="train_69"/>
+			</links>
+		</track>
+		<track id="train_73">
+			<transform 30="102.137787" 31="29.799999" 32="-155.583282"/>
+			<links>
+				<link id="train_76"/>
+				<link id="train_72"/>
+			</links>
+		</track>
+		<track id="train_74">
+			<transform 30="106.505257" 31="29.799999" 32="-155.715546"/>
+			<links>
+				<link id="train_75"/>
+				<link id="train_71"/>
+			</links>
+		</track>
+		<track id="train_75">
+			<transform 30="105.486671" 31="29.799999" 32="-180.275757"/>
+			<links>
+				<link id="train_78"/>
+				<link id="train_74"/>
+			</links>
+		</track>
+		<track id="train_76">
+			<transform 30="101.110497" 31="29.799999" 32="-180.101059"/>
+			<links>
+				<link id="train_77"/>
+				<link id="train_73"/>
+			</links>
+		</track>
+		<track id="train_77">
+			<transform 30="99.868515" 31="29.799999" 32="-203.838501"/>
+			<links>
+				<link id="train_80"/>
+				<link id="train_76"/>
+			</links>
+		</track>
+		<track id="train_78">
+			<transform 30="104.23745" 31="29.799999" 32="-204.094391"/>
+			<links>
+				<link id="train_79"/>
+				<link id="train_75"/>
+			</links>
+		</track>
+		<track id="train_79">
+			<transform 30="102.421242" 31="29.799999" 32="-231.880493"/>
+			<links>
+				<link id="train_81"/>
+				<link id="train_78"/>
+			</links>
+		</track>
+		<track id="train_80">
+			<transform 30="98.051987" 31="29.799999" 32="-231.598389"/>
+			<links>
+				<link id="train_82"/>
+				<link id="train_77"/>
+			</links>
+		</track>
+		<track id="train_81">
+			<transform 30="97.049438" 31="29.799999" 32="-293.507111"/>
+			<links>
+				<link id="train_83"/>
+				<link id="train_79"/>
+			</links>
+		</track>
+		<track id="train_82">
+			<transform 30="92.696983" 31="29.799999" 32="-293.09787"/>
+			<links>
+				<link id="train_84"/>
+				<link id="train_80"/>
+			</links>
+		</track>
+		<track id="train_83">
+			<transform 30="90.271492" 31="29.799999" 32="-351.00943"/>
+			<links>
+				<link id="train_86"/>
+				<link id="train_81"/>
+			</links>
+		</track>
+		<track id="train_84">
+			<transform 30="85.929413" 31="29.799999" 32="-350.442047"/>
+			<links>
+				<link id="train_85"/>
+				<link id="train_82"/>
+			</links>
+		</track>
+		<track id="train_85">
+			<transform 30="77.856262" 31="29.799999" 32="-403.894989"/>
+			<links>
+				<link id="train_88"/>
+				<link id="train_84"/>
+			</links>
+		</track>
+		<track id="train_86">
+			<transform 30="82.175301" 31="29.799999" 32="-404.603577"/>
+			<links>
+				<link id="train_87"/>
+				<link id="train_83"/>
+			</links>
+		</track>
+	</train_tracks>
+	<volcano_markers/>
+	<mineral_rocks>
+		<rock id="mineral0" ore_type="4">
+			<transform 00="-0.88862" 01="-0.06981" 02="0.4533" 10="-0.091714" 11="0.995433" 12="-0.026489" 20="-0.449381" 21="-0.065113" 22="-0.890964" 30="25.677681" 31="21.663616" 32="428.402679"/>
+		</rock>
+		<rock id="mineral1" ore_type="4">
+			<transform 00="0.170929" 01="-0.025217" 02="-0.984961" 10="-0.126211" 11="0.990876" 12="-0.047271" 20="0.977166" 21="0.132393" 22="0.166187" 30="35.145473" 31="22.75597" 32="428.401337"/>
+		</rock>
+		<rock id="mineral2" ore_type="4">
+			<transform 00="0.168291" 01="0.044632" 02="-0.984726" 10="-0.114849" 11="0.993059" 12="0.025382" 20="0.979024" 21="0.108824" 22="0.172249" 30="28.517315" 31="22.932842" 32="463.158539"/>
+		</rock>
+		<rock id="mineral3" ore_type="4">
+			<transform 00="0.99363" 01="0.112692" 10="-0.112656" 11="0.993318" 12="0.025058" 20="0.002824" 21="-0.024898" 22="0.999686" 30="14.934084" 31="20.701408" 32="490.546631"/>
+		</rock>
+		<rock id="mineral4" ore_type="4">
+			<transform 00="0.644156" 01="-0.063769" 02="-0.762231" 10="0.084797" 11="0.99633" 12="-0.011693" 20="0.76018" 21="-0.057103" 22="0.647199" 30="146.872452" 31="26.626558" 32="465.378571"/>
+		</rock>
+		<rock id="mineral5" ore_type="4">
+			<transform 00="0.972446" 01="-0.083782" 02="-0.217554" 10="0.08406" 11="0.996429" 12="-0.007993" 20="0.217446" 21="-0.010514" 22="0.976016" 30="142.559158" 31="26.990431" 32="465.378571"/>
+		</rock>
+		<rock id="mineral6" ore_type="4">
+			<transform 00="0.923254" 01="-0.062099" 02="0.379139" 10="0.072462" 11="0.997285" 12="-0.013111" 20="-0.377296" 21="0.039578" 22="0.925247" 30="146.176697" 31="26.62851" 32="459.080963"/>
+		</rock>
+		<rock id="mineral7" ore_type="4">
+			<transform 00="0.329179" 01="-0.066997" 02="-0.941888" 10="0.007009" 11="0.997626" 12="-0.068512" 20="0.944242" 21="0.015952" 22="0.328867" 30="275.166809" 31="15.952032" 32="437.441925"/>
+		</rock>
+		<rock id="mineral8" ore_type="4">
+			<transform 00="0.849069" 01="-0.053619" 02="-0.525554" 10="0.016676" 11="0.99706" 12="-0.074782" 20="0.528019" 21="0.054731" 22="0.847467" 30="272.787933" 31="16.373119" 32="442.697876"/>
+		</rock>
+		<rock id="mineral9" ore_type="4">
+			<transform 00="0.654605" 01="-0.067837" 02="-0.752921" 10="0.016172" 11="0.996994" 12="-0.075767" 20="0.755798" 21="0.037421" 22="0.653734" 30="276.069489" 31="15.7095" 32="371.436035"/>
+		</rock>
+		<rock id="mineral10" ore_type="4">
+			<transform 00="-0.395333" 01="-0.067156" 02="-0.91608" 10="0.004112" 11="0.997185" 12="-0.074876" 20="0.918529" 21="-0.033368" 22="-0.393943" 30="271.925629" 31="15.54047" 32="367.876465"/>
+		</rock>
+		<rock id="mineral11" ore_type="4">
+			<transform 00="0.294864" 01="0.031567" 02="-0.955018" 10="-0.038565" 11="0.999033" 12="0.021115" 20="0.954761" 21="0.030604" 22="0.295796" 30="270.367676" 31="15.864511" 32="378.499146"/>
+		</rock>
+		<rock id="mineral12" ore_type="4">
+			<transform 00="0.993553" 01="-0.11337" 10="0.11337" 11="0.993553" 30="331.636841" 31="14.349586" 32="376.768921"/>
+		</rock>
+		<rock id="mineral13" ore_type="4">
+			<transform 00="0.811318" 01="-0.002486" 02="-0.5846" 10="0.015733" 11="0.999722" 12="0.017584" 20="0.584394" 21="-0.023464" 22="0.811131" 30="310.778442" 31="14.138164" 32="351.878845"/>
+		</rock>
+		<rock id="mineral14" ore_type="4">
+			<transform 00="0.999674" 01="-0.025543" 10="0.025535" 11="0.999378" 12="0.024324" 20="-0.000621" 21="-0.024316" 22="0.999704" 30="313.939667" 31="14.175106" 32="348.435486"/>
+		</rock>
+		<rock id="mineral15" ore_type="4">
+			<transform 00="0.554226" 01="-0.03883" 02="-0.83146" 10="-0.016808" 11="0.998185" 12="-0.05782" 20="0.832197" 21="0.046021" 22="0.552568" 30="328.954834" 31="15.088303" 32="429.022858"/>
+		</rock>
+		<rock id="mineral16" ore_type="4">
+			<transform 00="0.493457" 01="0.067299" 02="0.867162" 10="-0.021594" 11="0.997643" 12="-0.065137" 20="-0.869502" 21="0.013417" 22="0.493747" 30="331.59201" 31="14.915663" 32="425.504425"/>
+		</rock>
+		<rock id="mineral17" ore_type="4">
+			<transform 00="0.694242" 02="-0.719742" 20="0.719742" 22="0.694242" 30="458.804596" 31="15.599924" 32="439.058929"/>
+		</rock>
+		<rock id="mineral18" ore_type="4">
+			<transform 00="0.999962" 01="0.00868" 10="-0.008679" 11="0.999865" 12="-0.013961" 20="-0.000121" 21="0.01396" 22="0.999903" 30="370.726715" 31="14.074462" 32="399.367584"/>
+		</rock>
+		<rock id="mineral19" ore_type="4">
+			<transform 00="-0.402066" 01="0.014393" 02="-0.915497" 10="0.005642" 11="0.999896" 12="0.013242" 20="0.915593" 21="0.000159" 22="-0.402106" 30="370.726929" 31="15.796079" 32="481.589813"/>
+		</rock>
+		<rock id="mineral20" ore_type="4">
+			<transform 00="0.548511" 01="-0.066613" 02="0.833486" 10="0.097346" 11="0.99513" 12="0.015469" 20="-0.830457" 21="0.072651" 22="0.552325" 30="235.976318" 31="15.73982" 32="344.179749"/>
+		</rock>
+		<rock id="mineral21" ore_type="4">
+			<transform 00="0.923537" 01="0.153759" 02="-0.351338" 10="-0.106979" 11="0.983033" 12="0.149004" 20="0.368287" 21="-0.100025" 22="0.924316" 30="340.177429" 31="21.511389" 32="259.133026"/>
+		</rock>
+		<rock id="mineral22" ore_type="4">
+			<transform 00="0.89457" 01="0.018159" 02="0.446558" 10="-0.101167" 11="0.981467" 12="0.162753" 20="-0.435327" 21="-0.190771" 22="0.879828" 30="340.511902" 31="20.926397" 32="263.404572"/>
+		</rock>
+		<rock id="mineral23" ore_type="4">
+			<transform 00="0.332045" 01="0.057195" 02="-0.941528" 10="0.018164" 11="0.997587" 12="0.067006" 20="0.943089" 21="-0.039351" 22="0.330205" 30="395.788788" 31="16.752428" 32="263.964691"/>
+		</rock>
+		<rock id="mineral24" ore_type="4">
+			<transform 00="0.945758" 01="-0.038184" 02="-0.322621" 10="0.042746" 11="0.999061" 12="0.007064" 20="0.322049" 21="-0.020472" 22="0.946502" 30="447.757172" 31="15.147186" 32="243.129089"/>
+		</rock>
+		<rock id="mineral25" ore_type="4">
+			<transform 00="0.984571" 01="-0.04195" 02="0.169884" 10="0.041339" 11="0.99912" 12="0.007133" 20="-0.170034" 22="0.985438" 30="445.514038" 31="15.193964" 32="247.204895"/>
+		</rock>
+		<rock id="mineral26" ore_type="4">
+			<transform 00="0.879661" 01="-0.01808" 02="-0.475257" 10="0.09199" 11="0.986875" 12="0.132723" 20="0.46662" 21="-0.16047" 22="0.869779" 30="413.130981" 31="18.230423" 32="237.512772"/>
+		</rock>
+		<rock id="mineral27" ore_type="4">
+			<transform 00="0.929449" 01="-0.122626" 02="-0.347975" 10="0.111109" 11="0.992397" 12="-0.052943" 20="0.351822" 21="0.010545" 22="0.936008" 30="418.382202" 31="18.017382" 32="150.891373"/>
+		</rock>
+		<rock id="mineral28" ore_type="4">
+			<transform 00="-0.43069" 01="0.075256" 02="-0.899357" 10="0.019495" 11="0.997061" 12="0.074096" 20="0.90229" 21="0.014379" 22="-0.430891" 30="448.746643" 31="17.412525" 32="121.821579"/>
+		</rock>
+		<rock id="mineral29" ore_type="4">
+			<transform 00="0.996461" 01="-0.024476" 02="0.080415" 10="0.018085" 11="0.99669" 12="0.079258" 20="-0.082089" 21="-0.077523" 22="0.993605" 30="443.955658" 31="17.489067" 32="121.952278"/>
+		</rock>
+		<rock id="mineral30" ore_type="4">
+			<transform 00="0.340544" 01="-0.048368" 02="-0.938984" 10="-0.039501" 11="0.997058" 12="-0.065685" 20="0.939399" 21="0.05946" 22="0.337631" 30="294.925018" 31="21.941704" 32="198.463181"/>
+		</rock>
+		<rock id="mineral31" ore_type="4">
+			<transform 00="0.406737" 01="0.010556" 02="-0.913484" 10="0.00561" 11="0.999885" 12="0.014052" 20="0.913528" 21="-0.01084" 22="0.406631" 30="282.546783" 31="15.386973" 32="293.493774"/>
+		</rock>
+		<rock id="mineral32" ore_type="4">
+			<transform 00="0.900161" 02="-0.435557" 10="0.004576" 11="0.999945" 12="0.009457" 20="0.435533" 21="-0.010506" 22="0.900111" 30="280.929382" 31="15.334347" 32="298.205444"/>
+		</rock>
+		<rock id="mineral33" ore_type="4">
+			<transform 00="0.633029" 01="-0.066727" 02="-0.771247" 10="0.108662" 11="0.994074" 12="0.003183" 20="0.766464" 21="-0.08582" 22="0.636528" 30="131.963364" 31="26.655172" 32="230.393677"/>
+		</rock>
+		<rock id="mineral34" ore_type="4">
+			<transform 00="0.998015" 01="-0.062978" 10="0.062858" 11="0.996117" 12="0.061647" 20="-0.003882" 21="-0.061525" 22="0.998098" 30="246.042038" 31="19.259567" 32="207.777222"/>
+		</rock>
+		<rock id="mineral35" ore_type="4">
+			<transform 00="0.699495" 01="-0.02104" 02="0.714328" 10="0.031758" 11="0.999494" 12="-0.00166" 20="-0.713931" 21="0.023847" 22="0.69981" 30="234.062286" 31="21.689964" 32="48.604679"/>
+		</rock>
+		<rock id="mineral36" ore_type="4">
+			<transform 00="-0.183358" 01="0.024288" 02="0.982746" 10="0.0215" 11="0.999555" 12="-0.020692" 20="-0.982811" 21="0.017335" 22="-0.183798" 30="226.238586" 31="22.146954" 32="80.088806"/>
+		</rock>
+		<rock id="mineral37" ore_type="4">
+			<transform 00="0.750463" 01="-0.037019" 02="-0.659875" 10="0.034568" 11="0.999262" 12="-0.016744" 20="0.660008" 21="-0.010245" 22="0.751188" 30="226.23996" 31="22.186495" 32="84.63166"/>
+		</rock>
+		<rock id="mineral38" ore_type="4">
+			<transform 00="0.98707" 01="0.126066" 02="-0.098999" 10="-0.125437" 11="0.992022" 12="0.012581" 20="0.099795" 22="0.995008" 30="75.029221" 31="26.222507" 32="125.950706"/>
+		</rock>
+		<rock id="mineral39" ore_type="4">
+			<transform 00="0.81511" 01="-0.127267" 02="-0.565154" 10="0.060545" 11="0.988943" 12="-0.135376" 20="0.576134" 21="0.076129" 22="0.813802" 30="-56.394451" 31="19.5769" 32="241.390762"/>
+		</rock>
+		<rock id="mineral40" ore_type="4">
+			<transform 00="0.960239" 01="-0.021777" 02="0.278327" 10="0.061978" 11="0.988703" 12="-0.13647" 20="-0.272211" 21="0.148294" 22="0.950742" 30="-55.341106" 31="18.864891" 32="236.824127"/>
+		</rock>
+		<rock id="mineral41" ore_type="4">
+			<transform 00="-0.016474" 01="0.044862" 02="0.998857" 11="0.998993" 12="-0.044868" 20="-0.999864" 21="-0.000739" 22="-0.016458" 30="-113.70636" 31="13.854192" 32="177.326492"/>
+		</rock>
+		<rock id="mineral42" ore_type="4">
+			<transform 00="0.361802" 01="0.055405" 02="-0.930607" 10="0.046727" 11="0.9959" 12="0.077458" 20="0.931083" 21="-0.071509" 22="0.35773" 30="-81.676773" 31="22.668587" 32="412.293823"/>
+		</rock>
+		<rock id="mineral43" ore_type="4">
+			<transform 00="0.890092" 02="-0.455781" 10="0.044472" 11="0.995228" 12="0.08685" 20="0.453607" 21="-0.097574" 22="0.885844" 30="-79.151581" 31="22.231081" 32="416.075897"/>
+		</rock>
+		<rock id="mineral44" ore_type="4">
+			<transform 00="0.570488" 01="0.008061" 02="-0.821266" 10="0.087614" 11="0.993649" 12="0.070613" 20="0.816619" 21="-0.112239" 22="0.566158" 30="-72.763786" 31="22.493488" 32="407.894287"/>
+		</rock>
+		<rock id="mineral45" ore_type="4">
+			<transform 00="0.708935" 01="0.016208" 02="-0.705087" 10="0.011086" 11="0.999356" 12="0.034119" 20="0.705187" 21="-0.032005" 22="0.708299" 30="-10.066375" 31="20.833603" 32="304.196136"/>
+		</rock>
+		<rock id="mineral46" ore_type="4">
+			<transform 00="0.965092" 01="0.126111" 02="-0.229548" 10="-0.108256" 11="0.990146" 12="0.088832" 20="0.238489" 21="-0.060881" 22="0.969235" 30="-224.137085" 31="13.091805" 32="435.087769"/>
+		</rock>
+		<rock id="mineral47" ore_type="4">
+			<transform 00="0.994763" 01="0.102206" 10="-0.102206" 11="0.994763" 30="18.506269" 31="19.301731" 32="235.295868"/>
+		</rock>
+		<rock id="mineral48" ore_type="4">
+			<transform 00="0.820841" 01="0.081187" 02="-0.565357" 10="-0.103883" 11="0.994557" 12="-0.008007" 20="0.56163" 21="0.065303" 22="0.824807" 30="44.973175" 31="22.001955" 32="-12.072934"/>
+		</rock>
+	</mineral_rocks>
+</definition>
+

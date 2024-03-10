@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2" sea_floor_height="-180">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/volcanic/volcanic_1_8.mesh">
+			<transform/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/volcanic/volcanic_1_8.phys">
+			<transform/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="tile_marker0" marker_type="9" loot_type="1">
+			<transform 30="-365.823303" 31="-128.194824" 32="-65.217354"/>
+		</markers>
+		<markers id="tile_marker1" marker_type="9" loot_type="1">
+			<transform 30="-173.358078" 31="-120.12072" 32="-251.174088"/>
+		</markers>
+		<markers id="tile_marker2" marker_type="9" loot_type="1">
+			<transform 30="-184.216888" 31="-128.194824" 32="-65.217354"/>
+		</markers>
+		<markers id="tile_marker3" marker_type="9">
+			<transform 30="112.091423" 31="-146.418228" 32="-329.655029"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

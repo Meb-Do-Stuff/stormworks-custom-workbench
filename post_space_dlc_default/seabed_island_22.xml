@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" sea_floor_height="-90">
+	<meshes>
+		<mesh id="seabed_island_22" file_name="meshes/seabed_island_22.mesh">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 31="-84.959747"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="seabed_island_22_phys" file_name="meshes/island_22_phys.phys">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 31="-84.959747"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="tile_marker0" marker_type="13" string_data="Tarn Rocks" icon="1">
+			<transform 30="1.595443" 31="-64.228912" 32="8.356178"/>
+		</markers>
+		<markers id="tile_marker1" marker_type="9" icon="1" loot_type="1">
+			<transform 30="-12.110917" 31="-82.997131" 32="22.236336"/>
+		</markers>
+		<markers id="tile_marker2" marker_type="9" icon="1" loot_type="1">
+			<transform 30="-45.645493" 31="-82.997131" 32="-29.696739"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

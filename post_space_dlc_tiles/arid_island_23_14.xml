@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/arid_mainland/arid_island_23_14.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="mesh1" file_name="meshes/arid_mainland_assets/shipwreck_d.mesh">
+			<transform 00="0.92024" 01="0.221495" 02="-0.322642" 10="-0.172987" 11="0.969731" 12="0.172329" 20="0.351046" 21="-0.102771" 22="0.930701" 30="-136.173141" 31="14.321386" 32="-61.990395"/>
+		</mesh>
+		<mesh id="mesh2" file_name="meshes/arid_mainland_assets/shipwreck_c.mesh">
+			<transform 00="-0.651935" 01="0.076493" 02="-0.754407" 10="-0.085832" 11="0.98106" 12="0.173648" 20="0.753401" 21="0.177959" 22="-0.633022" 30="-161.792862" 31="14.706135" 32="-104.871796"/>
+		</mesh>
+		<mesh id="mesh3" file_name="meshes/arid_mainland_assets/shipwreck_b.mesh">
+			<transform 00="0.492404" 01="-0.086824" 02="0.866025" 10="0.173647" 11="0.984808" 20="-0.852868" 21="0.150383" 22="0.5" 30="354.711212" 31="13.617872" 32="127.167953"/>
+		</mesh>
+		<mesh id="mesh4" file_name="meshes/arid_mainland_assets/shipwreck_d.mesh">
+			<transform 00="0.866025" 01="0.5" 10="-0.5" 11="0.866025" 30="467.752014" 31="14.674484" 32="80.433151"/>
+		</mesh>
+		<mesh id="mesh5" file_name="meshes/arid_mainland_assets/arid_oil_platform.mesh">
+			<transform 30="-291.762238" 31="16.09" 32="-361.867706"/>
+		</mesh>
+		<mesh id="mesh6" file_name="meshes/workbench_static.mesh">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="-290.820679" 31="16.028687" 32="-352.116913"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/arid_mainland/arid_island_23_14.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh1" file_name="meshes/arid_mainland_assets/shipwreck_d_phys.phys">
+			<transform 00="0.907673" 01="0.24321" 02="-0.34202" 10="-0.197519" 11="0.966623" 12="0.163175" 20="0.37029" 21="-0.080554" 22="0.925417" 30="-136.173141" 31="14.321386" 32="-61.990395"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh2" file_name="meshes/arid_mainland_assets/shipwreck_c_phys.phys">
+			<transform 00="-0.651935" 01="0.076493" 02="-0.754407" 10="-0.085832" 11="0.98106" 12="0.173648" 20="0.753401" 21="0.177959" 22="-0.633022" 30="-161.792862" 31="14.706135" 32="-104.871796"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh3" file_name="meshes/arid_mainland_assets/shipwreck_b_phys.phys">
+			<transform 00="0.492404" 01="-0.086824" 02="0.866025" 10="0.173648" 11="0.984808" 20="-0.852868" 21="0.150383" 22="0.5" 30="354.711212" 31="13.617872" 32="127.167953"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh4" file_name="meshes/arid_mainland_assets/shipwreck_d_phys.phys">
+			<transform 00="0.866025" 01="0.5" 10="-0.5" 11="0.866025" 30="467.752014" 31="14.674484" 32="80.433151"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh5" file_name="meshes/arid_mainland_assets/arid_oil_platform_phys.phys">
+			<transform 30="-291.762238" 31="16.09" 32="-361.867706"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh6" file_name="meshes/workbench_static_phys.phys">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="-290.820679" 31="16.025021" 32="-352.116913"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas>
+		<edit_area id="edit0" is_static="true">
+			<transform 30="-291.762238" 31="34.549999" 32="-361.867706"/>
+			<size x="16.5" y="32" z="18.5"/>
+		</edit_area>
+	</edit_areas>
+	<interactables>
+		<interactable id="interact0" target_object_id="edit0" label="Workbench" interact_type="2">
+			<transform 30="-291.670044" 31="17.052814" 32="-351.490601"/>
+			<size x="2" y="2" z="1.5"/>
+		</interactable>
+	</interactables>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers/>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

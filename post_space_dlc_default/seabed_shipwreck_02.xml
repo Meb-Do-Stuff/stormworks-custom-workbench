@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" sea_floor_height="-85">
+	<meshes>
+		<mesh id="shipwreck_02_mesh" file_name="meshes/seabed_shipwreck_02.mesh">
+			<transform 31="-83.115601"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="shipwreck_02_phys" file_name="meshes/seabed_shipwreck_02_phys.phys">
+			<transform 31="-83.115601"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="tile_marker0" marker_type="9" loot_type="1">
+			<transform 00="-0.575235" 02="-0.817988" 20="0.817988" 22="-0.575235" 30="7.034729" 31="-82.228546" 32="-1.439423"/>
+		</markers>
+		<markers id="tile_marker1" marker_type="9" loot_type="1">
+			<transform 00="-0.245754" 02="0.969332" 20="-0.969332" 22="-0.245754" 30="30.77774" 31="-82.195648" 32="-5.501343"/>
+		</markers>
+		<markers id="tile_marker2" marker_type="9" loot_type="1">
+			<transform 00="-0.016126" 02="0.99987" 20="-0.99987" 22="-0.016126" 30="37.343353" 31="-81.583435" 32="-28.426941"/>
+		</markers>
+		<markers id="tile_marker3" marker_type="9" loot_type="1">
+			<transform 00="-0.918183" 02="0.396155" 20="-0.396155" 22="-0.918183" 30="13.140594" 31="-79.162048" 32="25.537689"/>
+		</markers>
+		<markers id="tile_marker4" marker_type="13" string_data="HMS Midlothian" icon="2">
+			<transform 30="16.950348" 31="-74.844269" 32="-5.501343"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

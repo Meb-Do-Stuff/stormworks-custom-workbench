@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/arid_mainland/arid_island_7_8.mesh">
+			<transform/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/arid_mainland/arid_island_7_8.phys">
+			<transform/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers/>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches>
+		<perch id="perch0">
+			<transform 00="-0.910327" 02="0.41389" 20="-0.41389" 22="-0.910327" 30="53.640488" 31="81.887421" 32="110.142914"/>
+		</perch>
+		<perch id="perch1">
+			<transform 00="-0.499655" 01="-0.047746" 02="0.864908" 11="0.99848" 12="0.05512" 20="-0.866224" 21="0.027541" 22="-0.498896" 30="0.812355" 31="108.241013" 32="116.669769"/>
+		</perch>
+		<perch id="perch2">
+			<transform 00="-0.131873" 02="0.991267" 20="-0.991267" 22="-0.131873" 30="13.762596" 31="81.607277" 32="73.417953"/>
+		</perch>
+	</perches>
+	<fires/>
+	<train_tracks>
+		<track id="train_6">
+			<transform 30="-500" 31="77.660004" 32="378.390015"/>
+			<links>
+				<link id="train_9"/>
+			</links>
+		</track>
+		<track id="train_7">
+			<transform 30="-500" 31="77.660004" 32="373.516907"/>
+			<links>
+				<link id="train_8"/>
+			</links>
+		</track>
+		<track id="train_8">
+			<transform 30="-473.556213" 31="77.660004" 32="387.091919"/>
+			<links>
+				<link id="train_7"/>
+				<link id="train_11"/>
+			</links>
+		</track>
+		<track id="train_9">
+			<transform 30="-475.708893" 31="77.660004" 32="390.85022"/>
+			<links>
+				<link id="train_6"/>
+				<link id="train_10"/>
+			</links>
+		</track>
+		<track id="train_10">
+			<transform 30="-446.610413" 31="77.660004" 32="407.425079"/>
+			<links>
+				<link id="train_12"/>
+				<link id="train_9"/>
+			</links>
+		</track>
+		<track id="train_11">
+			<transform 30="-444.366211" 31="77.660004" 32="403.672394"/>
+			<links>
+				<link id="train_8"/>
+				<link id="train_13"/>
+			</links>
+		</track>
+		<track id="train_12">
+			<transform 30="-419.48288" 31="77.632942" 32="425.032745"/>
+			<links>
+				<link id="train_15"/>
+				<link id="train_10"/>
+			</links>
+		</track>
+		<track id="train_13">
+			<transform 30="-416.987823" 31="77.629013" 32="421.422638"/>
+			<links>
+				<link id="train_14"/>
+				<link id="train_11"/>
+			</links>
+		</track>
+		<track id="train_14">
+			<transform 30="-391.663116" 31="77.488106" 32="440.592041"/>
+			<links>
+				<link id="train_16"/>
+				<link id="train_13"/>
+			</links>
+		</track>
+		<track id="train_15">
+			<transform 30="-394.37262" 31="77.48513" 32="444.041229"/>
+			<links>
+				<link id="train_17"/>
+				<link id="train_12"/>
+			</links>
+		</track>
+		<track id="train_16">
+			<transform 30="-368.720673" 31="77.279793" 32="461.351349"/>
+			<links>
+				<link id="train_18"/>
+				<link id="train_14"/>
+			</links>
+		</track>
+		<track id="train_17">
+			<transform 30="-371.723206" 31="77.279793" 32="464.510254"/>
+			<links>
+				<link id="train_20"/>
+				<link id="train_15"/>
+			</links>
+		</track>
+		<track id="train_18">
+			<transform 30="-346.035522" 31="76.979919" 32="485.861389"/>
+			<links>
+				<link id="train_21"/>
+				<link id="train_16"/>
+			</links>
+		</track>
+		<track id="train_20">
+			<transform 30="-349.342926" 31="76.979919" 32="488.702454"/>
+			<links>
+				<link id="train_22"/>
+				<link id="train_17"/>
+			</links>
+		</track>
+		<track id="train_21">
+			<transform 30="-334.461151" 31="76.749664" 32="500"/>
+			<links>
+				<link id="train_18"/>
+			</links>
+		</track>
+		<track id="train_22">
+			<transform 30="-340.150635" 31="76.749664" 32="500"/>
+			<links>
+				<link id="train_20"/>
+			</links>
+		</track>
+	</train_tracks>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

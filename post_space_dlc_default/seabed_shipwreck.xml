@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" sea_floor_height="-90">
+	<meshes>
+		<mesh id="shipwreck_mesh" file_name="meshes/seabed_shipwreck.mesh">
+			<transform 31="-82.667358"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="shipwreck_phys" file_name="meshes/seabed_shipwreck_phys.phys">
+			<transform 31="-82.667358"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="tile_marker0" marker_type="13" string_data="MRN Jersey" icon="2">
+			<transform 30="-3.994263" 31="-70.000252" 32="20.47975"/>
+		</markers>
+		<markers id="tile_marker1" marker_type="9" icon="1" loot_type="1">
+			<transform 31="-78.441437" 32="48.224884"/>
+		</markers>
+		<markers id="tile_marker2" marker_type="9" icon="1" loot_type="1">
+			<transform 30="-5.011932" 31="-78.441437" 32="4.560577"/>
+		</markers>
+		<markers id="tile_marker3" marker_type="9" icon="1" loot_type="1">
+			<transform 30="-9.81015" 31="-81.761353" 32="6.307251"/>
+		</markers>
+		<markers id="tile_marker4" marker_type="9" icon="1" loot_type="1">
+			<transform 30="-3.137268" 31="-81.761353" 32="51.617188"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

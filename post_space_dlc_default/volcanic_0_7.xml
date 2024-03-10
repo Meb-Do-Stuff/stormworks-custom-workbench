@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2" sea_floor_height="-180">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/volcanic/volcanic_0_7.mesh">
+			<transform/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/volcanic/volcanic_0_7.phys">
+			<transform/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="cod cape" marker_type="13" string_data="Cod Cape" icon="5">
+			<transform 30="265.213013" 31="79.27784" 32="221.060867"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches>
+		<perch id="perch0">
+			<transform 00="0.45551" 02="0.890231" 20="-0.890231" 22="0.45551" 30="291.330261" 31="31.838745" 32="190.575638"/>
+		</perch>
+		<perch id="perch1">
+			<transform 30="245.20723" 31="46.036991" 32="228.070221"/>
+		</perch>
+		<perch id="perch2">
+			<transform 00="0.352129" 02="-0.935951" 20="0.935951" 22="0.352129" 30="241.999725" 31="46.103867" 32="226.928284"/>
+		</perch>
+		<perch id="perch3">
+			<transform 30="262.678558" 31="78.268044" 32="222.554367"/>
+		</perch>
+	</perches>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

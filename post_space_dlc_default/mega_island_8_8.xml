@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/mainland/mega_island_8_8.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="cottages_01_mesh" file_name="meshes/mainland_assets/mainland_village_cottages.mesh">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="57.465054" 31="12.737012" 32="-424.941193"/>
+		</mesh>
+		<mesh id="cottages_02_mesh" file_name="meshes/mainland_assets/mainland_village_cottages_02.mesh">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="50.492867" 31="12.745892" 32="-423.291382"/>
+		</mesh>
+		<mesh id="door_01" file_name="meshes/door_cottage_boathouse.mesh">
+			<transform 30="-1.075165" 31="12.987052" 32="-416.542725"/>
+		</mesh>
+		<mesh id="door_02" file_name="meshes/door_cottage_boathouse.mesh">
+			<transform 30="36.236206" 31="12.987052" 32="-416.070831"/>
+		</mesh>
+		<mesh id="door_03" file_name="meshes/door_cottage_boathouse.mesh">
+			<transform 30="74.018845" 31="12.99629" 32="-413.627869"/>
+		</mesh>
+		<mesh id="door_04" file_name="meshes/door_cottage_boathouse.mesh">
+			<transform 00="-1" 22="-1" 30="83.599457" 31="12.99629" 32="-435.5755"/>
+		</mesh>
+		<mesh id="door_05" file_name="meshes/door_cottage_boathouse.mesh">
+			<transform 00="-1" 22="-1" 30="51.011398" 31="12.99629" 32="-436.361084"/>
+		</mesh>
+		<mesh id="door_06" file_name="meshes/door_cottage_boathouse.mesh">
+			<transform 00="-1" 22="-1" 30="23.13246" 31="12.987171" 32="-437.561981"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/mainland/mega_island_8_8.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="cottages_01_phys" file_name="meshes/mainland_assets/mainland_village_cottages_phys.phys">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="57.465054" 31="12.737012" 32="-424.941193"/>
+		</physics_mesh>
+		<physics_mesh id="cottages_02_phys" file_name="meshes/mainland_assets/mainland_village_cottages_02_phys.phys">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="50.492867" 31="12.745892" 32="-423.291382"/>
+		</physics_mesh>
+		<physics_mesh id="door_01_phys" parent_id="door_01" file_name="meshes/door_cottage_boathouse_phys.phys">
+			<transform 30="-1.075165" 31="12.987052" 32="-416.542725"/>
+		</physics_mesh>
+		<physics_mesh id="door_02_phys" parent_id="door_02" file_name="meshes/door_cottage_boathouse_phys.phys">
+			<transform 30="36.236206" 31="12.987052" 32="-416.070831"/>
+		</physics_mesh>
+		<physics_mesh id="door_03_phys" parent_id="door_03" file_name="meshes/door_cottage_boathouse_phys.phys">
+			<transform 30="74.018845" 31="12.99629" 32="-413.627869"/>
+		</physics_mesh>
+		<physics_mesh id="door_04_phys" parent_id="door_04" file_name="meshes/door_cottage_boathouse_phys.phys">
+			<transform 00="-1" 22="-1" 30="83.599457" 31="12.99629" 32="-435.5755"/>
+		</physics_mesh>
+		<physics_mesh id="door_05_phys" parent_id="door_05" file_name="meshes/door_cottage_boathouse_phys.phys">
+			<transform 00="-1" 22="-1" 30="51.011398" 31="12.99629" 32="-436.361084"/>
+		</physics_mesh>
+		<physics_mesh id="door_06_phys" parent_id="door_06" file_name="meshes/door_cottage_boathouse_phys.phys">
+			<transform 00="-1" 22="-1" 30="23.13246" 31="12.987171" 32="-437.561981"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni>
+		<light id="light_01" radius="6.5" is_render_halo="true">
+			<transform 30="-0.630067" 31="16.310577" 32="-414.235077"/>
+			<color x="3" y="3" z="1.8"/>
+		</light>
+		<light id="light_02" radius="6.5" is_render_halo="true">
+			<transform 30="36.680744" 31="16.311172" 32="-413.759735"/>
+			<color x="3" y="3" z="1.8"/>
+		</light>
+		<light id="light_03" radius="6.5" is_render_halo="true">
+			<transform 30="74.460724" 31="16.325418" 32="-411.321045"/>
+			<color x="3" y="3" z="1.8"/>
+		</light>
+		<light id="light_04" radius="6.5" is_render_halo="true">
+			<transform 30="83.155373" 31="16.325418" 32="-437.880127"/>
+			<color x="3" y="3" z="1.8"/>
+		</light>
+		<light id="light_05" radius="6.5" is_render_halo="true">
+			<transform 30="50.565399" 31="16.325418" 32="-438.668701"/>
+			<color x="3" y="3" z="1.8"/>
+		</light>
+		<light id="light_06" radius="6.5" is_render_halo="true">
+			<transform 30="22.686012" 31="16.317789" 32="-439.860992"/>
+			<color x="3" y="3" z="1.8"/>
+		</light>
+		<light id="omni6" radius="1" is_render_halo="true">
+			<transform 30="-1.477525" 31="14.66394" 32="-417.054413"/>
+			<color x="0.8" y="0.8" z="0.5"/>
+		</light>
+		<light id="omni7" radius="1" is_render_halo="true">
+			<transform 30="35.833015" 31="14.66394" 32="-416.579651"/>
+			<color x="0.8" y="0.8" z="0.5"/>
+		</light>
+		<light id="omni8" radius="1" is_render_halo="true">
+			<transform 30="73.617767" 31="14.66394" 32="-414.13855"/>
+			<color x="0.8" y="0.8" z="0.5"/>
+		</light>
+		<light id="omni9" radius="1" is_render_halo="true">
+			<transform 30="84.002693" 31="14.66394" 32="-435.060608"/>
+			<color x="0.8" y="0.8" z="0.5"/>
+		</light>
+		<light id="omni10" radius="1" is_render_halo="true">
+			<transform 30="51.413132" 31="14.66394" 32="-435.847412"/>
+			<color x="0.8" y="0.8" z="0.5"/>
+		</light>
+		<light id="omni11" radius="1" is_render_halo="true">
+			<transform 30="23.536457" 31="14.66394" 32="-437.042206"/>
+			<color x="0.8" y="0.8" z="0.5"/>
+		</light>
+	</lights_omni>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas>
+		<edit_area id="edit0" grid_size="5" is_static="true" default_vehicle="bed" is_invisible_vehicle="true">
+			<transform 00="-0.999967" 02="0.008127" 20="-0.008127" 22="-0.999967" 30="2.246006" 31="13.462369" 32="-413.32843"/>
+			<size x="0.75" y="0.25" z="1.75"/>
+		</edit_area>
+		<edit_area id="edit1" grid_size="5" is_static="true" default_vehicle="bed" is_invisible_vehicle="true">
+			<transform 00="0.999967" 02="-0.008127" 20="0.008127" 22="0.999967" 30="33.693508" 31="13.331358" 32="-414.823944"/>
+			<size x="0.75" y="0.25" z="1.75"/>
+		</edit_area>
+		<edit_area id="edit2" grid_size="5" is_static="true" default_vehicle="bed" is_invisible_vehicle="true">
+			<transform 00="-0.999967" 02="0.008127" 20="-0.008127" 22="-0.999967" 30="77.333252" 31="13.497595" 32="-410.463074"/>
+			<size x="0.75" y="0.25" z="1.75"/>
+		</edit_area>
+		<edit_area id="edit3" grid_size="5" is_static="true" default_vehicle="bed" is_invisible_vehicle="true">
+			<transform 00="-0.008127" 02="-0.999967" 20="0.999967" 22="-0.008127" 30="80.682968" 31="13.336305" 32="-439.374786"/>
+			<size x="0.75" y="0.25" z="1.75"/>
+		</edit_area>
+		<edit_area id="edit4" grid_size="5" is_static="true" default_vehicle="bed" is_invisible_vehicle="true">
+			<transform 00="0.999967" 02="-0.008127" 20="0.008127" 22="0.999967" 30="47.696148" 31="13.483887" 32="-439.517456"/>
+			<size x="0.75" y="0.25" z="1.75"/>
+		</edit_area>
+		<edit_area id="edit5" grid_size="5" is_static="true" default_vehicle="bed" is_invisible_vehicle="true">
+			<transform 00="0.012009" 02="-0.999928" 20="0.999928" 22="0.012009" 30="20.214653" 31="13.331001" 32="-441.333496"/>
+			<size x="0.75" y="0.25" z="1.75"/>
+		</edit_area>
+	</edit_areas>
+	<interactables>
+		<interactable id="lights_01_interact" target_object_id="light_switch0" label="Light">
+			<transform 30="0.105153" 31="14.195179" 32="-416.176697"/>
+			<size x="0.301159" y="0.306613" z="0.134594"/>
+		</interactable>
+		<interactable id="door_01_interact" parent_id="door_01" target_object_id="door_01_logic" label="Door">
+			<transform 30="-0.646876" 31="14.058952" 32="-416.498077"/>
+			<size x="0.736452" y="1.498974" z="0.5"/>
+		</interactable>
+		<interactable id="door_02_interact" parent_id="door_02" target_object_id="door_02_logic" label="Door">
+			<transform 30="36.66745" 31="14.049417" 32="-416.023285"/>
+			<size x="0.790453" y="1.671708" z="0.5"/>
+		</interactable>
+		<interactable id="interact3" target_object_id="light_switch1" label="Light">
+			<transform 30="37.41674" 31="14.192408" 32="-415.718811"/>
+			<size x="0.244385" y="0.255621" z="0.115163"/>
+		</interactable>
+		<interactable id="door_03_interact" parent_id="door_03" target_object_id="door_03_logic" label="Door">
+			<transform 30="74.45929" 31="14.070663" 32="-413.594666"/>
+			<size x="0.760592" y="1.492894" z="0.5"/>
+		</interactable>
+		<interactable id="light_03_interact" target_object_id="light_switch2" label="Light">
+			<transform 30="75.197556" 31="14.204178" 32="-413.260315"/>
+			<size x="0.295765" y="0.298059" z="0.146783"/>
+		</interactable>
+		<interactable id="door_04_interact" parent_id="door_04" target_object_id="door_04_logic" label="Door">
+			<transform 30="83.145149" 31="13.998095" 32="-435.607971"/>
+			<size x="0.785566" y="1.670933" z="0.5"/>
+		</interactable>
+		<interactable id="light_04_interact" target_object_id="light_switch3" label="Light">
+			<transform 30="82.416611" 31="14.19643" 32="-435.936188"/>
+			<size x="0.256008" y="0.252969" z="0.134683"/>
+		</interactable>
+		<interactable id="door_05_interact" parent_id="door_05" target_object_id="door_05_logic" label="Door">
+			<transform 30="50.565796" 31="14.057163" 32="-436.399994"/>
+			<size x="0.75624" y="1.653886" z="0.5"/>
+		</interactable>
+		<interactable id="light_05_interact" target_object_id="light_switch4" label="Light">
+			<transform 30="49.824314" 31="14.208141" 32="-436.72641"/>
+			<size x="0.274307" y="0.274694" z="0.136561"/>
+		</interactable>
+		<interactable id="door_06_interact" parent_id="door_06" target_object_id="door_06_logic" label="Door">
+			<transform 30="22.68918" 31="14.057104" 32="-437.59494"/>
+			<size x="0.773407" y="1.604057" z="0.5"/>
+		</interactable>
+		<interactable id="light_06_interact" target_object_id="light_switch5" label="Light">
+			<transform 30="21.950798" 31="14.193569" 32="-437.910919"/>
+			<size x="0.266499" y="0.273741" z="0.127799"/>
+		</interactable>
+	</interactables>
+	<door_logic_nodes>
+		<logic id="door_01_logic" target_a="door_01_closed" target_b="door_01_open" target_movable="door_01" anim_duration="50">
+			<transform 00="-0.999976" 02="0.006975" 20="-0.006975" 22="-0.999976" 30="0.166906" 31="14.187342" 32="-416.773132"/>
+		</logic>
+		<logic id="door_02_logic" target_a="door_02_closed" target_b="door_02_open" target_movable="door_02" anim_duration="50">
+			<transform 00="-0.999907" 02="0.013632" 20="-0.013632" 22="-0.999907" 30="37.501701" 31="14.355396" 32="-416.299957"/>
+		</logic>
+		<logic id="door_03_logic" target_a="door_03_closed" target_b="door_03_open" target_movable="door_03" anim_duration="50">
+			<transform 00="-0.998414" 02="0.056302" 20="-0.056302" 22="-0.998414" 30="75.281418" 31="14.359388" 32="-413.858063"/>
+		</logic>
+		<logic id="door_04_logic" target_a="door_04_closed" target_b="door_04_open" target_movable="door_04" anim_duration="50">
+			<transform 30="82.349335" 31="14.218065" 32="-435.364258"/>
+		</logic>
+		<logic id="door_05_logic" target_a="door_05_closed" target_b="door_05_open" target_movable="door_05" anim_duration="50">
+			<transform 30="49.774796" 31="14.218065" 32="-436.108612"/>
+		</logic>
+		<logic id="door_06_logic" target_a="door_06_closed" target_b="door_06_open" target_movable="door_06" anim_duration="50">
+			<transform 30="21.815689" 31="14.218065" 32="-437.334167"/>
+		</logic>
+	</door_logic_nodes>
+	<light_logic_nodes>
+		<logic id="light_switch0" target="light_01" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="0.168632" 31="14.693295" 32="-416.227997"/>
+		</logic>
+		<logic id="light_switch1" target="light_02" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="37.41674" 31="14.704322" 32="-415.750763"/>
+		</logic>
+		<logic id="light_switch2" target="light_03" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="75.197556" 31="14.685932" 32="-413.309021"/>
+		</logic>
+		<logic id="light_switch3" target="light_04" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 00="-0.999525" 02="0.030809" 20="-0.030809" 22="-0.999525" 30="82.416611" 31="14.663195" 32="-435.884399"/>
+		</logic>
+		<logic id="light_switch4" target="light_05" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 00="-0.999996" 02="0.00297" 20="-0.00297" 22="-0.999996" 30="49.824314" 31="14.670376" 32="-436.667938"/>
+		</logic>
+		<logic id="light_switch5" target="light_06" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 00="-0.999984" 02="0.005643" 20="-0.005643" 22="-0.999984" 30="21.938042" 31="14.6699" 32="-437.870148"/>
+		</logic>
+	</light_logic_nodes>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="door_01_closed" marker_type="8" icon="1">
+			<transform 30="-1.077669" 31="12.987052" 32="-416.542725"/>
+		</markers>
+		<markers id="door_01_open" marker_type="8" icon="1">
+			<transform 00="0.119048" 02="0.992889" 20="-0.992889" 22="0.119048" 30="-1.077669" 31="12.987052" 32="-416.542725"/>
+		</markers>
+		<markers id="door_02_closed" marker_type="8" icon="1">
+			<transform 30="36.236206" 31="12.987052" 32="-416.070831"/>
+		</markers>
+		<markers id="door_02_open" marker_type="8" icon="1">
+			<transform 00="0.103193" 02="0.994661" 20="-0.994661" 22="0.103193" 30="36.236206" 31="12.987052" 32="-416.070831"/>
+		</markers>
+		<markers id="door_03_closed" marker_type="8" icon="1">
+			<transform 30="74.018845" 31="12.99629" 32="-413.627869"/>
+		</markers>
+		<markers id="door_03_open" marker_type="8" icon="1">
+			<transform 00="0.123828" 02="0.992304" 20="-0.992304" 22="0.123828" 30="74.018845" 31="12.99629" 32="-413.627869"/>
+		</markers>
+		<markers id="door_04_closed" marker_type="8" icon="1">
+			<transform 00="-1" 22="-1" 30="83.599457" 31="12.99629" 32="-435.5755"/>
+		</markers>
+		<markers id="door_04_open" marker_type="8" icon="1">
+			<transform 00="-0.10243" 02="-0.99474" 20="0.99474" 22="-0.10243" 30="83.599457" 31="12.99629" 32="-435.5755"/>
+		</markers>
+		<markers id="door_05_closed" marker_type="8" icon="1">
+			<transform 00="-1" 22="-1" 30="51.011398" 31="12.99629" 32="-436.361084"/>
+		</markers>
+		<markers id="door_05_open" marker_type="8" icon="1">
+			<transform 00="-0.175835" 02="-0.98442" 20="0.98442" 22="-0.175835" 30="51.011398" 31="12.99629" 32="-436.361084"/>
+		</markers>
+		<markers id="door_06_closed" marker_type="8" icon="1">
+			<transform 00="-1" 22="-1" 30="23.13246" 31="12.987171" 32="-437.561981"/>
+		</markers>
+		<markers id="door_06_open" marker_type="8" icon="1">
+			<transform 00="-0.087541" 02="-0.996161" 20="0.996161" 22="-0.087541" 30="23.13246" 31="12.987171" 32="-437.561981"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks>
+		<track id="train_73">
+			<transform 30="183.539993" 31="6.95" 32="-500"/>
+			<links>
+				<link id="train_96"/>
+			</links>
+		</track>
+		<track id="train_74">
+			<transform 30="194.917267" 31="6.95" 32="-478.519318"/>
+			<links>
+				<link id="train_75"/>
+				<link id="train_96"/>
+			</links>
+		</track>
+		<track id="train_75">
+			<transform 30="207.375061" 31="6.95" 32="-458.65332"/>
+			<links>
+				<link id="train_76"/>
+				<link id="train_74"/>
+			</links>
+		</track>
+		<track id="train_76">
+			<transform 30="221.452255" 31="6.95" 32="-439.191437"/>
+			<links>
+				<link id="train_77"/>
+				<link id="train_75"/>
+			</links>
+		</track>
+		<track id="train_77">
+			<transform 30="236.066864" 31="6.95" 32="-421.479523"/>
+			<links>
+				<link id="train_78"/>
+				<link id="train_76"/>
+			</links>
+		</track>
+		<track id="train_78">
+			<transform 30="249.585907" 31="6.994942" 32="-406.061615"/>
+			<links>
+				<link id="train_79"/>
+				<link id="train_77"/>
+			</links>
+		</track>
+		<track id="train_79">
+			<transform 30="263.326324" 31="7.081666" 32="-391.152069"/>
+			<links>
+				<link id="train_80"/>
+				<link id="train_78"/>
+			</links>
+		</track>
+		<track id="train_80">
+			<transform 30="277.248474" 31="7.195452" 32="-376.660675"/>
+			<links>
+				<link id="train_81"/>
+				<link id="train_79"/>
+			</links>
+		</track>
+		<track id="train_81">
+			<transform 30="291.36145" 31="7.343212" 32="-362.606628"/>
+			<links>
+				<link id="train_82"/>
+				<link id="train_80"/>
+			</links>
+		</track>
+		<track id="train_82">
+			<transform 30="305.607056" 31="7.507303" 32="-348.948395"/>
+			<links>
+				<link id="train_83"/>
+				<link id="train_81"/>
+			</links>
+		</track>
+		<track id="train_83">
+			<transform 30="320.031403" 31="7.701644" 32="-335.600281"/>
+			<links>
+				<link id="train_84"/>
+				<link id="train_82"/>
+			</links>
+		</track>
+		<track id="train_84">
+			<transform 30="334.612885" 31="7.900664" 32="-322.571533"/>
+			<links>
+				<link id="train_85"/>
+				<link id="train_83"/>
+			</links>
+		</track>
+		<track id="train_85">
+			<transform 30="349.344269" 31="8.100817" 32="-309.834259"/>
+			<links>
+				<link id="train_86"/>
+				<link id="train_84"/>
+			</links>
+		</track>
+		<track id="train_86">
+			<transform 30="364.223846" 31="8.310119" 32="-297.330322"/>
+			<links>
+				<link id="train_87"/>
+				<link id="train_85"/>
+			</links>
+		</track>
+		<track id="train_87">
+			<transform 30="379.258179" 31="8.495548" 32="-284.982147"/>
+			<links>
+				<link id="train_88"/>
+				<link id="train_86"/>
+			</links>
+		</track>
+		<track id="train_88">
+			<transform 30="394.328278" 31="8.704641" 32="-272.880249"/>
+			<links>
+				<link id="train_89"/>
+				<link id="train_87"/>
+			</links>
+		</track>
+		<track id="train_89">
+			<transform 30="409.611389" 31="8.864978" 32="-260.850555"/>
+			<links>
+				<link id="train_90"/>
+				<link id="train_88"/>
+			</links>
+		</track>
+		<track id="train_90">
+			<transform 30="424.909454" 31="9.015062" 32="-248.979156"/>
+			<links>
+				<link id="train_91"/>
+				<link id="train_89"/>
+			</links>
+		</track>
+		<track id="train_91">
+			<transform 30="440.322754" 31="9.121755" 32="-237.120392"/>
+			<links>
+				<link id="train_92"/>
+				<link id="train_90"/>
+			</links>
+		</track>
+		<track id="train_92">
+			<transform 30="455.851044" 31="9.208838" 32="-225.327805"/>
+			<links>
+				<link id="train_93"/>
+				<link id="train_91"/>
+			</links>
+		</track>
+		<track id="train_93">
+			<transform 30="471.401855" 31="9.243647" 32="-213.49205"/>
+			<links>
+				<link id="train_94"/>
+				<link id="train_92"/>
+			</links>
+		</track>
+		<track id="train_94">
+			<transform 30="487.041077" 31="9.243647" 32="-201.628403"/>
+			<links>
+				<link id="train_95"/>
+				<link id="train_93"/>
+			</links>
+		</track>
+		<track id="train_95">
+			<transform 30="500" 31="9.186485" 32="-191.769913"/>
+			<links>
+				<link id="train_94"/>
+			</links>
+		</track>
+		<track id="train_96">
+			<transform 30="184.177521" 31="6.95" 32="-498.642853"/>
+			<links>
+				<link id="train_73"/>
+				<link id="train_74"/>
+			</links>
+		</track>
+	</train_tracks>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

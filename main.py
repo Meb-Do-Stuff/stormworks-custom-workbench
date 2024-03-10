@@ -6,12 +6,14 @@ It was made for change every tiles very fast.
 
 import os
 
-for file in os.listdir("tiles"):
+tiles_dir_name = input("Tiles directory name?: ")
+
+for file in os.listdir(tiles_dir_name):
     if file[-4:] == ".bin":
-        os.remove(fr"tiles/{file}")
+        os.remove(fr"{tiles_dir_name}/{file}")
     elif file[-4:] == ".xml":
         new_file = ""
-        xml_file = open(fr"tiles/{file}", 'r').read()
+        xml_file = open(fr"{tiles_dir_name}/{file}", 'r').read()
         try:
             for area in xml_file.split("<edit_areas>")[1].split("</edit_areas>")[0].split("</edit_area>"):
 
@@ -28,12 +30,12 @@ for file in os.listdir("tiles"):
                         xml_file = xml_file.replace(before_area, new_area)
                 except IndexError:
                     pass
-            xml_file = open(fr"tiles/{file}", 'w').write(xml_file)
+            xml_file = open(fr"{tiles_dir_name}/{file}", 'w').write(xml_file)
         except IndexError:
-            os.remove(fr"tiles/{file}")
+            os.remove(fr"{tiles_dir_name}/{file}")
 
         """ 
-            with open(fr"tiles/{file}", 'w') as f:
+            with open(fr"{tiles_dir_name}/{file}", 'w') as f:
                 print(new_file)
                 f.write(new_file)
             """

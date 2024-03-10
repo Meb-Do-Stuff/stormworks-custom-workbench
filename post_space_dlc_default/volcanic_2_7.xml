@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" is_volcanic="true" tile_type="2" sea_floor_height="-180">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/volcanic/volcanic_2_7.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="lava_mesh_flow" file_name="meshes/volcanic_assets/2_7_lava_flow.mesh" is_volcanic_additive="true">
+			<transform/>
+		</mesh>
+		<mesh id="lava_mesh_pool" file_name="meshes/volcanic_assets/2_7_lava_level.mesh">
+			<transform/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/volcanic/volcanic_2_7.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="lava_phys" file_name="meshes/volcanic_assets/2_7_lava_phys.phys" physics_material_type="1" is_volcanic="true">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="lava_phys_solid" file_name="meshes/volcanic_assets/2_7_lava_phys.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="lava_level_phys" file_name="meshes/volcanic_assets/2_7_lava_level_phys.phys" physics_material_type="1">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="lava_level_phys_solid" file_name="meshes/volcanic_assets/2_7_lava_level_phys.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="rock_phys" file_name="meshes/volcanic_assets/2_7_rock_phys.phys">
+			<transform/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="mount murtak" marker_type="13" string_data="Mount Murtak" icon="5">
+			<transform 30="-10.856837" 31="72.053963" 32="-133.041199"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches>
+		<perch id="perch0">
+			<transform 30="-357.632965" 31="15.360981" 32="-419.115509"/>
+		</perch>
+		<perch id="perch1">
+			<transform 00="0.934461" 02="0.356067" 20="-0.356067" 22="0.934461" 30="-486.515167" 31="18.006622" 32="-301.731354"/>
+		</perch>
+		<perch id="perch2">
+			<transform 00="-0.214869" 02="0.976643" 20="-0.976643" 22="-0.214869" 30="-494.96814" 31="21.712154" 32="-301.283112"/>
+		</perch>
+		<perch id="perch3">
+			<transform 30="-426.444183" 31="64.562019" 32="-360.165283"/>
+		</perch>
+	</perches>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers>
+		<volcano id="volcano0" radius="20" height="10" heightmap_filename="graphics/effects/height_maps_underwater/2_7_height_map.txtr" eruption_radius="2000">
+			<transform 30="-10.856837" 31="31.732824" 32="-133.041199"/>
+			<heightmap_size x="3000" y="300" z="3000"/>
+			<particle_offset/>
+		</volcano>
+	</volcano_markers>
+	<mineral_rocks/>
+</definition>
+

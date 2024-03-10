@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/arid_mainland/arid_island_24_10.mesh">
+			<transform/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/arid_mainland/arid_island_24_10.phys">
+			<transform/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers/>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks>
+		<rock id="mineral0" ore_type="2">
+			<transform 00="0.998758" 01="0.049823" 02="0.000732" 10="-0.04981" 11="0.997862" 12="0.042313" 20="0.001377" 21="-0.042297" 22="0.999104" 30="2.385898" 31="25.155079" 32="-129.53833"/>
+		</rock>
+		<rock id="mineral1" ore_type="2">
+			<transform 00="0.999431" 01="0.033635" 02="0.002418" 10="-0.033722" 11="0.996859" 12="0.071651" 21="-0.071692" 22="0.997427" 30="9.235981" 31="25.474714" 32="-130.747574"/>
+		</rock>
+		<rock id="mineral2" ore_type="2">
+			<transform 00="0.017612" 01="-0.371665" 02="0.9282" 10="0.447298" 11="0.833193" 12="0.325136" 20="-0.894212" 21="0.409456" 22="0.180919" 30="-396.998077" 31="68.052513" 32="-366.669861"/>
+		</rock>
+		<rock id="mineral3" ore_type="2">
+			<transform 00="0.155231" 01="-0.983721" 02="-0.090534" 10="0.837307" 11="0.17965" 12="-0.516375" 20="0.524233" 21="0.004353" 22="0.851564" 30="-219.010376" 31="40.317406" 32="-348.08783"/>
+		</rock>
+		<rock id="mineral4" ore_type="2">
+			<transform 00="0.999639" 01="0.02643" 02="-0.004733" 10="-0.026851" 11="0.983986" 12="-0.176211" 21="0.176275" 22="0.984341" 30="117.376801" 31="24.39315" 32="216.13121"/>
+		</rock>
+		<rock id="mineral5" ore_type="2">
+			<transform 00="0.648496" 01="-0.412063" 02="-0.640045" 10="0.329624" 11="0.909908" 12="-0.251825" 20="0.686149" 21="-0.047666" 22="0.725897" 30="210.668182" 31="24.811625" 32="242.623627"/>
+		</rock>
+		<rock id="mineral6" ore_type="2">
+			<transform 00="0.455681" 01="-0.273037" 02="0.847234" 10="0.144198" 11="0.961866" 12="0.232424" 20="-0.878386" 21="0.016258" 22="0.477676" 30="212.134216" 31="32.757347" 32="302.627472"/>
+		</rock>
+	</mineral_rocks>
+</definition>
+

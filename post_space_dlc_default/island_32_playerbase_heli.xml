@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" is_purchasable="true" purchase_cost="100000">
+	<meshes>
+		<mesh id="island_32_mesh" file_name="meshes/island_32_playerbase_heli.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="workbench_mesh" file_name="meshes/workbench_static.mesh">
+			<transform 00="-0.98544" 02="-0.170023" 20="0.170023" 22="-0.98544" 30="2.529086" 31="16.144199" 32="9.439049"/>
+		</mesh>
+		<mesh id="sign_mesh" parent_id="sign_interact" file_name="meshes/for_sale_sign.mesh">
+			<transform 00="0.4525" 02="0.891764" 20="-0.891764" 22="0.4525" 30="-3.065397" 31="16.094425" 32="8.147842"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="island_32_phys" file_name="meshes/island_32_phys.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="workbench_phys" file_name="meshes/workbench_phys.phys">
+			<transform 00="-0.984618" 02="-0.174723" 20="0.174723" 22="-0.984618" 30="2.276598" 31="17.097538" 32="8.531273"/>
+		</physics_mesh>
+		<physics_mesh id="sign_phys" parent_id="sign_interact" file_name="meshes/for_sale_sign_phys.phys">
+			<transform 00="0.452464" 02="0.891783" 20="-0.891783" 22="0.452464" 30="-3.065397" 31="16.094425" 32="8.147842"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas>
+		<edit_area id="edit0" grid_size="6" is_static="true">
+			<transform 00="-0.999497" 02="-0.031725" 20="0.031725" 22="-0.999497" 30="-16.694365" 31="25.926701" 32="-5.282426"/>
+			<size x="36.5" y="20.5" z="36.5"/>
+		</edit_area>
+	</edit_areas>
+	<interactables>
+		<interactable id="workbench_interact" target_object_id="edit0" label="Workbench" interact_type="2">
+			<transform 00="-0.982262" 02="-0.187514" 20="0.187514" 22="-0.982262" 30="2.169096" 31="17.056004" 32="8.44532"/>
+			<size x="0.664955" y="1.806671" z="1.926809"/>
+		</interactable>
+		<interactable id="sign_interact" label="Buy Island" interact_type="3">
+			<transform 00="0.908665" 02="0.417525" 20="-0.417525" 22="0.908665" 30="-3.219816" 31="17.079227" 32="8.764664"/>
+			<size x="2.619446" y="1.972321" z="2.013702"/>
+		</interactable>
+	</interactables>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="tile_marker0" marker_type="5">
+			<transform 00="-0.827549" 02="0.561393" 20="-0.561393" 22="-0.827549" 30="-0.379392" 31="17.079227" 32="9.115524"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

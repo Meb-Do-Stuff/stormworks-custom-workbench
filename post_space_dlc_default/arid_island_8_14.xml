@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/arid_mainland/arid_island_8_14.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="mesh1" file_name="meshes/arid_mainland_assets/nuclear_plant_buildings.mesh">
+			<transform 30="-129.546585" 31="3.369868" 32="296.498718"/>
+		</mesh>
+		<mesh id="mesh2" file_name="meshes/arid_mainland_assets/nuclear_plant_reactor.mesh">
+			<transform 30="-5.464652" 31="7.729352" 32="338.738129"/>
+		</mesh>
+		<mesh id="mesh5" file_name="meshes/arid_mainland_assets/nuclear_plant_turbine.mesh">
+			<transform 30="-8.375053" 31="1.575828" 32="309.645416"/>
+		</mesh>
+		<mesh id="mesh3" file_name="meshes/arid_mainland_assets/nuclear_plant_reactor_room.mesh">
+			<transform 30="-9.126102" 31="44.775131" 32="355.022522"/>
+		</mesh>
+		<mesh id="mesh5" file_name="meshes/arid_mainland_assets/nuclear_plant_reactor_room_b.mesh">
+			<transform 30="-9.126102" 31="44.80809" 32="355.022522"/>
+		</mesh>
+		<mesh id="mesh6" file_name="meshes/arid_mainland_assets/nuclear_plant_stairs.mesh">
+			<transform 30="-129.546585" 31="3.369868" 32="296.498718"/>
+		</mesh>
+		<mesh id="mesh7" file_name="meshes/arid_mainland_assets/nuclear_plant_stairs_b.mesh">
+			<transform 30="-129.546585" 31="3.369868" 32="296.498718"/>
+		</mesh>
+		<mesh id="mesh8" file_name="meshes/arid_mainland_assets/nuclear_plant_entryways.mesh">
+			<transform 30="-129.546585" 31="3.369868" 32="296.498718"/>
+		</mesh>
+		<mesh id="mesh9" file_name="meshes/arid_mainland_assets/nuclear_plant_coolingtower.mesh">
+			<transform 30="-121.72657" 31="3.369868" 32="-39.041382"/>
+		</mesh>
+		<mesh id="mesh14" file_name="meshes/arid_mainland_assets/nuclear_plant_coolingtower.mesh">
+			<transform 30="-383.568329" 31="3.369868" 32="-39.041382"/>
+		</mesh>
+		<mesh id="mesh11" file_name="meshes/arid_mainland_assets/nuclear_outsidearea.mesh">
+			<transform 30="-386.374969" 31="0.957879" 32="300.219635"/>
+		</mesh>
+		<mesh id="mesh12" file_name="meshes/arid_mainland_assets/nuclear_substation.mesh">
+			<transform 30="-295.619293" 31="8.33379" 32="297.457855"/>
+		</mesh>
+		<mesh id="mesh13" file_name="meshes/arid_mainland_assets/nuclear_substation_b.mesh">
+			<transform 30="-295.619293" 31="8.33379" 32="297.457855"/>
+		</mesh>
+		<mesh id="mesh14" file_name="meshes/arid_mainland_assets/nuclear_substation_c.mesh">
+			<transform 30="-295.619293" 31="8.33379" 32="297.457855"/>
+		</mesh>
+		<mesh id="mesh15" file_name="meshes/arid_mainland_assets/nuclear_plant_reactor_walkway.mesh">
+			<transform 30="-5.557814" 31="7.729352" 32="338.718018"/>
+		</mesh>
+		<mesh id="mesh16" file_name="meshes/arid_mainland_assets/railway_crossing.mesh">
+			<transform 30="-165.363235" 31="8.231449" 32="205.885651"/>
+		</mesh>
+		<mesh id="mesh17" file_name="meshes/arid_mainland_assets/railway_crossing.mesh">
+			<transform 00="-1" 22="-1" 30="-151.018005" 31="8.231449" 32="205.885651"/>
+		</mesh>
+		<mesh id="mesh18" file_name="meshes/arid_mainland_assets/railway_mid_signalbox.mesh">
+			<transform 30="-149.290848" 31="8.231449" 32="205.513367"/>
+		</mesh>
+		<mesh id="mesh19" file_name="meshes/arid_mainland_assets/railway_stop.mesh">
+			<transform 30="-125.113762" 31="8.14" 32="216.160538"/>
+		</mesh>
+		<mesh id="mesh21" file_name="meshes/arid_mainland_assets/centrifuge.mesh">
+			<transform 30="330.101807" 31="8.061535" 32="247.867142"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/arid_mainland/arid_island_8_14.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh1" file_name="meshes/arid_mainland_assets/nuclear_plant_coolingtower_phys.phys">
+			<transform 30="-383.568329" 31="3.369868" 32="-39.041382"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh2" file_name="meshes/arid_mainland_assets/nuclear_plant_coolingtower_phys.phys">
+			<transform 30="-121.72657" 31="3.369868" 32="-39.041382"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh3" file_name="meshes/arid_mainland_assets/nuclear_substation_phys.phys">
+			<transform 30="-295.619293" 31="8.33379" 32="297.457855"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh4" file_name="meshes/arid_mainland_assets/nuclear_outsidearea_phys.phys">
+			<transform 30="-386.374969" 31="0.957879" 32="300.219635"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh5" file_name="meshes/arid_mainland_assets/nuclear_plant_buildings_phys.phys">
+			<transform 30="-129.546585" 31="3.369868" 32="296.498718"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh7" file_name="meshes/arid_mainland_assets/nuclear_plant_turbine_phys.phys">
+			<transform 30="-8.375053" 31="1.575828" 32="309.645416"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh7" file_name="meshes/arid_mainland_assets/nuclear_plant_reactor_room_phys.phys">
+			<transform 30="-9.126102" 31="44.775131" 32="355.022522"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh8" file_name="meshes/arid_mainland_assets/railway_crossing_phys.phys">
+			<transform 30="-165.363235" 31="8.231449" 32="205.885651"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh9" file_name="meshes/arid_mainland_assets/railway_crossing_phys.phys">
+			<transform 00="-1" 22="-1" 30="-151.018005" 31="8.231449" 32="205.885651"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh10" file_name="meshes/arid_mainland_assets/railway_mid_signalbox_phys.phys">
+			<transform 30="-149.290848" 31="8.231449" 32="205.513367"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh11" file_name="meshes/arid_mainland_assets/railway_stop_phys.phys">
+			<transform 30="-125.113762" 31="8.14" 32="216.160538"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh13" file_name="meshes/arid_mainland_assets/centrifuge_phys.phys">
+			<transform 30="330.101807" 31="8.061535" 32="247.867142"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="tile_marker0" marker_type="13" string_data="Uran Wind Power Plant and Uranium Processing" icon="7">
+			<transform 30="-10.702049" 31="91.507973" 32="251.594437"/>
+		</markers>
+		<markers id="tile_marker1" marker_type="9">
+			<transform 30="-67.189774" 31="23.128365" 32="367.830933"/>
+		</markers>
+		<markers id="tile_marker2" marker_type="9">
+			<transform 00="0.855183" 02="0.518326" 20="-0.518326" 22="0.855183" 30="-10.67819" 31="24.909174" 32="367.368744"/>
+		</markers>
+		<markers id="tile_marker3" marker_type="9">
+			<transform 30="10.231327" 31="27.382708" 32="367.979156"/>
+		</markers>
+		<markers id="tile_marker4" marker_type="9">
+			<transform 00="0.957334" 02="0.288984" 20="-0.288984" 22="0.957334" 30="43.93549" 31="45.618126" 32="377.673737"/>
+		</markers>
+		<markers id="tile_marker5" marker_type="9">
+			<transform 00="-0.660486" 02="0.750838" 20="-0.750838" 22="-0.660486" 30="43.93549" 31="57.753422" 32="380.059509"/>
+		</markers>
+		<markers id="tile_marker6" marker_type="9">
+			<transform 00="-0.703118" 02="-0.711074" 20="0.711074" 22="-0.703118" 30="43.93549" 31="9.168724" 32="330.31488"/>
+		</markers>
+		<markers id="tile_marker7" marker_type="8" icon="1">
+			<transform 00="-0.998756" 02="0.049861" 20="-0.049861" 22="-0.998756" 30="-20.919493" 31="9.168724" 32="322.908447"/>
+		</markers>
+		<markers id="tile_marker8" marker_type="9">
+			<transform 30="-69.148888" 31="11.767307" 32="322.908447"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers>
+		<dynamic_marker id="dynamic_marker_item0" item_type="27">
+			<transform 30="-244.189667" 31="9.038004" 32="436.135529"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item1" item_type="27">
+			<transform 00="0.939693" 02="-0.34202" 20="0.34202" 22="0.939693" 30="-243.416946" 31="9.038004" 32="434.116699"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item2" item_type="27">
+			<transform 30="-241.806168" 31="9.038004" 32="435.868103"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item3" item_type="27">
+			<transform 30="-239.709518" 31="9.038004" 32="435.868103"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item4" item_type="56">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="-33.890785" 31="8.937094" 32="362.934265"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item5" item_type="56">
+			<transform 30="-34.219505" 31="8.937094" 32="363.815582"/>
+		</dynamic_marker>
+	</dynamic_markers>
+	<ladders>
+		<ladder id="ladder_0" height="2.5">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="14.685413" 31="42.707535" 32="368.068604"/>
+		</ladder>
+	</ladders>
+	<perches>
+		<perch id="perch0">
+			<transform 30="-360.560944" 31="13.518999" 32="44.32048"/>
+		</perch>
+		<perch id="perch1">
+			<transform 30="-86.205841" 31="197.227402" 32="44.32048"/>
+		</perch>
+		<perch id="perch2">
+			<transform 00="0.819406" 02="0.573214" 20="-0.573214" 22="0.819406" 30="-299.424835" 31="20.475279" 32="-38.207066"/>
+		</perch>
+	</perches>
+	<fires/>
+	<train_tracks>
+		<track id="train_43">
+			<transform 30="500" 31="9.72" 32="201.800003"/>
+			<links>
+				<link id="train_46"/>
+			</links>
+		</track>
+		<track id="train_44">
+			<transform 30="500" 31="9.72" 32="197.330002"/>
+			<links>
+				<link id="train_45"/>
+			</links>
+		</track>
+		<track id="train_45">
+			<transform 30="489.638184" 31="9.469542" 32="199.298325"/>
+			<links>
+				<link id="train_47"/>
+				<link id="train_44"/>
+			</links>
+		</track>
+		<track id="train_46">
+			<transform 30="490.417999" 31="9.469542" 32="203.619659"/>
+			<links>
+				<link id="train_48"/>
+				<link id="train_43"/>
+			</links>
+		</track>
+		<track id="train_47">
+			<transform 30="455.18576" 31="8.475695" 32="203.846344"/>
+			<links>
+				<link id="train_49"/>
+				<link id="train_45"/>
+			</links>
+		</track>
+		<track id="train_48">
+			<transform 30="455.664734" 31="8.475695" 32="208.201111"/>
+			<links>
+				<link id="train_50"/>
+				<link id="train_46"/>
+			</links>
+		</track>
+		<track id="train_49">
+			<transform 30="422.187134" 31="8.213673" 32="207.566742"/>
+			<links>
+				<link id="train_52"/>
+				<link id="train_47"/>
+			</links>
+		</track>
+		<track id="train_50">
+			<transform 30="422.53775" 31="8.213673" 32="211.931229"/>
+			<links>
+				<link id="train_51"/>
+				<link id="train_48"/>
+			</links>
+		</track>
+		<track id="train_51">
+			<transform 30="392.325592" 31="8.205984" 32="213.423737"/>
+			<links>
+				<link id="train_54"/>
+				<link id="train_50"/>
+			</links>
+		</track>
+		<track id="train_52">
+			<transform 30="392.031799" 31="8.205984" 32="209.046707"/>
+			<links>
+				<link id="train_53"/>
+				<link id="train_49"/>
+			</links>
+		</track>
+		<track id="train_53">
+			<transform 30="370.454315" 31="8.205984" 32="209.358078"/>
+			<links>
+				<link id="train_56"/>
+				<link id="train_52"/>
+			</links>
+		</track>
+		<track id="train_54">
+			<transform 30="370.454315" 31="8.205984" 32="213.682938"/>
+			<links>
+				<link id="train_55"/>
+				<link id="train_51"/>
+			</links>
+		</track>
+		<track id="train_55">
+			<transform 30="360.608459" 31="8.205984" 32="213.682938"/>
+			<links>
+				<link id="train_54"/>
+				<link id="train_57"/>
+			</links>
+		</track>
+		<track id="train_56">
+			<transform 30="360.61731" 31="8.205984" 32="209.358078"/>
+			<links>
+				<link id="train_53"/>
+				<link id="train_58"/>
+			</links>
+		</track>
+		<track id="train_57">
+			<transform 30="-423.735352" 31="8.205984" 32="213.682938"/>
+			<links>
+				<link id="train_55"/>
+				<link id="train_60"/>
+			</links>
+		</track>
+		<track id="train_58">
+			<transform 30="-423.737366" 31="8.205984" 32="209.334244"/>
+			<links>
+				<link id="train_56"/>
+				<link id="train_64"/>
+				<link id="train_59"/>
+			</links>
+		</track>
+		<track id="train_59">
+			<transform 30="-432.420105" 31="8.205984" 32="209.390152"/>
+			<links>
+				<link id="train_58"/>
+				<link id="train_61"/>
+			</links>
+		</track>
+		<track id="train_60">
+			<transform 30="-500" 31="8.205984" 32="213.150909"/>
+			<links>
+				<link id="train_57"/>
+			</links>
+		</track>
+		<track id="train_61">
+			<transform 30="-469.7099" 31="8.205984" 32="211.291061"/>
+			<links>
+				<link id="train_62"/>
+				<link id="train_59"/>
+			</links>
+		</track>
+		<track id="train_62">
+			<transform 30="-498.059753" 31="8.205984" 32="212.955353"/>
+			<links>
+				<link id="train_61"/>
+				<link id="train_65"/>
+			</links>
+		</track>
+		<track id="train_64">
+			<transform 30="-500" 31="8.205984" 32="208.773911"/>
+			<links>
+				<link id="train_58"/>
+			</links>
+		</track>
+		<track id="train_65">
+			<transform 30="-501.98999" 31="8.205984" 32="213.160004"/>
+			<links>
+				<link id="train_62"/>
+			</links>
+		</track>
+	</train_tracks>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

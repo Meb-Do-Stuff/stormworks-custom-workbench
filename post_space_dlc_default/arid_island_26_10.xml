@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/arid_mainland/arid_island_26_10.mesh">
+			<transform/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/arid_mainland/arid_island_26_10.phys">
+			<transform/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers/>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks>
+		<track id="train_3">
+			<transform 30="-387.640015" 31="19.17" 32="500"/>
+			<links>
+				<link id="train_7"/>
+			</links>
+		</track>
+		<track id="train_4">
+			<transform 30="-357.959991" 31="19.17" 32="500"/>
+			<links>
+				<link id="train_6"/>
+			</links>
+		</track>
+		<track id="train_6">
+			<transform 30="-387.127228" 31="19.17" 32="495.596588"/>
+			<links>
+				<link id="train_8"/>
+				<link id="train_4"/>
+			</links>
+		</track>
+		<track id="train_7">
+			<transform 30="-422.330078" 31="19.17" 32="495.262848"/>
+			<links>
+				<link id="train_9"/>
+				<link id="train_3"/>
+			</links>
+		</track>
+		<track id="train_8">
+			<transform 30="-421.805176" 31="19.17" 32="490.91568"/>
+			<links>
+				<link id="train_10"/>
+				<link id="train_6"/>
+			</links>
+		</track>
+		<track id="train_9">
+			<transform 30="-456.81897" 31="19.17" 32="491.12854"/>
+			<links>
+				<link id="train_11"/>
+				<link id="train_7"/>
+			</links>
+		</track>
+		<track id="train_10">
+			<transform 30="-456.342834" 31="19.17" 32="486.767181"/>
+			<links>
+				<link id="train_12"/>
+				<link id="train_8"/>
+			</links>
+		</track>
+		<track id="train_11">
+			<transform 30="-491.213074" 31="19.17" 32="487.534821"/>
+			<links>
+				<link id="train_14"/>
+				<link id="train_9"/>
+			</links>
+		</track>
+		<track id="train_12">
+			<transform 30="-490.800995" 31="19.17" 32="483.196594"/>
+			<links>
+				<link id="train_13"/>
+				<link id="train_10"/>
+			</links>
+		</track>
+		<track id="train_13">
+			<transform 30="-500" 31="19.17" 32="482.348541"/>
+			<links>
+				<link id="train_12"/>
+			</links>
+		</track>
+		<track id="train_14">
+			<transform 30="-500" 31="19.17" 32="486.746338"/>
+			<links>
+				<link id="train_11"/>
+			</links>
+		</track>
+	</train_tracks>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

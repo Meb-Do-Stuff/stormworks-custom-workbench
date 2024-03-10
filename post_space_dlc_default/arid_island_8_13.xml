@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/arid_mainland/arid_island_8_13.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="mesh1" file_name="meshes/arid_mainland_assets/nuclear_storage_yard.mesh">
+			<transform 30="-400.689056" 31="71.485161" 32="-340.878845"/>
+		</mesh>
+		<mesh id="mesh2" file_name="meshes/arid_mainland_assets/nuclear_storage_yard_b.mesh">
+			<transform 30="-400.689056" 31="71.485161" 32="-340.878845"/>
+		</mesh>
+		<mesh id="mesh3" file_name="meshes/arid_mainland_assets/nuclear_storage_yard_buildings.mesh">
+			<transform 30="-400.689056" 31="71.485161" 32="-340.878845"/>
+		</mesh>
+		<mesh id="mesh4" file_name="meshes/arid_mainland_assets/nuclear_storage_yard_buildings_b.mesh">
+			<transform 30="-400.689056" 31="71.485161" 32="-340.878845"/>
+		</mesh>
+		<mesh id="mesh5" file_name="meshes/arid_mainland_assets/nuclear_storage_yard_buildings_c.mesh">
+			<transform 30="-400.689056" 31="71.485161" 32="-340.878845"/>
+		</mesh>
+		<mesh id="mesh6" file_name="meshes/arid_mainland_assets/nuclear_storage_yard_fence.mesh">
+			<transform 30="-425.51712" 31="71.753418" 32="-366.170654"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/arid_mainland/arid_island_8_13.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh1" file_name="meshes/arid_mainland_assets/nuclear_storage_yard_phys.phys">
+			<transform 30="-400.689056" 31="71.485161" 32="-340.878845"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh2" file_name="meshes/arid_mainland_assets/nuclear_storage_yard_fence_phys.phys">
+			<transform 30="-425.51712" 31="71.753418" 32="-366.170654"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni>
+		<light id="omni0" radius="0.3" is_render_halo="true">
+			<transform 30="-187.910263" 31="80.494492" 32="-321.332245"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni1" radius="0.3" is_render_halo="true">
+			<transform 30="-133.448395" 31="80.539139" 32="-321.435669"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni_h" radius="25" is_render_halo="true">
+			<transform 30="-160.863846" 31="82.270378" 32="-321.289246"/>
+			<color x="25" y="25" z="24"/>
+		</light>
+		<light id="omni3" radius="0.3" is_render_halo="true">
+			<transform 30="-1.048181" 31="79.455009" 32="-216.772842"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="omni_f" radius="20" is_render_halo="true">
+			<transform 30="22.752491" 31="78.179115" 32="-217.078674"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni_g" radius="20" is_render_halo="true">
+			<transform 30="22.752491" 31="78.179115" 32="-188.870728"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni6" radius="0.3" is_render_halo="true">
+			<transform 30="-195.099396" 31="79.455009" 32="113.856964"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni_c" radius="20" is_render_halo="true">
+			<transform 30="-194.826462" 31="78.189781" 32="137.613556"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni_b" radius="20" is_render_halo="true">
+			<transform 30="-222.992874" 31="78.196335" 32="137.613556"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni9" radius="0.3" is_render_halo="true">
+			<transform 30="-334.914551" 31="80.482742" 32="238.578339"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="omni_a" radius="25" is_render_halo="true">
+			<transform 30="-362.37262" 31="82.300446" 32="238.740158"/>
+			<color x="25" y="25" z="24"/>
+		</light>
+		<light id="omni11" radius="0.3" is_render_halo="true">
+			<transform 30="-389.406311" 31="80.482742" 32="238.694153"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni12" radius="0.3" is_render_halo="true">
+			<transform 30="-69.319603" 31="80.515732" 32="103.301628"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni_d" radius="25" is_render_halo="true">
+			<transform 30="-69.314651" 31="82.168388" 32="130.518448"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni14" radius="0.3" is_render_halo="true">
+			<transform 30="-69.183945" 31="80.515732" 32="157.773071"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni15" radius="0.3" is_render_halo="true">
+			<transform 30="26.20196" 31="80.515732" 32="157.800491"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni16" radius="0.3" is_render_halo="true">
+			<transform 30="26.10379" 31="80.515732" 32="103.284676"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni_e" radius="25" is_render_halo="true">
+			<transform 30="26.028629" 31="82.237381" 32="130.359802"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni18" radius="15" is_render_halo="true">
+			<transform 30="336.135803" 31="77.379066" 32="120.247993"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni19" radius="15" is_render_halo="true">
+			<transform 30="336.135803" 31="77.379066" 32="94.41037"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni20" radius="15" is_render_halo="true">
+			<transform 30="336.135803" 31="77.379066" 32="161.948273"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni21" radius="15" is_render_halo="true">
+			<transform 30="336.135803" 31="77.379066" 32="187.751541"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni22" radius="15" is_render_halo="true">
+			<transform 30="336.135803" 31="77.379066" 32="233.337646"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni23" radius="15" is_render_halo="true">
+			<transform 30="336.135803" 31="77.379066" 32="259.155334"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni24" radius="15" is_render_halo="true">
+			<transform 30="336.135803" 31="77.379066" 32="300.899902"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni25" radius="15" is_render_halo="true">
+			<transform 30="336.135803" 31="77.379066" 32="326.716461"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni26" radius="15" is_render_halo="true">
+			<transform 30="-293.585419" 31="77.349289" 32="-118.419861"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni27" radius="15" is_render_halo="true">
+			<transform 30="-319.499725" 31="77.349289" 32="-118.419861"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni28" radius="15" is_render_halo="true">
+			<transform 30="-361.116516" 31="77.349289" 32="-118.419861"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+		<light id="omni29" radius="15" is_render_halo="true">
+			<transform 30="-386.924561" 31="77.349289" 32="-118.419861"/>
+			<color x="25" y="25" z="23"/>
+		</light>
+	</lights_omni>
+	<lights_spot>
+		<light id="spot0" range="25" fov="0.436332" texture="graphics/ies/ies_default.txtr">
+			<transform 00="-0" 02="-1" 10="0.766044" 11="0.642788" 20="0.642788" 21="-0.766044" 22="-0" 30="-133.448395" 31="80.539139" 32="-321.435669"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="spot1" seasonal_flags="3" range="25" fov="0.436332" texture="graphics/ies/ies_default.txtr">
+			<transform 00="0" 02="1" 10="-0.707107" 11="0.707107" 20="-0.707107" 21="-0.707107" 22="0" 30="-187.910263" 31="80.494492" 32="-321.332245"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="spot2" range="25" fov="0.436332" texture="graphics/ies/ies_default.txtr">
+			<transform 00="0" 02="1" 10="-0.707107" 11="0.707107" 20="-0.707107" 21="-0.707107" 22="0" 30="-1.048181" 31="79.455009" 32="-216.772842"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="spot3" range="25" fov="0.436332" texture="graphics/ies/ies_default.txtr">
+			<transform 00="-1" 11="0.766044" 12="-0.642788" 21="-0.642788" 22="-0.766044" 30="-195.099396" 31="79.455009" 32="113.856964"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="spot4" seasonal_flags="1" range="25" fov="0.436332" texture="graphics/ies/ies_default.txtr">
+			<transform 00="-0" 02="-1" 10="0.642788" 11="0.766044" 20="0.766044" 21="-0.642788" 22="-0" 30="-334.914551" 31="80.482742" 32="238.578339"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="spot5" range="25" fov="0.436332" texture="graphics/ies/ies_default.txtr">
+			<transform 00="0" 02="1" 10="-0.642788" 11="0.766044" 20="-0.766044" 21="-0.642788" 22="0" 30="-389.406311" 31="80.482742" 32="238.694153"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="spot6" range="25" fov="0.436332" texture="graphics/ies/ies_default.txtr">
+			<transform 00="-1" 11="0.766044" 12="-0.642788" 21="-0.642788" 22="-0.766044" 30="-69.319603" 31="80.515732" 32="103.301628"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="spot7" range="25" fov="0.436332" texture="graphics/ies/ies_default.txtr">
+			<transform 00="-1" 11="0.766044" 12="-0.642788" 21="-0.642788" 22="-0.766044" 30="26.10379" 31="80.515732" 32="103.284676"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="spot8" range="25" fov="0.436332" texture="graphics/ies/ies_default.txtr">
+			<transform 11="0.766044" 12="0.642788" 21="-0.642788" 22="0.766044" 30="26.20196" 31="80.515732" 32="157.800491"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="spot9" range="25" fov="0.436332" texture="graphics/ies/ies_default.txtr">
+			<transform 11="0.766044" 12="0.642788" 21="-0.642788" 22="0.766044" 30="-69.183945" 31="80.515732" 32="157.773071"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+	</lights_spot>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables>
+		<interactable id="omni_a_int" target_object_id="omni_a_logic" label="Lights">
+			<transform 30="-389.411377" 31="72.580307" 32="229.436111"/>
+			<size x="0.6" y="0.6" z="0.5"/>
+		</interactable>
+		<interactable id="omni_h_int" target_object_id="omni_h_logic" label="Lights">
+			<transform 30="-187.847137" 31="72.627098" 32="-330.585175"/>
+			<size x="0.5" y="0.5" z="0.5"/>
+		</interactable>
+		<interactable id="omni_d_int" target_object_id="omni_d_logic" label="Lights">
+			<transform 30="-60.036743" 31="72.606018" 32="103.301628"/>
+			<size x="0.5" y="0.5" z="0.5"/>
+		</interactable>
+		<interactable id="omni_e_int" target_object_id="omni_e_logic" label="Lights">
+			<transform 30="35.333717" 31="72.582886" 32="103.397385"/>
+			<size x="0.5" y="0.5" z="0.5"/>
+		</interactable>
+		<interactable id="omni_f_g_int" target_object_id="omni_f_g_logic" label="Lights">
+			<transform 30="-0.965748" 31="72.617821" 32="-228.714981"/>
+			<size x="0.5" y="0.5" z="0.5"/>
+		</interactable>
+		<interactable id="omni_b_c_int" target_object_id="omni_b_c_logic" label="Lights">
+			<transform 30="-183.229156" 31="72.574493" 32="113.873482"/>
+			<size x="0.5" y="0.5" z="0.5"/>
+		</interactable>
+	</interactables>
+	<door_logic_nodes/>
+	<light_logic_nodes>
+		<logic id="omni_a_logic" target="omni_a" is_on="true" flicker_duration="120" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="-389.130646" 31="73.020576" 32="229.436111"/>
+		</logic>
+		<logic id="omni_h_logic" target="omni_h" is_on="true" flicker_duration="120" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="-187.847137" 31="72.967979" 32="-330.585175"/>
+		</logic>
+		<logic id="omni_g_logic" target="omni_g" is_on="true" flicker_duration="120" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="-0.739936" 31="73.177536" 32="-228.714981"/>
+		</logic>
+		<logic id="omni_d_logic" target="omni_d" is_on="true" flicker_duration="60" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="-60.036743" 31="72.980988" 32="103.622124"/>
+		</logic>
+		<logic id="omni_e_logic" target="omni_e" is_on="true" flicker_duration="60" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="35.333717" 31="72.958809" 32="103.690285"/>
+		</logic>
+		<logic id="omni_f_logic" target="omni_f" is_on="true" flicker_duration="60" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="-0.739936" 31="72.897575" 32="-228.714981"/>
+		</logic>
+		<logic id="omni_b_logic" target="omni_b" is_on="true" flicker_duration="70" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="-183.229156" 31="72.92524" 32="114.160179"/>
+		</logic>
+		<logic id="omni_c_logic" target="omni_c" is_on="true" flicker_duration="60" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="-183.229156" 31="73.182701" 32="114.160179"/>
+		</logic>
+	</light_logic_nodes>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes>
+		<logic id="omni_f_g_logic" target_id_0="omni_f_logic" target_id_1="omni_g_logic">
+			<transform 30="-0.739936" 31="73.476784" 32="-228.714981"/>
+		</logic>
+		<logic id="omni_b_c_logic" target_id_0="omni_b_logic" target_id_1="omni_c_logic">
+			<transform 30="-183.229156" 31="73.43438" 32="114.160179"/>
+		</logic>
+	</hangar_door_logic_nodes>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="tile_marker0" marker_type="13" string_data="Keh Storage Facility" icon="7">
+			<transform 30="-98.358917" 31="140.526184" 32="52.359665"/>
+		</markers>
+		<markers id="tile_marker1" marker_type="9">
+			<transform 00="-0.603567" 02="0.797312" 20="-0.797312" 22="-0.603567" 30="-183.277496" 31="72.981583" 32="118.925446"/>
+		</markers>
+		<markers id="tile_marker2" marker_type="9">
+			<transform 00="-0.051303" 02="0.998683" 11="1" 20="-0.998683" 22="-0.051303" 30="-160.977112" 31="91.27034" 32="124.125832"/>
+		</markers>
+		<markers id="tile_marker3" marker_type="9">
+			<transform 00="0.526699" 02="0.850052" 20="-0.850052" 22="0.526699" 30="-287.723877" 31="72.954781" 32="-131.92543"/>
+		</markers>
+		<markers id="tile_marker4" marker_type="9">
+			<transform 00="0.874709" 02="-0.484648" 20="0.484648" 22="0.874709" 30="-185.828781" 31="72.954781" 32="-335.498657"/>
+		</markers>
+		<markers id="tile_marker5" marker_type="9">
+			<transform 30="344.490143" 31="72.954781" 32="87.323654"/>
+		</markers>
+		<markers id="tile_marker6" marker_type="9">
+			<transform 00="0.44806" 02="0.894003" 20="-0.894003" 22="0.44806" 30="349.859375" 31="73.150162" 32="226.700378"/>
+		</markers>
+		<markers id="tile_marker7" marker_type="9">
+			<transform 00="0.021667" 02="0.999765" 20="-0.999765" 22="0.021667" 30="349.063049" 31="73.150162" 32="259.027435"/>
+		</markers>
+		<markers id="tile_marker8" marker_type="9">
+			<transform 00="-0.590061" 02="0.807359" 11="1" 20="-0.807359" 22="-0.590061" 30="388.56839" 31="73.244041" 32="372.96521"/>
+		</markers>
+		<markers id="tile_marker9" marker_type="9">
+			<transform 00="-0.698328" 02="-0.715777" 20="0.715777" 22="-0.698328" 30="12.443695" 31="73.244041" 32="153.99823"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers>
+		<dynamic_marker id="dynamic_marker_item0" item_type="27">
+			<transform 30="-84.474075" 31="73.093117" 32="147.867111"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item1" item_type="27">
+			<transform 30="-84.209129" 31="73.093117" 32="146.055573"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item2" item_type="27">
+			<transform 00="0.939693" 02="-0.34202" 20="0.34202" 22="0.939693" 30="-84.209129" 31="73.093117" 32="150.611069"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item3" item_type="29">
+			<transform 30="-76.93206" 31="72.590172" 32="107.027191"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item4" item_type="29">
+			<transform 00="0.996195" 02="-0.087156" 20="0.087156" 22="0.996195" 30="-78.614281" 31="72.590172" 32="107.027191"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item5" item_type="29">
+			<transform 30="-77.667969" 31="72.848679" 32="107.312103"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item6" item_type="31">
+			<transform 30="-78.115425" 31="72.803024" 32="156.838577"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item7" item_type="27">
+			<transform 30="-80.467064" 31="73.111061" 32="106.10862"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item8" item_type="27">
+			<transform 30="-181.487045" 31="73.111061" 32="117.694717"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item9" item_type="28">
+			<transform 30="-181.293503" 31="73.021713" 32="139.993057"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item10" item_type="28">
+			<transform 30="-181.293503" 31="73.021713" 32="141.505295"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item11" item_type="56">
+			<transform 30="-198.808624" 31="72.904831" 32="160.219299"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item12" item_type="56">
+			<transform 00="0.5" 02="-0.866025" 20="0.866025" 22="0.5" 30="-198.191086" 31="72.904831" 32="160.4207"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item13" item_type="56">
+			<transform 00="-0.642788" 02="-0.766044" 10="0.766044" 11="-0" 12="-0.642788" 21="-1" 22="0" 30="-198.181305" 31="72.703606" 32="159.597794"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item14" item_type="56">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="-206.815643" 31="72.904831" 32="159.950012"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item15" item_type="27">
+			<transform 30="40.066841" 31="73.089783" 32="109.093292"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item16" item_type="27">
+			<transform 00="-0.34202" 02="-0.939693" 20="0.939693" 22="-0.34202" 30="41.491867" 31="73.078339" 32="111.896439"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item17" item_type="29">
+			<transform 30="41.226597" 31="72.588745" 32="106.568947"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item18" item_type="29">
+			<transform 00="-1" 11="0.984808" 12="-0.173648" 21="-0.173648" 22="-0.984808" 30="41.305931" 31="72.844147" 32="105.654137"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item19" item_type="31">
+			<transform 30="35.454899" 31="72.844147" 32="156.905487"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item20" item_type="29">
+			<transform 30="10.060698" 31="72.560188" 32="155.224274"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item21" item_type="28">
+			<transform 30="10.060698" 31="73.251038" 32="155.224274"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item22" item_type="29">
+			<transform 00="0.984808" 02="-0.173648" 20="0.173648" 22="0.984808" 30="10.060698" 31="72.560188" 32="153.065399"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item23" item_type="34">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="328.223938" 31="72.938202" 32="153.903824"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item24" item_type="34">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="327.334656" 31="72.938202" 32="153.903824"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item25" item_type="34">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="325.788788" 31="72.938202" 32="153.903824"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item26" item_type="34">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="327.334656" 31="72.789963" 32="112.208229"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item27" item_type="28">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="328.640106" 31="72.869965" 32="112.208229"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item28" item_type="27">
+			<transform 30="342.782288" 31="72.895531" 32="87.184883"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item29" item_type="34">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="326.222992" 31="72.744316" 32="86.475708"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item30" item_type="34">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="326.222992" 31="72.896667" 32="179.665314"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item31" item_type="29">
+			<transform 00="0.996195" 02="0.087155" 20="-0.087155" 22="0.996195" 30="318.262207" 31="72.563004" 32="179.665314"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item32" item_type="29">
+			<transform 30="318.262207" 31="72.896667" 32="179.665314"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item33" item_type="29">
+			<transform 30="348.699402" 31="72.57486" 32="253.630478"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item34" item_type="39">
+			<transform 00="0.996195" 02="-0.087156" 20="0.087156" 22="0.996195" 30="348.597443" 31="72.978386" 32="253.691193"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item35" item_type="29">
+			<transform 00="0.984808" 02="0.173648" 20="-0.173648" 22="0.984808" 30="349.72522" 31="72.57486" 32="256.177612"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item36" item_type="29">
+			<transform 30="350.679626" 31="72.57486" 32="257.780609"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item37" item_type="29">
+			<transform 30="348.341583" 31="72.57486" 32="263.172791"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item38" item_type="38">
+			<transform 00="0.996195" 02="-0.087156" 20="0.087156" 22="0.996195" 30="350.679626" 31="72.57486" 32="259.23465"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item39" item_type="29">
+			<transform 30="349.560608" 31="72.877441" 32="255.960983"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item40" item_type="38">
+			<transform 00="0.766044" 02="0.642788" 20="-0.642788" 22="0.766044" 30="349.748291" 31="73.171288" 32="255.625534"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item41" item_type="38">
+			<transform 00="-0.087156" 02="-0.996195" 20="0.996195" 22="-0.087156" 30="348.764465" 31="72.581619" 32="256.053314"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item42" item_type="39">
+			<transform 30="348.49295" 31="72.95108" 32="263.50415"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item43" item_type="38">
+			<transform 00="0.766044" 02="-0.642788" 20="0.642788" 22="0.766044" 30="347.861145" 31="72.847427" 32="262.922455"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item44" item_type="39">
+			<transform 00="0.707107" 02="-0.707107" 20="0.707107" 22="0.707107" 30="349.898315" 31="72.694191" 32="261.402161"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item45" item_type="39">
+			<transform 00="-0.766044" 02="-0.642788" 20="0.642788" 22="-0.766044" 30="346.585724" 31="72.694191" 32="265.537354"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item46" item_type="29">
+			<transform 30="333.386078" 31="72.57486" 32="251.950943"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item47" item_type="29">
+			<transform 00="0" 02="1" 10="-0.34202" 11="0.939693" 20="-0.939693" 21="-0.34202" 22="0" 30="332.464111" 31="72.745506" 32="251.950943"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item48" item_type="29">
+			<transform 30="332.464111" 31="72.592621" 32="239.750778"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item49" item_type="29">
+			<transform 00="0.906308" 02="-0.422618" 20="0.422618" 22="0.906308" 30="331.423248" 31="72.592621" 32="238.054489"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item50" item_type="29">
+			<transform 00="-0.422618" 02="0.906308" 20="-0.906308" 22="-0.422618" 30="324.471313" 31="72.592621" 32="227.890747"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item51" item_type="29">
+			<transform 30="324.471313" 31="72.835571" 32="227.890747"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item52" item_type="34">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="324.471313" 31="72.95311" 32="292.834686"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item53" item_type="34">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="326.79422" 31="72.95311" 32="292.834686"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item54" item_type="34">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="327.909241" 31="72.95311" 32="292.834686"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item55" item_type="29">
+			<transform 00="0.939693" 02="-0.34202" 20="0.34202" 22="0.939693" 30="327.909241" 31="72.575516" 32="306.475677"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item56" item_type="27">
+			<transform 30="348.837952" 31="73.077209" 32="332.693848"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item57" item_type="27">
+			<transform 00="0.5" 02="-0.866025" 20="0.866025" 22="0.5" 30="348.292877" 31="73.077209" 32="330.604004"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item58" item_type="34">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="325.71228" 31="73.077209" 32="319.063599"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item59" item_type="34">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="327.148499" 31="73.077209" 32="319.063599"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item60" item_type="29">
+			<transform 30="12.350449" 31="72.591133" 32="-203.748367"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item61" item_type="29">
+			<transform 00="0.994522" 02="-0.104528" 20="0.104528" 22="0.994522" 30="14.087626" 31="72.591133" 32="-203.748367"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item62" item_type="56">
+			<transform 30="12.402662" 31="73.172157" 32="-203.495041"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item63" item_type="56">
+			<transform 00="0.34202" 02="-0.939693" 20="0.939693" 22="0.34202" 30="14.107087" 31="73.168762" 32="-203.971725"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item64" item_type="29">
+			<transform 00="-0.866025" 01="0.086824" 02="0.492404" 11="0.984808" 12="-0.173647" 20="-0.5" 21="-0.150383" 22="-0.852869" 30="13.358274" 31="72.770752" 32="-204.901215"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item65" item_type="29">
+			<transform 00="0.087156" 02="-0.996195" 20="0.996195" 22="0.087156" 30="12.755014" 31="72.565712" 32="-202.062485"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item66" item_type="56">
+			<transform 00="-0.642788" 02="-0.766044" 20="0.766044" 22="-0.642788" 30="14.107087" 31="72.903702" 32="-202.4263"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item67" item_type="56">
+			<transform 00="-0.5" 01="0.852868" 02="0.150384" 10="0.296198" 11="0.005236" 12="0.955112" 20="0.813797" 21="0.5221" 22="-0.255236" 30="14.855841" 31="72.702477" 32="-202.426361"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item68" item_type="29">
+			<transform 00="0.939693" 02="-0.34202" 20="0.34202" 22="0.939693" 30="19.618431" 31="72.571823" 32="-203.748367"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item69" item_type="29">
+			<transform 00="0.34202" 02="-0.939693" 20="0.939693" 22="0.34202" 30="9.404758" 31="72.571823" 32="-203.748367"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item70" item_type="32">
+			<transform 30="9.404758" 31="72.879082" 32="-175.158936"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item71" item_type="32">
+			<transform 30="6.92896" 31="72.893272" 32="-175.158936"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item72" item_type="32">
+			<transform 30="4.349748" 31="72.872765" 32="-175.158936"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item73" item_type="38">
+			<transform 00="0.996195" 02="-0.087156" 20="0.087156" 22="0.996195" 30="4.349748" 31="72.816788" 32="-175.158936"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item74" item_type="39">
+			<transform 00="0.866025" 02="-0.5" 20="0.5" 22="0.866025" 30="8.08687" 31="73.617493" 32="-175.158936"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item75" item_type="27">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="12.531677" 31="73.080605" 32="-175.158936"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item76" item_type="25">
+			<transform 30="-137.435577" 31="72.921944" 32="-305.359619"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item77" item_type="29">
+			<transform 00="0.939693" 02="-0.34202" 20="0.34202" 22="0.939693" 30="-135.92337" 31="72.566879" 32="-308.18042"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item78" item_type="25">
+			<transform 30="-135.553741" 31="73.147758" 32="-308.430389"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item79" item_type="25">
+			<transform 30="-136.249146" 31="73.147758" 32="-308.115021"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item80" item_type="25">
+			<transform 30="-300.046936" 31="72.715446" 32="-133.402603"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item81" item_type="25">
+			<transform 30="-299.262756" 31="72.71563" 32="-133.788605"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item82" item_type="25">
+			<transform 30="-298.757782" 31="72.699471" 32="-132.846375"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item83" item_type="25">
+			<transform 00="-0.321394" 01="-0.34202" 02="0.883022" 10="0.939693" 11="0" 12="0.34202" 20="-0.116978" 21="0.939693" 22="0.321394" 30="-299.701904" 31="72.488586" 32="-131.923401"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item84" item_type="25">
+			<transform 30="-287.858215" 31="72.690056" 32="-133.788605"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item85" item_type="25">
+			<transform 30="-288.709198" 31="72.707458" 32="-132.772049"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item86" item_type="25">
+			<transform 30="-287.600403" 31="72.699295" 32="-133.226959"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item87" item_type="25">
+			<transform 30="-290.505554" 31="72.677475" 32="-134.586807"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item88" item_type="25">
+			<transform 30="-286.238525" 31="72.705727" 32="-132.085419"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item89" item_type="27">
+			<transform 30="-325.823669" 31="72.86171" 32="-134.024979"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item90" item_type="27">
+			<transform 00="0.939693" 02="-0.34202" 20="0.34202" 22="0.939693" 30="-324.006256" 31="72.87793" 32="-133.197601"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item91" item_type="25">
+			<transform 30="-322.77182" 31="72.70871" 32="-133.737442"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item92" item_type="25">
+			<transform 30="-322.094391" 31="72.702866" 32="-132.900238"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item93" item_type="25">
+			<transform 00="0.883022" 01="0.321394" 02="-0.34202" 10="0.321394" 11="0.116978" 12="0.939693" 20="0.34202" 21="-0.939693" 22="-0" 30="-320.203796" 31="72.586288" 32="-133.737442"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item94" item_type="25">
+			<transform 30="-314.252228" 31="72.703949" 32="-133.737442"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item95" item_type="25">
+			<transform 30="-313.5177" 31="72.692978" 32="-132.735077"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item96" item_type="25">
+			<transform 30="-355.761902" 31="72.690353" 32="-134.327927"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item97" item_type="25">
+			<transform 30="-356.489868" 31="72.69352" 32="-133.410797"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item98" item_type="28">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="-357.434479" 31="72.800926" 32="-134.733398"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item99" item_type="28">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="-358.716919" 31="72.807716" 32="-134.733398"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item100" item_type="28">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="-359.964386" 31="72.806412" 32="-134.733398"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item101" item_type="25">
+			<transform 30="-360.556396" 31="72.70961" 32="-133.821381"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item102" item_type="25">
+			<transform 30="-361.604614" 31="72.711159" 32="-134.152481"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item103" item_type="29">
+			<transform 30="-363.280762" 31="72.36718" 32="-134.152481"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item104" item_type="25">
+			<transform 30="-380.256714" 31="72.717659" 32="-105.444588"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item105" item_type="25">
+			<transform 30="-380.977753" 31="72.687378" 32="-106.453995"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item106" item_type="25">
+			<transform 00="-0" 01="1" 10="0.34202" 11="-0" 12="0.939693" 20="0.939693" 22="-0.34202" 30="-380.977753" 31="72.553391" 32="-105.447693"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item107" item_type="25">
+			<transform 30="-394.330017" 31="72.719208" 32="-104.291718"/>
+		</dynamic_marker>
+	</dynamic_markers>
+	<ladders>
+		<ladder id="ladder_0" height="19">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="-162.234238" 31="72.439133" 32="126.760391"/>
+		</ladder>
+		<ladder id="ladder_1" seasonal_flags="2" height="19">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="-162.256409" 31="72.439133" 32="155.201996"/>
+		</ladder>
+	</ladders>
+	<perches>
+		<perch id="perch0">
+			<transform 00="0.975492" 01="0.220035" 10="-0.220035" 11="0.975492" 30="433.854523" 31="119.790543" 32="89.393333"/>
+		</perch>
+		<perch id="perch1">
+			<transform 00="0.559342" 02="-0.828937" 20="0.828937" 22="0.559342" 30="392.798187" 31="80.073372" 32="27.181461"/>
+		</perch>
+		<perch id="perch2">
+			<transform 30="413.576904" 31="93.640701" 32="-373.610138"/>
+		</perch>
+	</perches>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

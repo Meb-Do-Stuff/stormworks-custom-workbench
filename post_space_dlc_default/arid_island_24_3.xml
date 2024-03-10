@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2" is_purchasable="true" purchase_cost="80000">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/arid_mainland/arid_island_24_3.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="mesh1" file_name="meshes/arid_mainland_assets/volcano_dock.mesh">
+			<transform 30="142.868164" 31="-75.775421" 32="228.494843"/>
+		</mesh>
+		<mesh id="mesh2" file_name="meshes/workbench.mesh">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="200.991714" 31="6.822995" 32="280.878876"/>
+		</mesh>
+		<mesh id="mesh3" file_name="meshes/workbench.mesh">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="313.915741" 31="6.850771" 32="230.894775"/>
+		</mesh>
+		<mesh id="sale_sign_mesh" parent_id="sale_sign_interact" file_name="meshes/for_sale_sign.mesh">
+			<transform 00="-1" 22="-1" 30="148.521988" 31="5.794517" 32="317.902191"/>
+		</mesh>
+		<mesh id="mesh5" file_name="meshes/arid_mainland_assets/flatpack_house.mesh">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="352.636841" 31="5.915098" 32="254.084198"/>
+		</mesh>
+		<mesh id="p_door" file_name="meshes/arid_mainland_assets/flatpack_door.mesh">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="352.831665" 31="5.989484" 32="250.99704"/>
+		</mesh>
+		<mesh id="p_door_2" file_name="meshes/arid_mainland_assets/flatpack_door.mesh">
+			<transform 00="-1" 22="-1" 30="354.111755" 31="5.989484" 32="251.706757"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/arid_mainland/arid_island_24_3.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh1" file_name="meshes/arid_mainland_assets/volcano_dock_phys.phys">
+			<transform 30="142.868164" 31="-75.775421" 32="228.494843"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh2" file_name="meshes/workbench_phys.phys">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="200.991714" 31="6.822995" 32="280.878876"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh3" file_name="meshes/workbench_phys.phys">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="313.915741" 31="6.850771" 32="230.894775"/>
+		</physics_mesh>
+		<physics_mesh id="sale_sign_phys" parent_id="sale_sign_interact" file_name="meshes/for_sale_sign_phys.phys">
+			<transform 00="-1" 22="-1" 30="148.521988" 31="5.794517" 32="317.902191"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh5" file_name="meshes/arid_mainland_assets/flatpack_house_phys.phys">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="352.636841" 31="5.915098" 32="254.084198"/>
+		</physics_mesh>
+		<physics_mesh id="p_door_phys" parent_id="p_door" file_name="meshes/arid_mainland_assets/flatpack_door_phys.phys">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="352.831665" 31="5.989484" 32="250.99704"/>
+		</physics_mesh>
+		<physics_mesh id="p_door_2_phys" parent_id="p_door_2" file_name="meshes/arid_mainland_assets/flatpack_door_phys.phys">
+			<transform 00="-1" 22="-1" 30="354.111755" 31="5.989484" 32="251.706757"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni>
+		<light id="omni0" radius="5" is_render_halo="true">
+			<transform 30="354.526337" 31="8.38285" 32="249.409836"/>
+			<color x="3" y="3" z="2.5"/>
+		</light>
+		<light id="omni1" radius="3" is_render_halo="true">
+			<transform 30="354.526337" 31="8.38285" 32="252.773911"/>
+			<color x="3" y="3" z="2.5"/>
+		</light>
+	</lights_omni>
+	<lights_spot/>
+	<lights_tube>
+		<light id="tube0" length="4" radius="4">
+			<transform 11="0.866025" 12="-0.5" 21="0.5" 22="0.866025" 30="159.194321" 31="9.472042" 32="289.321533"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="tube1" length="4" radius="5">
+			<transform 11="0.866025" 12="-0.5" 21="0.5" 22="0.866025" 30="175.907883" 31="9.472042" 32="289.321533"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="tube2" length="4" radius="4">
+			<transform 11="0.866025" 12="-0.5" 21="0.5" 22="0.866025" 30="192.351608" 31="9.472042" 32="289.321533"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="tube3" length="4" radius="4">
+			<transform 11="0.866025" 12="-0.5" 21="0.5" 22="0.866025" 30="208.685806" 31="9.472042" 32="289.321533"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="tube4" length="4" radius="4">
+			<transform 11="0.866025" 12="-0.5" 21="0.5" 22="0.866025" 30="226.489426" 31="9.472042" 32="289.321533"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="tube5" length="4" radius="4">
+			<transform 11="0.866025" 12="-0.5" 21="0.5" 22="0.866025" 30="270.683777" 31="9.562403" 32="238.547211"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="tube6" length="4" radius="4">
+			<transform 11="0.866025" 12="-0.5" 21="0.5" 22="0.866025" 30="243.208206" 31="9.472042" 32="289.321533"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="tube7" length="4" radius="4">
+			<transform 11="0.866025" 12="-0.5" 21="0.5" 22="0.866025" 30="287.366791" 31="9.472042" 32="238.547562"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="tube8" length="4" radius="4">
+			<transform 11="0.866025" 12="-0.5" 21="0.5" 22="0.866025" 30="303.785828" 31="9.472042" 32="238.586136"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="tube9" length="4" radius="4">
+			<transform 11="0.866025" 12="-0.5" 21="0.5" 22="0.866025" 30="320.115173" 31="9.472042" 32="238.826508"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="tube10" length="4" radius="4">
+			<transform 11="0.866025" 12="-0.5" 21="0.5" 22="0.866025" 30="337.940125" 31="9.472042" 32="238.593628"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="tube11" length="4" radius="4">
+			<transform 11="0.866025" 12="-0.5" 21="0.5" 22="0.866025" 30="354.70285" 31="9.472042" 32="238.593628"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+	</lights_tube>
+	<screens/>
+	<edit_areas>
+		<edit_area id="workbench_a_edit" grid_size="2">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="200.404007" 31="0.758223" 32="263.939117"/>
+			<size x="22.5" y="20.5" z="57.25"/>
+		</edit_area>
+		<edit_area id="workbench_b_edit" grid_size="2">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="313.915741" 31="0.758223" 32="214.928894"/>
+			<size x="22.5" y="20.5" z="57.25"/>
+		</edit_area>
+		<edit_area id="edit2" grid_size="5" is_static="true" default_vehicle="bed" is_invisible_vehicle="true">
+			<transform 00="-0" 02="1" 20="-1" 22="-0" 30="354.931519" 31="6.365888" 32="246.514374"/>
+			<size x="0.75" y="0.25" z="1.75"/>
+		</edit_area>
+	</edit_areas>
+	<interactables>
+		<interactable id="workbench_a_int" target_object_id="workbench_a_edit" label="Workbench" interact_type="2">
+			<transform 00="-0" 02="1" 20="-1" 22="-0" 30="200.991714" 31="6.822995" 32="280.939209"/>
+			<size x="1" y="2" z="2"/>
+		</interactable>
+		<interactable id="workbench_b_int" target_object_id="workbench_b_edit" label="Workbench" interact_type="2">
+			<transform 00="-0" 02="1" 20="-1" 22="-0" 30="313.915741" 31="6.850771" 32="230.981628"/>
+			<size x="1" y="2" z="2"/>
+		</interactable>
+		<interactable id="sale_sign_interact" label="Buy Island" interact_type="3">
+			<transform 30="147.743546" 31="6.811074" 32="317.148315"/>
+			<size x="2" y="2" z="2"/>
+		</interactable>
+		<interactable id="p_door_2_int" parent_id="p_door_2" target_object_id="p_door_2_logic" label="Door">
+			<transform 30="353.689056" 31="7.194094" 32="251.680359"/>
+			<size x="1" y="2" z="0.3"/>
+		</interactable>
+		<interactable id="p_door_int" parent_id="p_door" target_object_id="p_door_logic" label="Door">
+			<transform 30="352.861542" 31="7.165752" 32="250.489471"/>
+			<size x="0.3" y="2" z="1"/>
+		</interactable>
+		<interactable id="omni0_int" target_object_id="omni0_logic" label="Lights">
+			<transform 30="353.036896" 31="7.172875" 32="249.881332"/>
+			<size x="0.3" y="0.3" z="0.3"/>
+		</interactable>
+		<interactable id="omni1_int" target_object_id="omni1_logic" label="Lights">
+			<transform 30="354.37381" 31="7.167243" 32="251.896606"/>
+			<size x="0.3" y="0.3" z="0.3"/>
+		</interactable>
+		<interactable id="interact7" label="Wardrobe" interact_type="4">
+			<transform 30="353.447662" 31="7.17362" 32="246.514374"/>
+			<size x="1" y="2" z="0.5"/>
+		</interactable>
+	</interactables>
+	<door_logic_nodes>
+		<logic id="p_door_2_logic" target_a="p_door_2_closed" target_b="p_door_2_open" target_movable="p_door_2" anim_duration="100">
+			<transform 30="354.715576" 31="7.194094" 32="251.524368"/>
+		</logic>
+		<logic id="p_door_logic" target_a="p_door_closed" target_b="p_door_open" target_movable="p_door" anim_duration="100">
+			<transform 30="352.861542" 31="7.165752" 32="252.308609"/>
+		</logic>
+	</door_logic_nodes>
+	<light_logic_nodes>
+		<logic id="omni0_logic" target="omni0" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="353.036896" 31="7.76609" 32="249.881332"/>
+		</logic>
+		<logic id="omni1_logic" target="omni1" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="354.37381" 31="7.777028" 32="251.896606"/>
+		</logic>
+	</light_logic_nodes>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="p_door_2_closed" marker_type="8" icon="1">
+			<transform 00="-1" 22="-1" 30="354.111755" 31="5.989484" 32="251.706757"/>
+		</markers>
+		<markers id="p_door_2_open" marker_type="8" icon="1">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="354.111755" 31="5.989484" 32="251.706757"/>
+		</markers>
+		<markers id="p_door_open" marker_type="8" icon="1">
+			<transform 00="-1" 22="-1" 30="352.831665" 31="5.989484" 32="250.99704"/>
+		</markers>
+		<markers id="p_door_closed" marker_type="8" icon="1">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="352.831665" 31="5.989484" 32="250.99704"/>
+		</markers>
+		<markers id="purchase_marker" marker_type="5" icon="1">
+			<transform 30="353.764038" 31="6.89926" 32="248.606125"/>
+		</markers>
+		<markers id="tile_marker4" marker_type="13" string_data="JSI Dock" icon="1">
+			<transform 30="221.609314" 31="28.353148" 32="304.468079"/>
+		</markers>
+		<markers id="tile_marker6" marker_type="9">
+			<transform 30="354.150818" 31="6.655746" 32="252.773911"/>
+		</markers>
+		<markers id="tile_marker7" marker_type="9">
+			<transform 30="399.407257" 31="9.011471" 32="245.805466"/>
+		</markers>
+		<markers id="tile_marker8" marker_type="9">
+			<transform 30="193.739349" 31="6.586754" 32="282.372467"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers>
+		<dynamic_marker id="dynamic_marker_item0" item_type="26">
+			<transform 00="0.272878" 02="-0.962049" 10="-0.590163" 11="0.789738" 12="-0.167395" 20="0.759766" 21="0.613444" 22="0.215502" 30="202.230286" 31="6.276287" 32="280.732056"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item1" item_type="9">
+			<transform 30="354.931519" 31="6.365888" 32="248.699127"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item2" item_type="16">
+			<transform 00="-0.959159" 02="-0.282869" 20="0.282869" 22="-0.959159" 30="355.436829" 31="7.021122" 32="251.237045"/>
+		</dynamic_marker>
+	</dynamic_markers>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

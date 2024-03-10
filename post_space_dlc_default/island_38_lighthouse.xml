@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true">
+	<meshes>
+		<mesh id="lighthouse_mesh" file_name="meshes/island_38_lighthouse.mesh">
+			<transform 31="3.016907"/>
+		</mesh>
+		<mesh id="bulb_mesh" file_name="meshes/lighthouse_light.mesh">
+			<transform 00="-0.999995" 02="0.003072" 20="-0.003072" 22="-0.999995" 30="-0.0799" 31="24.856129" 32="8.008942"/>
+		</mesh>
+		<mesh id="door" file_name="meshes/door_exterior.mesh">
+			<transform 00="-0" 02="1" 20="-1" 22="-0" 30="3.374018" 31="3.526783" 32="7.61618"/>
+		</mesh>
+		<mesh id="rocks_mesh" file_name="meshes/island_38_rocks.mesh">
+			<transform 32="-24.312378"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="lighthouse_phys" file_name="meshes/island_38_lighthouse_phys.phys">
+			<transform 31="3.016907"/>
+		</physics_mesh>
+		<physics_mesh id="door_phys" parent_id="door" file_name="meshes/door_hospital_phys.phys">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="3.374018" 31="3.526783" 32="7.61618"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh2" file_name="meshes/island_38_rocks_phys.phys">
+			<transform 32="-24.312378"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni>
+		<light id="omni0" radius="3" is_render_halo="true">
+			<transform 30="2.508418" 31="5.911213" 32="5.531921"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni1" radius="3" is_render_halo="true">
+			<transform 30="-0.048802" 31="5.916767" 32="11.717896"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni2" radius="3" is_render_halo="true">
+			<transform 30="-0.055608" 31="9.680408" 32="10.907562"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni3" radius="3" is_render_halo="true">
+			<transform 30="1.941829" 31="9.677235" 32="6.101074"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni4" radius="3" is_render_halo="true">
+			<transform 30="1.431514" 31="15.478931" 32="6.588593"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni5" radius="3" is_render_halo="true">
+			<transform 30="-0.053594" 31="15.500355" 32="10.20285"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni6" radius="3" is_render_halo="true">
+			<transform 30="-0.055791" 31="19.6422" 32="10.034058"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="omni7" radius="3" is_render_halo="true">
+			<transform 30="1.317866" 31="19.637135" 32="6.710205"/>
+			<color x="1" y="1" z="0.7"/>
+		</light>
+		<light id="bulb_omni" parent_id="bulb_mesh" radius="0.5" is_render_halo="true">
+			<transform 30="0.689357" 31="26.716602" 32="8.009766"/>
+			<color x="8" y="8" z="4"/>
+		</light>
+	</lights_omni>
+	<lights_spot>
+		<light id="bulb_spot" parent_id="bulb_mesh" range="1024" fov="0.1" texture="graphics/ies/ies_default.txtr">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="0.689357" 31="26.523914" 32="8.009766"/>
+			<color x="20" y="20" z="15"/>
+		</light>
+	</lights_spot>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables>
+		<interactable id="door_interact" parent_id="door" target_object_id="door_logic" label="Door">
+			<transform 30="3.35885" 31="4.66637" 32="8.097778"/>
+			<size x="0.5" y="1.869141" z="0.883057"/>
+		</interactable>
+	</interactables>
+	<door_logic_nodes>
+		<logic id="door_logic" target_a="door_closed" target_b="door_open" target_movable="door" anim_duration="50">
+			<transform 30="4.098566" 31="4.66637" 32="7.61618"/>
+		</logic>
+	</door_logic_nodes>
+	<light_logic_nodes>
+		<logic id="bulb_omni_logic" target="bulb_omni" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="-0.202245" 31="26.716602" 32="6.321533"/>
+		</logic>
+		<logic id="bulb_spot_logic" target="bulb_spot" is_on="true" flash_on_duration="30" flash_off_duration="30">
+			<transform 30="-0.663762" 31="26.716602" 32="6.321533"/>
+		</logic>
+	</light_logic_nodes>
+	<rotation_logic_nodes>
+		<logic id="bulb_rotation" target="bulb_mesh" is_on="true">
+			<transform 30="0.267879" 31="26.716602" 32="6.321533"/>
+			<delta_rotation y="0.01"/>
+		</logic>
+	</rotation_logic_nodes>
+	<hangar_door_logic_nodes>
+		<logic id="bulb_logic" target_id_0="bulb_omni_logic" target_id_1="bulb_spot_logic" target_id_2="bulb_mesh">
+			<transform 30="-0.43253" 31="27.159626" 32="6.321533"/>
+		</logic>
+	</hangar_door_logic_nodes>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="door_closed" marker_type="8">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="3.374018" 31="3.526783" 32="7.61618"/>
+		</markers>
+		<markers id="door_open" marker_type="8">
+			<transform 00="-0.989294" 02="0.145939" 20="-0.145939" 22="-0.989294" 30="3.374018" 31="3.526783" 32="7.61618"/>
+		</markers>
+		<markers id="tile_marker2" marker_type="9">
+			<transform 30="11.190468" 31="9.423859" 32="-118.651672"/>
+		</markers>
+		<markers id="tile_marker3" marker_type="9">
+			<transform 30="35.693703" 31="6.215057" 32="56.590698"/>
+		</markers>
+		<markers id="tile_marker4" marker_type="9">
+			<transform 00="0.383253" 02="-0.923643" 20="0.923643" 22="0.383253" 30="-2.364691" 31="4.452686" 32="9.590637"/>
+		</markers>
+		<markers id="tile_marker5" marker_type="7" icon="1">
+			<transform 30="42.293106" 31="15.853596" 32="-44.43013"/>
+		</markers>
+		<markers id="tile_marker6" marker_type="6" icon="1">
+			<transform 30="12.106216" 31="16.227528" 32="-119.022446"/>
+		</markers>
+	</tile_markers>
+	<mission_zones>
+		<zone id="audio_indoor">
+			<transform 30="0.284986" 31="9.756636" 32="8.103802"/>
+			<size x="6" y="25" z="6"/>
+			<outer_scale x="1" y="1" z="1"/>
+			<outer_offset/>
+		</zone>
+	</mission_zones>
+	<dynamic_markers/>
+	<ladders>
+		<ladder id="ladder_0" height="2.3">
+			<transform 00="0.997755" 02="-0.066979" 20="0.066979" 22="0.997755" 30="1.219783" 31="22.556629" 32="7.648986"/>
+		</ladder>
+	</ladders>
+	<perches>
+		<perch id="perch0">
+			<transform 30="22.990499" 31="7.957624" 32="54.416374"/>
+		</perch>
+		<perch id="perch1">
+			<transform 30="29.622427" 31="8.309187" 32="50.571465"/>
+		</perch>
+		<perch id="perch2">
+			<transform 30="40.797935" 31="7.944593" 32="52.025902"/>
+		</perch>
+		<perch id="perch3">
+			<transform 30="33.188988" 31="9.790937" 32="70.217308"/>
+		</perch>
+		<perch id="perch4">
+			<transform 30="-33.752571" 31="17.415144" 32="44.160667"/>
+		</perch>
+		<perch id="perch5">
+			<transform 30="-37.414955" 31="17.638472" 32="42.8713"/>
+		</perch>
+		<perch id="perch6">
+			<transform 30="-48.520241" 31="16.773207" 32="42.982903"/>
+		</perch>
+		<perch id="perch7">
+			<transform 30="-46.196114" 31="17.129286" 32="41.883659"/>
+		</perch>
+		<perch id="perch8">
+			<transform 30="-61.223488" 31="13.14781" 32="27.918449"/>
+		</perch>
+		<perch id="perch9">
+			<transform 30="-59.186714" 31="12.8878" 32="25.571251"/>
+		</perch>
+		<perch id="perch10">
+			<transform 30="-58.41758" 31="11.120802" 32="18.028435"/>
+		</perch>
+		<perch id="perch11">
+			<transform 30="-63.075569" 31="10.938887" 32="-43.405525"/>
+		</perch>
+		<perch id="perch12">
+			<transform 30="-41.065102" 31="11.662245" 32="-45.63636"/>
+		</perch>
+		<perch id="perch13">
+			<transform 30="37.428978" 31="9.293318" 32="-37.2342"/>
+		</perch>
+		<perch id="perch14">
+			<transform 30="28.07888" 31="7.833967" 32="-53.59269"/>
+		</perch>
+		<perch id="perch15">
+			<transform 30="45.83947" 31="8.611555" 32="-41.036415"/>
+		</perch>
+		<perch id="perch16">
+			<transform 30="62.994713" 31="7.748823" 32="-76.228523"/>
+		</perch>
+		<perch id="perch17">
+			<transform 30="49.144096" 31="8.451429" 32="-81.55381"/>
+		</perch>
+		<perch id="perch18">
+			<transform 30="25.020012" 31="15.381514" 32="-116.799599"/>
+		</perch>
+		<perch id="perch19">
+			<transform 30="5.906883" 31="13.209059" 32="-123.116219"/>
+		</perch>
+		<perch id="perch20">
+			<transform 30="27.608086" 31="11.839338" 32="-129.691833"/>
+		</perch>
+		<perch id="perch21">
+			<transform 30="-20.08503" 31="12.156324" 32="-95.174042"/>
+		</perch>
+		<perch id="perch22">
+			<transform 30="-19.277107" 31="10.654707" 32="-101.745148"/>
+		</perch>
+		<perch id="perch23">
+			<transform 30="-56.195564" 31="13.669874" 32="-112.28479"/>
+		</perch>
+		<perch id="perch24">
+			<transform 30="-50.465919" 31="13.259108" 32="-110.324738"/>
+		</perch>
+		<perch id="perch25">
+			<transform 30="-48.140877" 31="13.337202" 32="-114.247314"/>
+		</perch>
+	</perches>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

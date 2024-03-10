@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" is_volcanic="true" tile_type="2" sea_floor_height="-180">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/volcanic/volcanic_1_7.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="lava_mesh_flow" file_name="meshes/volcanic_assets/1_7_a_lava_flow.mesh" is_volcanic_additive="true">
+			<transform/>
+		</mesh>
+		<mesh id="lava_mesh_pool" file_name="meshes/volcanic_assets/1_7_a_lava_level.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="lava_mesh_flow1" file_name="meshes/volcanic_assets/1_7_b_lava_flow.mesh" additive_factor="0">
+			<transform/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/volcanic/volcanic_1_7.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="lava_level_phys" file_name="meshes/volcanic_assets/1_7_a_lava_level_phys.phys" physics_material_type="1">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="lava_phys" file_name="meshes/volcanic_assets/1_7_a_lava_phys.phys" physics_material_type="1" is_volcanic="true">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="lava_level_phys_solid" file_name="meshes/volcanic_assets/1_7_a_lava_level_phys.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="lava_phys_solid" file_name="meshes/volcanic_assets/1_7_a_lava_phys.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="rock_phys" file_name="meshes/volcanic_assets/1_7_a_rock_phys.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="lava_phys_solid1" file_name="meshes/volcanic_assets/1_7_b_lava_phys.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="rock_phys1" file_name="meshes/volcanic_assets/1_7_b_rock_phys.phys">
+			<transform/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="mount gerunimo" marker_type="13" string_data="Mount Gerunimo" icon="5">
+			<transform 30="-282.954865" 31="85.82299" 32="444.127319"/>
+		</markers>
+		<markers id="mount spider" marker_type="13" string_data="Mount Spider" icon="5">
+			<transform 30="-58.624107" 31="118.074615" 32="-244.029083"/>
+		</markers>
+		<markers id="tile_marker2" marker_type="9">
+			<transform 30="-159.029541" 31="21.512716" 32="-163.523621"/>
+		</markers>
+		<markers id="tile_marker3" marker_type="9">
+			<transform 00="0.885707" 01="-0.464245" 10="0.464245" 11="0.885707" 30="15.963495" 31="26.036591" 32="-286.028931"/>
+		</markers>
+		<markers id="tile_marker4" marker_type="9">
+			<transform 30="-416.801331" 31="33.003628" 32="409.318726"/>
+		</markers>
+		<markers id="tile_marker5" marker_type="9">
+			<transform 30="-269.726257" 31="68.493271" 32="426.959259"/>
+		</markers>
+		<markers id="tile_marker6" marker_type="9">
+			<transform 00="0.947302" 01="-0.320343" 10="0.320343" 11="0.947302" 30="-239.772263" 31="34.415268" 32="403.022034"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers>
+		<volcano id="volcano0" radius="17.5" height="10" heightmap_filename="graphics/effects/height_maps_underwater/1_7_height_map.txtr" eruption_radius="2000">
+			<transform 30="-282.954865" 31="60.042046" 32="444.127319"/>
+			<heightmap_size x="3000" y="300" z="3000"/>
+			<particle_offset/>
+		</volcano>
+	</volcano_markers>
+	<mineral_rocks/>
+</definition>
+

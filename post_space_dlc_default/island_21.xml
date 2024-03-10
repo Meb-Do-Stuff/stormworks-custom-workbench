@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/island_21.mesh">
+			<transform/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/island_21_phys.phys">
+			<transform/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="tile_marker0" marker_type="9">
+			<transform 30="-1.691266" 31="11.21048" 32="-37.413685"/>
+		</markers>
+		<markers id="tile_marker1" marker_type="9">
+			<transform 30="-31.49577" 31="11.21048" 32="16.617779"/>
+		</markers>
+		<markers id="tile_marker2" marker_type="9">
+			<transform 30="47.170277" 31="11.21048" 32="16.617779"/>
+		</markers>
+		<markers id="tile_marker3" marker_type="3">
+			<transform 30="-31.49577" 31="0.810516" 32="-20.018024"/>
+		</markers>
+		<markers id="tile_marker4" marker_type="3">
+			<transform 30="62.866932" 31="2.066193" 32="-1.149586"/>
+		</markers>
+		<markers id="tile_marker5" marker_type="3">
+			<transform 30="3.627918" 31="0.642914" 32="57.258343"/>
+		</markers>
+		<markers id="tile_marker6" marker_type="11">
+			<transform 00="-0.995776" 02="-0.091819" 20="0.091819" 22="-0.995776" 30="-51.893291" 31="6.483948" 32="-1.983051"/>
+		</markers>
+		<markers id="tile_marker7">
+			<transform 30="10.283131" 31="2.620453" 32="44.648815"/>
+		</markers>
+		<markers id="tile_marker8">
+			<transform 30="-21.999584" 31="2.620453" 32="-7.07732"/>
+		</markers>
+		<markers id="tile_marker9" is_in_ocean="true">
+			<transform 30="-21.999584" 31="2.620453" 32="-66.112625"/>
+		</markers>
+		<markers id="tile_marker10" is_in_ocean="true">
+			<transform 30="64.103653" 31="2.620453" 32="74.963608"/>
+		</markers>
+		<markers id="tile_marker11" is_in_ocean="true">
+			<transform 30="-81.780594" 31="2.620453" 32="74.963608"/>
+		</markers>
+		<markers id="tile_marker12" marker_type="4" is_in_ocean="true">
+			<transform 30="37.590961" 31="2.620453" 32="-51.79628"/>
+		</markers>
+		<markers id="tile_marker13" marker_type="4" is_in_ocean="true">
+			<transform 30="82.557602" 31="2.620453" 32="3.744003"/>
+		</markers>
+		<markers id="tile_marker14" marker_type="4" is_in_ocean="true">
+			<transform 30="14.026718" 31="2.620453" 32="67.910446"/>
+		</markers>
+		<markers id="tile_marker15" marker_type="4" is_in_ocean="true">
+			<transform 30="-57.702103" 31="2.620453" 32="51.124741"/>
+		</markers>
+		<markers id="tile_marker16" marker_type="4" is_in_ocean="true">
+			<transform 30="-82.830215" 31="2.620453" 32="-8.76088"/>
+		</markers>
+		<markers id="tile_marker17" marker_type="4" is_in_ocean="true">
+			<transform 30="-34.591934" 31="2.620453" 32="-34.738663"/>
+		</markers>
+		<markers id="tile_marker18" marker_type="4" is_in_ocean="true">
+			<transform 30="2.833755" 31="2.620453" 32="-72.606339"/>
+		</markers>
+		<markers id="tile_marker19" marker_type="4" is_in_ocean="true">
+			<transform 30="-56.725082" 31="2.620453" 32="-20.172195"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches>
+		<perch id="perch0">
+			<transform 30="-57.868176" 31="3.149506" 32="16.707958"/>
+		</perch>
+		<perch id="perch1">
+			<transform 30="-57.868176" 31="5.185425" 32="11.646374"/>
+		</perch>
+		<perch id="perch2">
+			<transform 30="58.168503" 31="5.580383" 32="11.646374"/>
+		</perch>
+		<perch id="perch3">
+			<transform 30="45.388809" 31="6.940674" 32="-6.947529"/>
+		</perch>
+	</perches>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

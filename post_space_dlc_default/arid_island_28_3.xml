@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/arid_mainland/arid_island_28_3.mesh">
+			<transform/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/arid_mainland/arid_island_28_3.phys">
+			<transform/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers/>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches>
+		<perch id="perch0">
+			<transform 00="-0.973711" 02="0.227788" 20="-0.227788" 22="-0.973711" 30="276.486725" 31="32.168568" 32="324.778625"/>
+		</perch>
+		<perch id="perch1">
+			<transform 00="-0.663769" 02="-0.747938" 20="0.747938" 22="-0.663769" 30="264.754028" 31="34.846962" 32="320.001984"/>
+		</perch>
+		<perch id="perch2">
+			<transform 30="342.405365" 31="17.912331" 32="490.265106"/>
+		</perch>
+		<perch id="perch3">
+			<transform 00="0.838069" 02="-0.545565" 20="0.545565" 22="0.838069" 30="-56.196915" 31="18.807831" 32="237.611511"/>
+		</perch>
+	</perches>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

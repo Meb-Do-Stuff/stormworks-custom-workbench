@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_purchasable="true" purchase_cost="100000">
+	<meshes>
+		<mesh id="oil_rig_playerbase" file_name="meshes/oil_rig_playerbase.mesh">
+			<transform 31="-10.480804"/>
+		</mesh>
+		<mesh id="workbench" file_name="meshes/workbench_static.mesh">
+			<transform 30="15.693743" 31="12.258759" 32="29.994089"/>
+		</mesh>
+		<mesh id="sign_mesh" parent_id="sign_interact" file_name="meshes/for_sale_sign.mesh">
+			<transform 00="-0.728058" 02="-0.685515" 20="0.685515" 22="-0.728058" 30="17.509935" 31="13.271881" 32="28.23765"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="oil_rig_playerbase_phys" file_name="meshes/oil_rig_playerbase_phys.phys">
+			<transform 31="-10.480804"/>
+		</physics_mesh>
+		<physics_mesh id="workbench_phys" file_name="meshes/workbench_phys.phys">
+			<transform 30="16.07155" 31="13.195831" 32="30.855326"/>
+		</physics_mesh>
+		<physics_mesh id="sign_phys" parent_id="sign_interact" file_name="meshes/for_sale_sign_phys.phys">
+			<transform 00="-0.722084" 02="-0.691805" 20="0.691805" 22="-0.722084" 30="17.583771" 31="13.276628" 32="28.234715"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas>
+		<edit_area id="edit0" is_static="true">
+			<transform 30="0.6" 31="15.381592" 32="0.8"/>
+			<size x="50" y="40" z="70"/>
+		</edit_area>
+	</edit_areas>
+	<interactables>
+		<interactable id="workbench_interact" target_object_id="edit0" label="Workbench" interact_type="2">
+			<transform 30="16.045738" 31="13.211972" 32="30.896982"/>
+			<size x="0.654855" y="1.885223" z="1.869781"/>
+		</interactable>
+		<interactable id="sign_interact" label="Buy Island" interact_type="3">
+			<transform 30="17.425629" 31="14.309617" 32="27.484287"/>
+			<size x="2" y="2" z="2"/>
+		</interactable>
+	</interactables>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="tile_marker0" marker_type="5">
+			<transform 00="0.28228" 02="0.959332" 20="-0.959332" 22="0.28228" 30="17.264971" 31="13.17569" 32="30.514078"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders>
+		<ladder id="ladder_0" height="13">
+			<transform 02="-0.000976" 20="0.000976" 30="18.093082" 31="-0.757446" 32="30.820122"/>
+		</ladder>
+	</ladders>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

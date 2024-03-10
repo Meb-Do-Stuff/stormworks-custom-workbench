@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/mainland/mega_island_9_3.mesh">
+			<transform/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/mainland/mega_island_9_3.phys">
+			<transform/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers/>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches>
+		<perch id="perch0">
+			<transform 30="-310.753754" 31="42.594486" 32="-145.130951"/>
+		</perch>
+		<perch id="perch1">
+			<transform 30="-334.212189" 31="49.085579" 32="-127.889542"/>
+		</perch>
+		<perch id="perch2">
+			<transform 30="-341.794861" 31="48.322159" 32="-130.637238"/>
+		</perch>
+		<perch id="perch3">
+			<transform 30="-373.904785" 31="65.92144" 32="-77.886887"/>
+		</perch>
+		<perch id="perch4">
+			<transform 30="-448.420319" 31="98.621231" 32="-62.024422"/>
+		</perch>
+		<perch id="perch5">
+			<transform 30="-174.868393" 31="35.001442" 32="-69.889549"/>
+		</perch>
+	</perches>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2" sea_floor_height="-180">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/volcanic/volcanic_7_5.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="back" file_name="meshes/volcanic_assets/shipwreck_mid.mesh">
+			<transform 00="0.766044" 02="-0.642788" 20="0.642788" 22="0.766044" 30="-165.018707" 31="-136.593796" 32="159.046494"/>
+		</mesh>
+		<mesh id="front" file_name="meshes/volcanic_assets/shipwreck_front.mesh">
+			<transform 00="0.766044" 02="-0.642788" 20="0.642788" 22="0.766044" 30="-165.018707" 31="-136.593796" 32="159.046494"/>
+		</mesh>
+		<mesh id="mesh3" file_name="meshes/volcanic_assets/shipwreck_parts_a.mesh">
+			<transform 11="0.965926" 12="0.258819" 21="-0.258819" 22="0.965926" 30="-94.793999" 31="-115.678856" 32="149.112671"/>
+		</mesh>
+		<mesh id="mesh4" file_name="meshes/volcanic_assets/shipwreck_parts_b.mesh">
+			<transform 00="0.200706" 01="0.138258" 02="-0.969846" 10="0.17101" 11="0.969846" 12="0.173648" 20="0.96461" 21="-0.200706" 22="0.17101" 30="-33.885742" 31="-130.043518" 32="-0.833393"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/volcanic/volcanic_7_5.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh3" file_name="meshes/volcanic_assets/shipwreck_parts_b_phys.phys">
+			<transform 00="0.200706" 01="0.138258" 02="-0.969846" 10="0.17101" 11="0.969846" 12="0.173648" 20="0.96461" 21="-0.200706" 22="0.17101" 30="-33.885742" 31="-130.043518" 32="-0.833393"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh3" file_name="meshes/volcanic_assets/shipwreck_parts_a_phys.phys">
+			<transform 11="0.965926" 12="0.258819" 21="-0.258819" 22="0.965926" 30="-94.793999" 31="-115.678856" 32="149.112671"/>
+		</physics_mesh>
+		<physics_mesh id="front_phys" file_name="meshes/volcanic_assets/shipwreck_front_phys.phys">
+			<transform 00="0.766044" 02="-0.642788" 20="0.642788" 22="0.766044" 30="-165.018707" 31="-136.593796" 32="159.046494"/>
+		</physics_mesh>
+		<physics_mesh id="back_phys" file_name="meshes/volcanic_assets/shipwreck_mid_phys.phys">
+			<transform 00="0.766044" 02="-0.642788" 20="0.642788" 22="0.766044" 30="-165.018707" 31="-136.593796" 32="159.046494"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="killmans scuttle" marker_type="13" is_in_ocean="true" string_data="Killmans Scuttle" icon="2">
+			<transform 30="-94.793999" 31="-95.012375" 32="118.355576"/>
+		</markers>
+		<markers id="tile_marker1" marker_type="9" loot_type="1">
+			<transform 30="-83.467415" 31="-106.77195" 32="111.929359"/>
+		</markers>
+		<markers id="tile_marker2" marker_type="9" loot_type="1">
+			<transform 30="-59.854824" 31="-106.77195" 32="90.333702"/>
+		</markers>
+		<markers id="tile_marker3" marker_type="9" loot_type="1">
+			<transform 30="-127.831528" 31="-104.526794" 32="144.559357"/>
+		</markers>
+		<markers id="tile_marker4" marker_type="9" loot_type="1">
+			<transform 30="-83.254211" 31="-111.991531" 32="155.517548"/>
+		</markers>
+		<markers id="tile_marker5" marker_type="9" loot_type="1">
+			<transform 30="-43.23473" 31="-111.552605" 32="92.718155"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers>
+		<dynamic_marker id="dynamic_marker_item0" item_type="15">
+			<transform 30="-82.752914" 31="-99.755447" 32="114.761345"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item1" item_type="9">
+			<transform 30="-61.817413" 31="-98.928642" 32="113.136848"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item2" item_type="23">
+			<transform 30="-61.817413" 31="-100.111076" 32="111.994255"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item3" item_type="37">
+			<transform 30="-61.817413" 31="-104.924179" 32="106.535156"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item4" item_type="35">
+			<transform 11="0.173648" 12="0.984808" 21="-0.984808" 22="0.173648" 30="-61.817413" 31="-105.666077" 32="102.747963"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item5" item_type="9">
+			<transform 00="0.766044" 01="0.642788" 10="-0.642788" 11="0.766044" 30="-59.420948" 31="-105.666077" 32="103.634285"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item6" item_type="15">
+			<transform 00="0.939693" 01="-0.34202" 11="0" 12="-1" 20="0.34202" 21="0.939692" 22="0" 30="-66.518616" 31="-105.75602" 32="107.186066"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item7" item_type="9">
+			<transform 30="-69.06189" 31="-101.903053" 32="114.739586"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item8" item_type="23">
+			<transform 11="0.766044" 12="0.642788" 21="-0.642788" 22="0.766044" 30="-74.299942" 31="-102.981186" 32="113.76413"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item9" item_type="15">
+			<transform 00="0.448824" 01="-0.89362" 10="0.89362" 11="0.448824" 30="-78.924606" 31="-102.981186" 32="113.76413"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item10" item_type="14">
+			<transform 30="-78.924606" 31="-100.749802" 32="113.76413"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item11" item_type="15">
+			<transform 30="-66.84185" 31="-106.235603" 32="113.76413"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item12" item_type="9">
+			<transform 30="-74.906059" 31="-106.235603" 32="113.76413"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item13" item_type="15">
+			<transform 30="-58.940659" 31="-107.566635" 32="108.222122"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item14" item_type="17">
+			<transform 30="-67.084267" 31="-109.333557" 32="105.006599"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item15" item_type="9">
+			<transform 00="0.939693" 01="-0.17101" 02="0.296198" 10="-0.34202" 11="-0.469846" 12="0.813798" 21="-0.866025" 22="-0.5" 30="-67.084267" 31="-109.61245" 32="104.783615"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item16" item_type="23">
+			<transform 30="-60.619457" 31="-107.372032" 32="90.871178"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item17" item_type="15">
+			<transform 00="0.377376" 01="-0.679019" 02="0.629699" 10="0.92606" 11="0.276705" 12="-0.256606" 21="0.679976" 22="0.733234" 30="-60.619457" 31="-106.529015" 32="92.179085"/>
+		</dynamic_marker>
+		<dynamic_marker id="dynamic_marker_item18" item_type="15">
+			<transform 00="0.684323" 01="-0.729179" 10="0.729179" 11="0.684323" 30="-51.115589" 31="-102.276787" 32="104.800392"/>
+		</dynamic_marker>
+	</dynamic_markers>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

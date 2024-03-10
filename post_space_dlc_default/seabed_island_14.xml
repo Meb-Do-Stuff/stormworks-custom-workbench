@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" sea_floor_height="-93">
+	<meshes>
+		<mesh id="seabed_island_14" file_name="meshes/seabed_island_14.mesh">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 31="-88.412201"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="seabed_island_14_phys" file_name="meshes/island_14_phys.phys">
+			<transform 00="-0" 02="-1" 20="1" 22="-0" 31="-88.412201"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="tile_marker0" marker_type="13" string_data="Wyvern Plateau" icon="1">
+			<transform 30="6.558431" 31="-46.216507" 32="-7.820447"/>
+		</markers>
+		<markers id="tile_marker1" marker_type="9" icon="1" loot_type="1">
+			<transform 30="9.125753" 31="-74.67012" 32="5.148761"/>
+		</markers>
+		<markers id="tile_marker2" marker_type="9" icon="1" loot_type="1">
+			<transform 00="0.401694" 02="0.915774" 20="-0.915774" 22="0.401694" 30="10.830557" 31="-74.67012" 32="3.091968"/>
+		</markers>
+		<markers id="tile_marker3" marker_type="9" icon="1" loot_type="1">
+			<transform 00="0.401694" 02="0.915774" 20="-0.915774" 22="0.401694" 30="42.266533" 31="-74.67012" 32="24.29726"/>
+		</markers>
+		<markers id="tile_marker4" marker_type="9" icon="1" loot_type="1">
+			<transform 00="0.401694" 02="0.915774" 20="-0.915774" 22="0.401694" 30="-12.694038" 31="-87.304062" 32="62.456223"/>
+		</markers>
+		<markers id="tile_marker5" marker_type="9" icon="1" loot_type="1">
+			<transform 00="0.401694" 02="0.915774" 20="-0.915774" 22="0.401694" 30="-9.158241" 31="-86.457138" 32="65.421616"/>
+		</markers>
+		<markers id="tile_marker6" marker_type="9" icon="1" loot_type="1">
+			<transform 00="0.401694" 02="0.915774" 20="-0.915774" 22="0.401694" 30="0.644402" 31="-72.353348" 32="-60.177994"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

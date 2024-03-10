@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/arid_mainland/arid_island_22_10.mesh">
+			<transform/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/arid_mainland/arid_island_22_10.phys">
+			<transform/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers/>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks>
+		<rock id="mineral0" ore_type="2">
+			<transform 00="0.985708" 01="0.167669" 02="0.016372" 10="-0.167924" 11="0.9701" 12="0.175234" 20="0.013499" 21="-0.175478" 22="0.984391" 30="124.770966" 31="41.698975" 32="-102.136978"/>
+		</rock>
+		<rock id="mineral1" ore_type="2">
+			<transform 00="0.995507" 01="0.093638" 02="0.014087" 10="-0.094505" 11="0.973156" 12="0.209849" 20="0.005941" 21="-0.210237" 22="0.977632" 30="187.546265" 31="52.035107" 32="-102.22876"/>
+		</rock>
+	</mineral_rocks>
+</definition>
+

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/mainland/mega_island_9_2.mesh">
+			<transform/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/mainland/mega_island_9_2.phys">
+			<transform/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="tile_marker0" marker_type="8" icon="1">
+			<transform 30="10.310548" 31="75.187294" 32="245.907928"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches>
+		<perch id="perch0">
+			<transform 30="446.77771" 31="80.386398" 32="-405.509033"/>
+		</perch>
+		<perch id="perch1">
+			<transform 30="407.265015" 31="95.145309" 32="-338.017334"/>
+		</perch>
+		<perch id="perch2">
+			<transform 30="328.084015" 31="100.613556" 32="-258.166748"/>
+		</perch>
+		<perch id="perch3">
+			<transform 30="328.107635" 31="93.12307" 32="-245.894272"/>
+		</perch>
+		<perch id="perch4">
+			<transform 30="183.110031" 31="90.463982" 32="-98.494675"/>
+		</perch>
+		<perch id="perch5">
+			<transform 30="169.883148" 31="93.358948" 32="-80.060829"/>
+		</perch>
+		<perch id="perch6">
+			<transform 30="143.528839" 31="102.296394" 32="-92.357796"/>
+		</perch>
+		<perch id="perch7">
+			<transform 30="130.333557" 31="104.223892" 32="-86.212914"/>
+		</perch>
+		<perch id="perch8">
+			<transform 30="126.63604" 31="68.267265" 32="-16.981583"/>
+		</perch>
+		<perch id="perch9">
+			<transform 30="117.147827" 31="134.651215" 32="-190.651749"/>
+		</perch>
+		<perch id="perch10">
+			<transform 30="77.575493" 31="195.365158" 32="-264.333344"/>
+		</perch>
+		<perch id="perch11">
+			<transform 30="31.423288" 31="178.31189" 32="-233.600937"/>
+		</perch>
+		<perch id="perch12">
+			<transform 30="-14.708175" 31="153.840302" 32="-73.845406"/>
+		</perch>
+		<perch id="perch13">
+			<transform 30="-106.949402" 31="114.415489" 32="-80.06971"/>
+		</perch>
+		<perch id="perch14">
+			<transform 30="-120.177048" 31="111.520432" 32="-67.787933"/>
+		</perch>
+		<perch id="perch15">
+			<transform 30="-120.182983" 31="66.580894" 32="91.860146"/>
+		</perch>
+		<perch id="perch16">
+			<transform 30="-186.115616" 31="65.45282" 32="91.860146"/>
+		</perch>
+		<perch id="perch17">
+			<transform 30="-199.30545" 31="64.45105" 32="85.737946"/>
+		</perch>
+		<perch id="perch18">
+			<transform 30="-324.507111" 31="46.763371" 32="282.264893"/>
+		</perch>
+		<perch id="perch19">
+			<transform 30="-54.241951" 31="79.652878" 32="263.873291"/>
+		</perch>
+		<perch id="perch20">
+			<transform 30="-54.265018" 31="70.773994" 32="220.88266"/>
+		</perch>
+		<perch id="perch21">
+			<transform 30="-1.550045" 31="71.235817" 32="220.891113"/>
+		</perch>
+		<perch id="perch22">
+			<transform 30="-14.658895" 31="77.926315" 32="239.239151"/>
+		</perch>
+		<perch id="perch23">
+			<transform 30="-1.49205" 31="78.07431" 32="269.966919"/>
+		</perch>
+		<perch id="perch24">
+			<transform 30="11.670087" 31="74.858582" 32="288.422455"/>
+		</perch>
+		<perch id="perch25">
+			<transform 30="-1.514997" 31="74.780914" 32="331.39798"/>
+		</perch>
+		<perch id="perch26">
+			<transform 30="-27.880335" 31="82.595886" 32="276.126373"/>
+		</perch>
+		<perch id="perch27">
+			<transform 30="-41.061935" 31="81.654312" 32="282.277039"/>
+		</perch>
+		<perch id="perch28">
+			<transform 30="254.313019" 31="130.241913" 32="93.540092"/>
+		</perch>
+		<perch id="perch29">
+			<transform 30="271.55368" 31="153.99884" 32="22.469423"/>
+		</perch>
+		<perch id="perch30">
+			<transform 30="286.725342" 31="153.1978" 32="28.001511"/>
+		</perch>
+		<perch id="perch31">
+			<transform 30="235.860886" 31="78.209351" 32="-73.918915"/>
+		</perch>
+		<perch id="perch32">
+			<transform 30="275.377502" 31="71.932861" 32="-104.648956"/>
+		</perch>
+	</perches>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

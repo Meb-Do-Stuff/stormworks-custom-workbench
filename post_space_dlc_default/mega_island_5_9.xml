@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/mainland/mega_island_5_9.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="lighthouse_mesh" file_name="meshes/arctic_lighthouse.mesh">
+			<transform 00="0.984808" 02="-0.173648" 20="0.173648" 22="0.984808" 30="-48.122017" 31="16.299286" 32="78.491035"/>
+		</mesh>
+		<mesh id="bulb_mesh" file_name="meshes/lighthouse_light_small.mesh">
+			<transform 30="-48.15134" 31="27.975628" 32="78.444221"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/mainland/mega_island_5_9.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="lighthouse_phys" file_name="meshes/arctic_lighthouse_phys.phys">
+			<transform 00="0.984808" 02="-0.173648" 20="0.173648" 22="0.984808" 30="-48.122017" 31="16.299286" 32="78.491035"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni>
+		<light id="omni0" radius="1" is_render_halo="true">
+			<transform 00="0.984808" 02="-0.173648" 20="0.173648" 22="0.984808" 30="-50.201191" 31="28.625975" 32="78.863037"/>
+			<color x="5"/>
+		</light>
+		<light id="omni1" radius="1" is_render_halo="true">
+			<transform 00="0.984808" 02="-0.173648" 20="0.173648" 22="0.984808" 30="-46.036869" 31="28.627941" 32="78.127907"/>
+			<color x="5"/>
+		</light>
+		<light id="bulb_omni" parent_id="bulb_mesh" radius="0.5" is_render_halo="true">
+			<transform 30="-48.629925" 31="28.970608" 32="78.446167"/>
+			<color x="8" y="8" z="4"/>
+		</light>
+		<light id="omni3" radius="1" is_render_halo="true">
+			<transform 00="0.984808" 02="-0.173648" 20="0.173648" 22="0.984808" 30="-50.850086" 31="16.108105" 32="71.57505"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+		<light id="omni4" radius="1" is_render_halo="true">
+			<transform 00="0.984808" 02="-0.173648" 20="0.173648" 22="0.984808" 30="-47.901421" 31="16.108105" 32="71.055122"/>
+			<color x="1" y="1" z="1"/>
+		</light>
+	</lights_omni>
+	<lights_spot>
+		<light id="spot0" parent_id="bulb_mesh" range="1024" fov="0.1" texture="graphics/ies/ies_default.txtr">
+			<transform 00="0" 02="1" 20="-1" 22="0" 30="-48.629925" 31="28.970608" 32="78.446167"/>
+			<color x="20" y="20" z="15"/>
+		</light>
+	</lights_spot>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes>
+		<logic id="light_switch0" target="omni0" is_on="true" is_flashing="true" flash_on_duration="50" flash_off_duration="50">
+			<transform 00="0.229209" 02="0.973377" 20="-0.973377" 22="0.229209" 30="-50.317223" 31="28.088223" 32="78.877052"/>
+		</logic>
+		<logic id="light_switch1" target="omni1" is_on="true" is_flashing="true" flash_on_duration="50" flash_off_duration="50">
+			<transform 00="-0.190768" 02="-0.981635" 20="0.981635" 22="-0.190768" 30="-45.889889" 31="28.088223" 32="78.091263"/>
+		</logic>
+	</light_logic_nodes>
+	<rotation_logic_nodes>
+		<logic id="rotation0" target="bulb_mesh" is_on="true">
+			<transform 00="-0.336472" 02="0.941694" 20="-0.941694" 22="-0.336472" 30="-49.320263" 31="27.975628" 32="78.486519"/>
+			<delta_rotation y="0.01"/>
+		</logic>
+	</rotation_logic_nodes>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="tile_marker0" marker_type="9">
+			<transform 00="-0.40978" 02="0.912184" 20="-0.912184" 22="-0.40978" 30="-33.319912" 31="9.097286" 32="61.781418"/>
+		</markers>
+		<markers id="tile_marker1" marker_type="9">
+			<transform 00="-0.985941" 02="0.167093" 20="-0.167093" 22="-0.985941" 30="-47.638233" 31="18.697807" 32="83.092819"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders>
+		<ladder id="ladder_0" height="10">
+			<transform 00="-0.984808" 02="0.173648" 20="-0.173648" 22="-0.984808" 30="-48.317947" 31="16.915867" 32="77.343277"/>
+		</ladder>
+		<ladder id="ladder_1" height="11">
+			<transform 00="-0.984808" 02="0.173648" 20="-0.173648" 22="-0.984808" 30="-49.37635" 31="5.2811" 32="71.398094"/>
+		</ladder>
+	</ladders>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+

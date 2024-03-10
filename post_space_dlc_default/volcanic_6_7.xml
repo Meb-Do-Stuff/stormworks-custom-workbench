@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" tile_type="2" sea_floor_height="-180">
+	<meshes>
+		<mesh id="mesh0" file_name="meshes/volcanic/volcanic_6_7.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="mesh1" file_name="meshes/volcanic_assets/ancient_greek_temple.mesh">
+			<transform 00="-1" 11="0.999848" 12="-0.017452" 21="-0.017452" 22="-0.999848" 30="414.506348" 31="-80.990639" 32="355.618347"/>
+		</mesh>
+		<mesh id="mesh2" file_name="meshes/volcanic_assets/ancient_greek_parts_a.mesh">
+			<transform 00="-0" 01="0.052336" 02="-0.99863" 11="0.99863" 12="0.052336" 20="1" 22="-0" 30="309.587494" 31="-84.030472" 32="419.016205"/>
+		</mesh>
+		<mesh id="mesh3" file_name="meshes/volcanic_assets/ancient_greek_parts_d.mesh">
+			<transform 00="-0.343017" 01="-0.936953" 02="-0.066765" 10="-0.932685" 11="0.331291" 12="0.142634" 20="-0.111522" 21="0.111197" 22="-0.987521" 30="253.357422" 31="-86.105438" 32="325.832275"/>
+		</mesh>
+		<mesh id="mesh4" file_name="meshes/volcanic_assets/ancient_greek_temple_b.mesh">
+			<transform 00="-0.000609" 01="0.034894" 02="-0.999391" 10="-0.017442" 11="0.999239" 12="0.034899" 20="0.999848" 21="0.017452" 22="-0" 30="-139.231262" 31="-120.452888" 32="76.233948"/>
+		</mesh>
+		<mesh id="mesh5" file_name="meshes/volcanic_assets/ancient_greek_parts_b.mesh">
+			<transform 11="0.997564" 12="0.069756" 21="-0.069756" 22="0.997564" 30="105.206177" 31="-86.063667" 32="247.732544"/>
+		</mesh>
+		<mesh id="mesh6" file_name="meshes/volcanic_assets/ancient_greek_parts_c.mesh">
+			<transform 30="131.227036" 31="-85.726822" 32="196.388168"/>
+		</mesh>
+		<mesh id="mesh11" file_name="meshes/volcanic_assets/ancient_greek_parts_e.mesh">
+			<transform 11="0.999391" 12="-0.034899" 21="0.034899" 22="0.999391" 30="-113.70755" 31="-121.953865" 32="-54.227535"/>
+		</mesh>
+		<mesh id="mesh8" file_name="meshes/volcanic_assets/ancient_greek_temple_b.mesh">
+			<transform 00="-1" 22="-1" 30="410.816223" 31="-83.245895" 32="201.971848"/>
+		</mesh>
+		<mesh id="mesh9" file_name="meshes/volcanic_assets/ancient_greek_parts_b.mesh">
+			<transform 11="0.999391" 12="-0.0349" 21="0.0349" 22="0.999391" 30="316.1315" 31="-87.713997" 32="78.481789"/>
+		</mesh>
+		<mesh id="mesh10" file_name="meshes/volcanic_assets/ancient_greek_parts_e.mesh">
+			<transform 11="0.99863" 12="0.052336" 21="-0.052336" 22="0.99863" 30="242.805847" 31="-86.650146" 32="193.875732"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="physics_mesh0" file_name="meshes/volcanic/volcanic_6_7.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh1" file_name="meshes/volcanic_assets/ancient_greek_temple_phys.phys">
+			<transform 00="-1" 11="0.999848" 12="-0.017453" 21="-0.017453" 22="-0.999848" 30="414.506348" 31="-80.990639" 32="355.618347"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh2" file_name="meshes/volcanic_assets/ancient_greek_temple_phys_b.phys">
+			<transform 00="-1" 22="-1" 30="410.816223" 31="-83.245895" 32="201.971848"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh3" file_name="meshes/volcanic_assets/ancient_greek_parts_e_phys.phys">
+			<transform 11="0.99863" 12="0.052336" 21="-0.052336" 22="0.99863" 30="242.809998" 31="-86.849998" 32="193.875732"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh4" file_name="meshes/volcanic_assets/ancient_greek_parts_b_phys.phys">
+			<transform 11="0.999391" 12="-0.034899" 21="0.034899" 22="0.999391" 30="316.1315" 31="-87.709999" 32="78.481789"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh5" file_name="meshes/volcanic_assets/ancient_greek_parts_d_phys.phys">
+			<transform 00="-0.343017" 01="-0.936953" 02="-0.066765" 10="-0.932685" 11="0.331291" 12="0.142634" 20="-0.111522" 21="0.111197" 22="-0.987521" 30="253.357422" 31="-86.105438" 32="325.832275"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh6" file_name="meshes/volcanic_assets/ancient_greek_parts_c_phys.phys">
+			<transform 30="131.227036" 31="-85.730003" 32="196.388168"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh7" file_name="meshes/volcanic_assets/ancient_greek_parts_b_phys.phys">
+			<transform 11="0.997564" 12="0.069756" 21="-0.069756" 22="0.997564" 30="105.206177" 31="-86.063667" 32="247.732544"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh8" file_name="meshes/volcanic_assets/ancient_greek_temple_phys_b.phys">
+			<transform 00="-0.000609" 01="0.034894" 02="-0.999391" 10="-0.017442" 11="0.999239" 12="0.034899" 20="0.999848" 21="0.017452" 22="-0" 30="-139.231262" 31="-120.452888" 32="76.233948"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh10" file_name="meshes/volcanic_assets/ancient_greek_parts_a_phys.phys">
+			<transform 00="-0" 01="0.052336" 02="-0.99863" 11="0.99863" 12="0.052336" 20="1" 22="-0" 30="309.587494" 31="-84.030472" 32="419.016205"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh10" file_name="meshes/volcanic_assets/ancient_greek_parts_e_phys.phys">
+			<transform 11="0.999391" 12="-0.034899" 21="0.034899" 22="0.999391" 30="-113.70755" 31="-121.953865" 32="-54.227535"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas/>
+	<interactables/>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="nataera ruins" marker_type="13" is_in_ocean="true" string_data="Nataera Ruins" icon="5">
+			<transform 30="353.165375" 31="-10.953272" 32="316.965729"/>
+		</markers>
+		<markers id="tile_marker1" marker_type="9" loot_type="1">
+			<transform 30="414.506348" 31="-80.591469" 32="340.050629"/>
+		</markers>
+		<markers id="tile_marker2" marker_type="9" loot_type="1">
+			<transform 30="339.629852" 31="-82.264694" 32="141.319321"/>
+		</markers>
+		<markers id="tile_marker3" marker_type="9" loot_type="1">
+			<transform 30="350.653442" 31="-80.977943" 32="315.762177"/>
+		</markers>
+		<markers id="tile_marker4" marker_type="9" loot_type="1">
+			<transform 00="0.64814" 02="-0.761521" 20="0.761521" 22="0.64814" 30="322.461395" 31="-43.84663" 32="288.532043"/>
+		</markers>
+		<markers id="tile_marker5" marker_type="9" loot_type="1">
+			<transform 30="146.935013" 31="-74.577713" 32="200.080292"/>
+		</markers>
+		<markers id="tile_marker6" marker_type="9" loot_type="1">
+			<transform 30="-130.107025" 31="-118.268341" 32="43.706932"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks>
+		<rock id="mineral0" ore_type="5">
+			<transform 00="0.999987" 01="0.004975" 02="0.001008" 10="-0.005077" 11="0.980076" 12="0.19856" 21="-0.198562" 22="0.980088" 30="489.212189" 31="-146.66893" 32="-411.484741"/>
+		</rock>
+		<rock id="mineral1" ore_type="5">
+			<transform 00="0.998476" 01="0.046849" 02="0.029172" 10="-0.055187" 11="0.842883" 12="0.535259" 20="0.000488" 21="-0.536053" 22="0.844184" 30="459.263855" 31="-139.371902" 32="-457.83371"/>
+		</rock>
+		<rock id="mineral2" ore_type="5">
+			<transform 00="0.98855" 01="0.046873" 02="-0.143429" 10="-0.150854" 11="0.285344" 12="-0.946479" 20="-0.003437" 21="0.957278" 22="0.289148" 30="337.841248" 31="-124.911148" 32="-407.1026"/>
+		</rock>
+		<rock id="mineral3" ore_type="5">
+			<transform 00="0.951631" 01="0.153622" 02="-0.266081" 10="0.306963" 11="-0.512393" 12="0.802015" 20="-0.013131" 21="-0.844899" 22="-0.534765" 30="250.249619" 31="-124.616859" 32="-405.974701"/>
+		</rock>
+		<rock id="mineral4" ore_type="5">
+			<transform 00="0.99954" 01="0.030313" 10="-0.030211" 11="0.996155" 12="0.082231" 20="0.002493" 21="-0.082194" 22="0.996613" 30="200.029343" 31="-154.752884" 32="-367.875061"/>
+		</rock>
+		<rock id="mineral5" ore_type="5">
+			<transform 00="0.785792" 01="0.063198" 02="-0.615253" 11="0.994766" 12="0.102182" 20="0.61849" 21="-0.080294" 22="0.781679" 30="196.269363" 31="-154.945694" 32="-365.997925"/>
+		</rock>
+		<rock id="mineral6" ore_type="5">
+			<transform 00="0.999774" 01="0.021252" 10="-0.021193" 11="0.996996" 12="0.074503" 20="0.001583" 21="-0.074487" 22="0.997221" 30="193.87738" 31="-154.729523" 32="-370.206146"/>
+		</rock>
+		<rock id="mineral7" ore_type="5">
+			<transform 00="0.997885" 01="0.065002" 02="0.000448" 10="-0.064847" 11="0.994987" 12="0.076133" 20="0.004503" 21="-0.076001" 22="0.997098" 30="188.576675" 31="-155.884766" 32="-359.742126"/>
+		</rock>
+		<rock id="mineral8" ore_type="5">
+			<transform 00="0.999443" 01="0.032277" 02="0.008445" 10="-0.033364" 11="0.966894" 12="0.252987" 21="-0.253128" 22="0.967433" 30="215.879105" 31="-151.674744" 32="-381.149567"/>
+		</rock>
+		<rock id="mineral9" ore_type="5">
+			<transform 11="0.939944" 12="0.341328" 21="-0.341328" 22="0.939944" 30="203.0327" 31="-151.111526" 32="-383.402466"/>
+		</rock>
+		<rock id="mineral10" ore_type="5">
+			<transform 00="0.998193" 01="0.012843" 02="-0.0587" 10="0.060089" 11="-0.213354" 12="0.975125" 21="-0.976891" 22="-0.21374" 30="256.767639" 31="-130.093399" 32="-409.68335"/>
+		</rock>
+		<rock id="mineral11" ore_type="5">
+			<transform 00="0.808757" 01="-0.578128" 02="0.108075" 10="0.070452" 11="0.277662" 12="0.958092" 20="-0.583908" 21="-0.76725" 22="0.265291" 30="255.998291" 31="-136.120132" 32="-409.281006"/>
+		</rock>
+		<rock id="mineral12" ore_type="5">
+			<transform 00="0.700001" 01="-0.63072" 02="-0.334948" 10="-0.19077" 11="0.286829" 12="-0.938795" 20="0.68819" 21="0.721056" 22="0.080458" 30="339.44101" 31="-128.230865" 32="-408.375092"/>
+		</rock>
+		<rock id="mineral13" ore_type="5">
+			<transform 00="-0.855081" 01="-0.518451" 02="-0.006633" 10="-0.16533" 11="0.28476" 12="-0.944234" 20="0.491428" 21="-0.8063" 22="-0.329209" 30="335.276123" 31="-129.593002" 32="-408.0979"/>
+		</rock>
+		<rock id="mineral14" ore_type="5">
+			<transform 00="0.824405" 01="0.51615" 02="-0.232263" 10="-0.443172" 11="0.333389" 12="-0.832136" 20="-0.352073" 21="0.788949" 22="0.503591" 30="330.694427" 31="-120.309158" 32="-403.191071"/>
+		</rock>
+		<rock id="mineral15" ore_type="5">
+			<transform 00="0.645798" 01="0.146706" 02="-0.749281" 11="0.981366" 12="0.192147" 20="0.763508" 21="-0.124088" 22="0.633764" 30="490.795013" 31="-147.438232" 32="-407.555634"/>
+		</rock>
+		<rock id="mineral16" ore_type="5">
+			<transform 11="0.98097" 12="0.19416" 21="-0.19416" 22="0.98097" 30="485.086151" 31="-147.807678" 32="-405.689087"/>
+		</rock>
+		<rock id="mineral17" ore_type="5">
+			<transform 00="0.914515" 01="-0.404515" 02="0.005501" 10="0.402179" 11="0.910537" 12="0.095783" 20="-0.043755" 21="-0.085382" 22="0.995387" 30="474.449219" 31="-146.018433" 32="-407.050446"/>
+		</rock>
+		<rock id="mineral18" ore_type="5">
+			<transform 00="0.999318" 01="-0.036921" 02="0.000594" 10="0.036886" 11="0.997347" 12="-0.062763" 20="0.001724" 21="0.062742" 22="0.998028" 30="495.615601" 31="-147.242569" 32="-400.648193"/>
+		</rock>
+		<rock id="mineral19" ore_type="5">
+			<transform 00="0.701455" 01="0.407894" 02="-0.584452" 10="-0.045902" 11="0.84419" 12="0.534076" 20="0.711234" 21="-0.347803" 22="0.610884" 30="454.928772" 31="-140.377121" 32="-456.70755"/>
+		</rock>
+		<rock id="mineral20" ore_type="5">
+			<transform 00="0.115373" 01="0.550115" 02="-0.827081" 10="-0.035532" 11="0.834394" 12="0.550022" 20="0.992687" 21="-0.03407" 22="0.115813" 30="462.542786" 31="-143.522339" 32="-450.936951"/>
+		</rock>
+	</mineral_rocks>
+</definition>
+

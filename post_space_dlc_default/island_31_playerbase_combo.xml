@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition is_island="true" is_purchasable="true" purchase_cost="100000">
+	<meshes>
+		<mesh id="island_31_mesh" file_name="meshes/island_31_playerbase_combo.mesh">
+			<transform/>
+		</mesh>
+		<mesh id="workbench_01" file_name="meshes/workbench_static.mesh">
+			<transform 00="-0.481777" 02="0.876294" 20="-0.876294" 22="-0.481777" 30="-30.025703" 31="3.473402" 32="-5.662186"/>
+		</mesh>
+		<mesh id="workbench_03" file_name="meshes/workbench.mesh">
+			<transform 00="0.754411" 02="0.656402" 20="-0.656402" 22="0.754411" 30="-4.693703" 31="3.330245" 32="-7.163039"/>
+		</mesh>
+		<mesh id="workbench_02" file_name="meshes/workbench.mesh">
+			<transform 00="-0.288816" 02="0.957385" 20="-0.957385" 22="-0.288816" 30="9.656425" 31="5.073012" 32="12.884668"/>
+		</mesh>
+		<mesh id="sign_mesh" parent_id="sign_interact" file_name="meshes/for_sale_sign.mesh">
+			<transform 00="0.840555" 02="-0.541727" 20="0.541727" 22="0.840555" 30="-11.023659" 31="12.136488" 32="-11.476578"/>
+		</mesh>
+	</meshes>
+	<physics_objects/>
+	<physics_meshes>
+		<physics_mesh id="island_31_phys" file_name="meshes/island_31_phys.phys">
+			<transform/>
+		</physics_mesh>
+		<physics_mesh id="workbench_01_phys" file_name="meshes/workbench_phys.phys">
+			<transform 00="-0.488362" 02="0.872641" 20="-0.872641" 22="-0.488362" 30="-30.968391" 31="4.449842" 32="-5.732285"/>
+		</physics_mesh>
+		<physics_mesh id="workbench_02_phys" file_name="meshes/workbench_phys.phys">
+			<transform 00="-0.292955" 02="0.956126" 20="-0.956126" 22="-0.292955" 30="9.656425" 31="5.073012" 32="12.884668"/>
+		</physics_mesh>
+		<physics_mesh id="workbench_03_phys" file_name="meshes/workbench_phys.phys">
+			<transform 00="0.756053" 02="0.65451" 20="-0.65451" 22="0.756053" 30="-4.693703" 31="3.330245" 32="-7.163039"/>
+		</physics_mesh>
+		<physics_mesh id="sign_phys" parent_id="sign_interact" file_name="meshes/for_sale_sign_phys.phys">
+			<transform 00="0.842074" 02="-0.539362" 20="0.539362" 22="0.842074" 30="-11.023659" 31="12.136488" 32="-11.476578"/>
+		</physics_mesh>
+	</physics_meshes>
+	<physics_dynamics/>
+	<lights_omni/>
+	<lights_spot/>
+	<lights_tube/>
+	<screens/>
+	<edit_areas>
+		<edit_area id="edit0" grid_size="1">
+			<transform 00="0.075774" 02="-0.997125" 20="0.997125" 22="0.075774" 30="28.249626" 31="0.313948" 32="-10.067824"/>
+			<size x="7.5" y="7.5" z="15"/>
+		</edit_area>
+		<edit_area id="edit1" grid_size="1">
+			<transform 00="0.758864" 02="0.65125" 20="-0.65125" 22="0.758864" 30="-0.834297" 31="-1.805315" 32="27.918442"/>
+			<size x="7.5" y="7.5" z="15"/>
+		</edit_area>
+		<edit_area id="edit2" grid_size="6" is_static="true">
+			<transform 00="0.766621" 02="0.642099" 20="-0.642099" 22="0.766621" 30="-11.806374" 31="5.86595" 32="21.290543"/>
+			<size x="36.5" y="20.5" z="36.5"/>
+		</edit_area>
+	</edit_areas>
+	<interactables>
+		<interactable id="workbench_01_interact" target_object_id="edit2" label="Workbench" interact_type="2">
+			<transform 00="0.875873" 02="0.482542" 20="-0.482542" 22="0.875873" 30="-31.044411" 31="4.449842" 32="-5.540207"/>
+			<size x="2.106323" y="2.045074" z="1.438507"/>
+		</interactable>
+		<interactable id="workbench_02_interact" target_object_id="edit1" label="Workbench" interact_type="2">
+			<transform 00="0.956344" 02="0.292243" 20="-0.292243" 22="0.956344" 30="9.579445" 31="5.073012" 32="13.13656"/>
+			<size x="2.124786" y="2.013306" z="1.531677"/>
+		</interactable>
+		<interactable id="workbench_03_interact" target_object_id="edit0" label="Workbench" interact_type="2">
+			<transform 00="0.753563" 02="0.657376" 20="-0.657376" 22="0.753563" 30="-4.597725" 31="3.403914" 32="-7.079298"/>
+			<size x="1.394104" y="1.894287" z="1.901337"/>
+		</interactable>
+		<interactable id="sign_interact" label="Buy Island" interact_type="3">
+			<transform 00="0.981736" 02="0.190248" 20="-0.190248" 22="0.981736" 30="-10.295036" 31="13.181257" 32="-11.291061"/>
+			<size x="2.350372" y="2.082245" z="2.829315"/>
+		</interactable>
+	</interactables>
+	<door_logic_nodes/>
+	<light_logic_nodes/>
+	<rotation_logic_nodes/>
+	<hangar_door_logic_nodes/>
+	<audio_logic_nodes/>
+	<tile_markers>
+		<markers id="tile_marker0" marker_type="5">
+			<transform 00="0.970504" 02="0.241086" 20="-0.241086" 22="0.970504" 30="-14.336327" 31="13.181257" 32="-11.465836"/>
+		</markers>
+	</tile_markers>
+	<mission_zones/>
+	<dynamic_markers/>
+	<ladders/>
+	<perches/>
+	<fires/>
+	<train_tracks/>
+	<volcano_markers/>
+	<mineral_rocks/>
+</definition>
+
