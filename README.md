@@ -1,4 +1,4 @@
-# Made for version 1.10.4 and probably newers.
+# Made for version 1.11.6 and probably newers.
 (notify me if something is broken)
 
 This is a list of files to modify Stormworks workbench. <br>
