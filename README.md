@@ -8,7 +8,7 @@ This is a list of files to modify Stormworks workbench. <br>
 # How to install
 Before everything: It's better to clone your current tiles forlder (or you can get the default workbench by using picking in the default_tiles folder)
 
-You first need to get the new modded tiles, either in the releases tab, or with copying the source code (in this GitHub repo).
+You first need to get the new modded tiles, in the [releases tab](https://github.com/Meb-Do-Stuff/stormworks-custom-workbench/releases/).
 
 You have to go to `{stormworks-installation-folder}\rom\data\tiles`
 
