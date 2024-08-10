@@ -1,11 +1,4 @@
-"""
-Made by MeblIkea
-
-It was made for change every tiles very fast.
-"""
-
 import os
-
 tiles_dir_name = input("Tiles directory name?: ")
 
 for file in os.listdir(tiles_dir_name):
